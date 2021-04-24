@@ -37,6 +37,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/* Feature section */
+
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #2487ce;
+}
+
+.icon:hover {
+  color: #103753;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
