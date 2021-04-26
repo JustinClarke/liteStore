@@ -1265,7 +1265,7 @@ a {
 }
 
 a:hover {
-  color: #2487ce;
+  color: #fffaf4;
   text-decoration: none;
 }
 
@@ -1359,7 +1359,7 @@ a:hover {
 }
 
 .color-b {
-  color: #2487ce;
+  color: #A66F3F;
 }
 
 .color-d {
@@ -1594,7 +1594,7 @@ a:hover {
 .price-a {
   color: #ffffff;
   padding: .6rem .8rem;
-  border: 2px solid #2487ce;
+  border: 2px solid #A66F3F;
   border-radius: 50px;
   text-transform: uppercase;
   letter-spacing: 0.030em;
@@ -1604,7 +1604,7 @@ a:hover {
   width: 100%;
   position: absolute;
   z-index: 2;
-  background-color: #2487ce;
+  background-color: #F2E0C9;
 }
 
 .card-info {
@@ -1631,7 +1631,7 @@ a:hover {
 }
 
 .card-info li span {
-  color: #ffffff;
+  color: #A66658;
   font-size: .9rem;
 }
 
