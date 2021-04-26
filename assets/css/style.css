@@ -7,12 +7,12 @@ body {
 }
 
 a {
-  color: #2487ce;
+  color: #A66658;
   text-decoration: none;
 }
 
 a:hover {
-  color: #469fdf;
+  color: #A66F3F;
   text-decoration: none;
 }
 
@@ -49,11 +49,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .icon {
   margin-bottom: 1rem;
-  color: #2487ce;
+  color: #A66658;
 }
 
 .icon:hover {
-  color: #103753;
+  color: #A66F3F;
 }
 
 /*--------------------------------------------------------------
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #2487ce;
+  background: #A66658;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #3e9bdd;
+  background: #A66F3F;
   color: #fff;
 }
 
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #2487ce;
+  border: 6px solid #A66658;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -545,7 +545,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f8fbfe;
+  background-color: #fffaf4;
 }
 
 .section-title {
@@ -674,7 +674,7 @@ section {
   text-align: center;
   padding: 30px 10px 40px 10px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: #fff9f1;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
   border-radius: 7%;
 }
@@ -704,7 +704,7 @@ section {
 
 .services .icon-box .icon svg path {
   transition: 0.5s;
-  fill: #f5f5f5;
+  fill: #F2E0C9;
 }
 
 .services .icon-box h4 {
@@ -1191,7 +1191,7 @@ bg-color p{
   position: relative;
   border-radius: 5px;
   text-align: left;
-  border: 1px solid #cde5f6;
+  border: 1px solid #fffaf4;
 }
 
 #footer .footer-newsletter form input[type="email"] {
