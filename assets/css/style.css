@@ -75,13 +75,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #fffaf4;
   line-height: 0;
 }
 
 .back-to-top:hover {
   background: #A66F3F;
-  color: #fff;
+  color: #fffaf4;
 }
 
 .back-to-top.active {
@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #fffaf4;
 }
 
 #preloader:before {
@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  background: #fff;
+  background: #fffaf4;
   z-index: 997;
   padding: 15px 0;
   border-bottom: 1px solid #e6f2fb;
@@ -225,21 +225,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #2487ce;
+  color: #A66658;
 }
 
-.navbar .getstarted {
-  background: #2487ce;
-  padding: 8px 20px;
-  margin-left: 30px;
-  border-radius: 4px;
-  color: #fff;
-}
-
-.navbar .getstarted:hover {
-  color: #fff;
-  background: #3194db;
-}
 
 .navbar .dropdown ul {
   display: block;
