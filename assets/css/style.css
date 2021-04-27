@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #444444;
 }
 
@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 300;
   letter-spacing: 0.5px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #header .logo a {
@@ -398,6 +398,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 110px);
+  text-align: center;
   position: relative;
   background: url("../img/hero-bg.jpeg") top center;
   background-size: cover;
@@ -419,7 +420,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 72px;
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #hero h2 {
@@ -430,7 +431,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.5px;
@@ -501,6 +502,10 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     position: relative;
     background-size: cover;
+    padding: 326px 0px 325px;
+  }
+  #hero h1{
+    font-size: 50px;
   }
 }
 
@@ -515,7 +520,7 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
   }
   #hero h1 {
-    font-size: 28px;
+    font-size: 40px;
     line-height: 36px;
   }
   #hero h2 {
@@ -823,7 +828,7 @@ bg-color p{
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1243,7 +1248,7 @@ bg-color p{
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #555555;
 }
 
