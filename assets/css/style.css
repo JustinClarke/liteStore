@@ -512,6 +512,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-height: 800px) {
   #hero {
     height: auto;
+    position: relative;
+    background-size: cover;
+    padding: 200px 0px 200px;
   }
 }
 
