@@ -697,7 +697,7 @@ section {
 
 .services .icon-box .icon svg path {
   transition: 0.5s;
-  fill: #F2E0C9;
+  fill: #fff9f1;
 }
 
 .services .icon-box h4 {
@@ -727,7 +727,7 @@ section {
 }
 
 .services .iconbox-blue:hover .icon i {
-  color: #fff;
+  color: #fff9f1;
 }
 
 .services .iconbox-blue:hover .icon path {
@@ -739,7 +739,7 @@ section {
 }
 
 .services .iconbox-orange:hover .icon i {
-  color: #fff;
+  color: #fff9f1;
 }
 
 .services .iconbox-orange:hover .icon path {
@@ -751,7 +751,7 @@ section {
 }
 
 .services .iconbox-pink:hover .icon i {
-  color: #fff;
+  color: #fff9f1;
 }
 
 .services .iconbox-pink:hover .icon path {
@@ -763,7 +763,7 @@ section {
 }
 
 .services .iconbox-yellow:hover .icon i {
-  color: #fff;
+  color: #fff9f1;
 }
 
 .services .iconbox-yellow:hover .icon path {
@@ -775,7 +775,7 @@ section {
 }
 
 .services .iconbox-red:hover .icon i {
-  color: #fff;
+  color: #fff9f1;
 }
 
 .services .iconbox-red:hover .icon path {
@@ -787,7 +787,7 @@ section {
 }
 
 .services .iconbox-teal:hover .icon i {
-  color: #fff;
+  color: #fff9f1;
 }
 
 .services .iconbox-teal:hover .icon path {
@@ -1244,141 +1244,6 @@ bg-color p{
 
 /* Style Two */
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-body {
-  font-family: 'Raleway', sans-serif;
-  color: #555555;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Raleway", sans-serif;
-  color: #000000;
-}
-
-a {
-  font-family: "Raleway", sans-serif;
-  color: #000000;
-  text-decoration: none;
-  transition: all .5s ease;
-}
-
-a:hover {
-  color: #fffaf4;
-  text-decoration: none;
-}
-
-.link-two {
-  color: #000000;
-  transition: all .5s ease;
-}
-
-.link-two:hover {
-  text-decoration: underline;
-  color: #000000;
-}
-
-.link-one {
-  color: #000000;
-  transition: all .5s ease;
-}
-
-.link-one:hover {
-  color: #000000;
-  text-decoration: none;
-}
-
-.link-icon {
-  color: #000000;
-  font-weight: 500;
-}
-
-.link-icon span {
-  font-size: 14px;
-  padding-left: 4px;
-  vertical-align: middle;
-}
-
-.link-a {
-  text-decoration: none;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-@media (min-width: 768px) {
-  .link-a {
-    font-size: .9rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .link-a {
-    font-size: 1rem;
-  }
-}
-
-.link-a:hover {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.link-a span {
-  font-size: 18px;
-  vertical-align: middle;
-  margin-left: 5px;
-}
-
-@media (min-width: 768px) {
-  .link-a span {
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .link-a span {
-    font-size: 18px;
-  }
-}
-
-.text-brand {
-  color: #000000;
-  font-size: 2rem;
-  font-weight: 600;
-}
-
-@media (max-width: 767px) {
-  .text-brand {
-    font-size: 1.8rem;
-  }
-}
-
-.color-a {
-  text-decoration: none;
-  color: #000000;
-}
-
-.color-b {
-  color: #A66F3F;
-}
-
-.color-d {
-  color: #adadad;
-}
-
-.color-text-a {
-  text-decoration: none;
-  color: #555555;
-}
-
-.no-margin {
-  margin: 0;
-}
 /*------/ List a /------*/
 .list-a {
   text-decoration: none;
