@@ -1404,9 +1404,9 @@ bg-color p{
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 27%, rgba(0, 0, 0, 0.65) 90%);
 }
 
-/*======================================
+/*===
 //--//-->   PROPERTY - CARD-A
-======================================*/
+===*/
 @media (min-width: 768px) {
   .card-box-a:hover .card-overlay-a-content {
     bottom: 60px;
