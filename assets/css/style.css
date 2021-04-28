@@ -36,6 +36,17 @@ h1, h2, h3, h4, h5, h6 {
   position:relative;
 }
 
+.btn:hover{
+  background-color: #000000;
+  color: #fffaf4;
+}
+
+table {
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /* Feature section */
 
@@ -47,12 +58,27 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5%;
 }
 
+
+.feature-boxs {
+  padding: 0%;
+}
+
 .icon {
   margin-bottom: 1rem;
   color: #A66658;
 }
 
 .icon:hover {
+  color: #4e312b;
+}
+
+
+.icons {
+  margin-bottom: 1rem;
+  color: #A66658;
+}
+
+.icons:hover {
   color: #4e312b;
 }
 
@@ -801,7 +827,7 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .bg-color{
-  background-color: #D2D2D9;
+  background-color: #fffaf4;
   color: #343a40;
 }
 
@@ -1248,6 +1274,8 @@ bg-color p{
 
 /* Style Two */
 
+
+
 /*------/ List a /------*/
 .list-a {
   text-decoration: none;
@@ -1323,6 +1351,10 @@ bg-color p{
 .card-box-b .img-a,
 .card-box-b .img-b {
   transition: .8s all ease-in-out;
+}
+
+.card-box-ico {
+  padding: 1rem 3rem 1rem 2.5rem;
 }
 
 @media (min-width: 768px) {
