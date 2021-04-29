@@ -668,9 +668,12 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding: 0px 20px;
-  margin: 0% 5%;
   text-align: center;
+}
+
+.clients h2{
+  display: inline-block;
+  padding-right: 10px;
 }
 
 .clients img {
@@ -693,9 +696,12 @@ section {
 }
 
 @media (max-width: 450px) {
-  .clients img {
+  .clients .container{
     padding: 0px;
-    margin: 0%; 
+  }
+  .clients img {
+    width: 20%;
+    padding: 0px;
   }
 }
 
