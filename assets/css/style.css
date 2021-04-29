@@ -672,7 +672,7 @@ section {
 }
 
 .clients h2{
-  display: inline-block;
+  text-align: center;
   padding-right: 10px;
 }
 
@@ -879,7 +879,7 @@ bg-color p{
 
 .faq .faq-list li {
   padding: 20px;
-  background: #D2D2D9;
+  background: #fff3e4;
   border-radius: 4px;
   position: relative;
 }
@@ -901,7 +901,7 @@ bg-color p{
   position: absolute;
   right: 0;
   left: 20px;
-  color: #D2D2D9;
+  color: #202020;
 }
 
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
