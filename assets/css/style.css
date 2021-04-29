@@ -58,7 +58,7 @@ td, th {
 
 @media (max-width: 450px) {
   table {
-    width: 75%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -66,7 +66,8 @@ td, th {
   td, th {
     border-bottom: 1px solid rgb(238, 238, 238);
     padding: 1rem;
-    font-size: 15px;
+    font-size: 12px;
+    font-weight: bold;
   }
 }
 
