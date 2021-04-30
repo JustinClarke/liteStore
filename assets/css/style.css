@@ -73,12 +73,16 @@ td, th {
 
 /* Feature section */
 
+.arrow{
+  padding-top: 10%;
+}
+
 #features {
   position: relative;
 }
 
 .feature-box {
-  padding: 5%;
+  padding: 5% 2%;
 }
 
 .icon {
@@ -945,9 +949,13 @@ bg-color p{
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+#contact{
+  background-color: #fffaf4;
+}
+
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #fffaf4;
 }
 
 .contact .info i {
@@ -985,12 +993,12 @@ bg-color p{
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #A66658;
-  color: #fff;
+  color: #fffaf4;
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #fffaf4;
 }
 
 .contact .php-email-form .form-group {
@@ -999,7 +1007,7 @@ bg-color p{
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: #fffaf4;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
@@ -1012,7 +1020,7 @@ bg-color p{
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: #fff;
+  color: #fffaf4;
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -1021,7 +1029,7 @@ bg-color p{
 
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: #fffaf4;
   text-align: center;
   padding: 15px;
 }
@@ -1044,6 +1052,7 @@ bg-color p{
   box-shadow: none;
   font-size: 14px;
   border-radius: 4px;
+  background-color: #fffbf7;
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
@@ -1058,17 +1067,19 @@ bg-color p{
   padding: 10px 12px;
 }
 
+
 .contact .php-email-form button[type="submit"] {
   background: #A66658;
   border: 0;
   padding: 10px 30px;
-  color: #fff;
+  color: #fffaf4;
   transition: 0.4s;
   border-radius: 4px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #A66F3F;
+  background: #fffaf4;
+  color: #A66658;
 }
 
 @-webkit-keyframes animate-loading {

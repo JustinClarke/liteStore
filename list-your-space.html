@@ -45,7 +45,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="tel:+91-63-63294498" style="font-family: calibri;">+91 6363294498</a></li>
+          <li><a class="nav-link scrollto" href="tel:+91-63-63294498" style="font-family: cascadia mono; margin-top: 2.1px;">+91 6363294498</a></li>
           <li><a class="nav-link scrollto" href="property-grid.html" target="_blank">Find a space</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">List a space</a></li>
           <li><a class="nav-link scrollto" href="list-your-space.html">How it works</a></li>
@@ -128,7 +128,7 @@
                 </div>
 
                 <div class="feature-box col-sm">
-                    <i class="icon fas fa-hashtag fa-4x"></i>
+                    <i class="icon fab fa-instagram fa-4x"></i>
                     <h3 class="feature-title">Instagrammable Marketing</h3>
                     <p>Allow our team to curate your space to make it look minimal, chic and charming</p>
                 </div>
@@ -138,18 +138,64 @@
                     <h3 class="feature-title">Due Diligence</h3>
                     <p>Our team will ensure thorough due diligence of the property and provide pricing advice</p>
                 </div>
-                <div class="container">
-                    <h1>List your space at LiteStore </h1>
-                 </div>
             </div>
             
         </div>
     </section>
 
+    <!--  Contact Section  -->
+    <section id="contact" class="contact" style="padding-top: 0px;">
+      <div class="container" data-aos="fade-up">
+
+        <div class="container" style="text-align: center;">
+            <h1>List your space at LiteStore </h1>
+         </div>
+
+        <div class="row mt-5" style="margin: 0% 10%;">
+
+          <div class="col mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group ">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="address" id="phone" placeholder="Phone Number" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="address" rows="5" placeholder="Address" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="row">
+
+                <div class="col d-flex align-items-center justify-content-center" data-aos="zoom-in">
+                  <div class="text-center" style="padding-bottom: 10px;"><button type="submit">Let's get started</button></div>
+                </div>
+
+              </div>
+            </form>
+          </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+    
     
 
     <!--  Contact Section  -->
-    <section id="contact" class="contact" style="background-color: white;">
+    <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
   
           <div class="section-title">
@@ -195,7 +241,7 @@
                   </div>
                 </div>
                 <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                  <input type="text" class="form-control" name="address" id="subject" placeholder="Subject" required>
                 </div>
                 <div class="form-group mt-3">
                   <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
