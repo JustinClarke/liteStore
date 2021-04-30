@@ -730,7 +730,7 @@ section {
   text-align: center;
   padding: 30px 10px 40px 10px;
   transition: all ease-in-out 0.3s;
-  background: #fff9f1;
+  background: #fffaf4;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
   border-radius: 7%;
 }
@@ -760,7 +760,7 @@ section {
 
 .services .icon-box .icon svg path {
   transition: 0.5s;
-  fill: #fff9f1;
+  fill: #fffaf4;
 }
 
 .services .icon-box h4 {
