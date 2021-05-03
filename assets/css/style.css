@@ -7,12 +7,12 @@ body {
 }
 
 a {
-  color: #A66658;
+  color: #7e7ca6;
   text-decoration: none;
 }
 
 a:hover {
-  color: #A66F3F;
+  color: #7e7ca6;
   text-decoration: none;
 }
 
@@ -214,7 +214,7 @@ td, th {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  background: #fffaf4;
+  background: #fff;
   z-index: 997;
   padding: 15px 0;
   border-bottom: 1px solid #e6f2fb;
@@ -236,7 +236,7 @@ td, th {
 }
 
 #header .logo a {
-  color: #74473d;
+  color: #7e7ca6;
 }
 
 #header .logo img {
@@ -464,7 +464,7 @@ td, th {
   height: calc(100vh - 110px);
   text-align: center;
   position: relative;
-  background: url("../img/hero-bg.jpeg") top center;
+  background: url("../img/pexels-pixabay-509922.jpg") top center;
   background-size: cover;
 }
 
@@ -480,18 +480,18 @@ td, th {
 
 #head h1 {
   margin: 0;
-  font-size: 56px;
+  font-size: 200px;
   font-weight: 700;
   line-height: 72px;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
+  padding-bottom: 50px;
 }
 
 #head h2 {
   color: #cecece;
   margin: 10px 0 0 0;
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 30px;
 }
 
 #head .btn-get-started {
@@ -593,7 +593,7 @@ td, th {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 30px 0px 80px;
+  padding: 30px 0px 50px;
   overflow: hidden;
 }
 
@@ -699,7 +699,7 @@ section {
   max-width: 35%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
-  padding: 15px 20px;
+  padding: 0% 1%;
 }
 
 .clients img:hover {
@@ -716,7 +716,7 @@ section {
 
 @media (max-width: 450px) {
   .clients .container{
-    padding: 0px;
+    padding: 5px 4px;
   }
   .clients img {
     width: 20%;
@@ -728,9 +728,9 @@ section {
 # Carousel
 --------------------------------------------------------------*/
 #carousel{
-  background-color: #19171a; 
+  background-color: #c0c0c0; 
   padding: 50px 0px 80px; 
-  color: #fff;
+  color: rgb(49, 49, 49);
 }
 
 .car-padding{
@@ -807,7 +807,7 @@ section {
 }
 
 .services .iconbox-blue i {
-  color: #47aeff;
+  color: #A66658;
 }
 
 .services .iconbox-blue:hover .icon i {
@@ -815,11 +815,11 @@ section {
 }
 
 .services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
+  fill: #A66658;
 }
 
 .services .iconbox-orange i {
-  color: #ffa76e;
+  color: #A66658;
 }
 
 .services .iconbox-orange:hover .icon i {
@@ -827,11 +827,11 @@ section {
 }
 
 .services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
+  fill: #A66658;
 }
 
 .services .iconbox-pink i {
-  color: #e80368;
+  color: #A66658;
 }
 
 .services .iconbox-pink:hover .icon i {
@@ -839,11 +839,11 @@ section {
 }
 
 .services .iconbox-pink:hover .icon path {
-  fill: #e80368;
+  fill: #A66658;
 }
 
 .services .iconbox-yellow i {
-  color: #ffbb2c;
+  color: #A66658;
 }
 
 .services .iconbox-yellow:hover .icon i {
@@ -851,11 +851,11 @@ section {
 }
 
 .services .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
+  fill: #A66658;
 }
 
 .services .iconbox-red i {
-  color: #ff5828;
+  color: #7e7ca6;
 }
 
 .services .iconbox-red:hover .icon i {
@@ -863,11 +863,11 @@ section {
 }
 
 .services .iconbox-red:hover .icon path {
-  fill: #ff5828;
+  fill: #7e7ca6;
 }
 
 .services .iconbox-teal i {
-  color: #11dbcf;
+  color: #7e7ca6;
 }
 
 .services .iconbox-teal:hover .icon i {
@@ -875,13 +875,13 @@ section {
 }
 
 .services .iconbox-teal:hover .icon path {
-  fill: #11dbcf;
+  fill: #7e7ca6;
 }
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .bg-color{
-  background-color: #fffaf4;
+  background-color: #fff;
   color: #343a40;
 }
 
@@ -904,7 +904,7 @@ bg-color p{
 
 .faq .faq-list li {
   padding: 20px;
-  background: #fff3e4;
+  background: #f7f7f7;
   border-radius: 4px;
   position: relative;
 }
@@ -950,7 +950,7 @@ bg-color p{
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #A66F3F;
+  color: #7e7ca6;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -971,12 +971,12 @@ bg-color p{
 # Contact
 --------------------------------------------------------------*/
 #contact{
-  background-color: #fff;
+  background-color: rgb(247, 247, 247);
 }
 
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: rgb(247, 247, 247);
 }
 
 .contact .info i {
@@ -985,7 +985,7 @@ bg-color p{
   float: left;
   width: 44px;
   height: 44px;
-  background: #fff;
+  background: rgb(247, 247, 247);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1014,12 +1014,12 @@ bg-color p{
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #7E7CA6;
-  color: #fff;
+  color: rgb(247, 247, 247);
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #f7f7f7;
 }
 
 .contact .php-email-form .form-group {
@@ -1073,7 +1073,7 @@ bg-color p{
   box-shadow: none;
   font-size: 14px;
   border-radius: 4px;
-  background-color: #fff;
+  background-color: #f7f7f7;
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
@@ -1323,7 +1323,7 @@ bg-color p{
 }
 
 #footer .social-links a:hover {
-  background: #A66F3F;
+  background: #4c4b64;
   color: #fff;
   text-decoration: none;
 }
