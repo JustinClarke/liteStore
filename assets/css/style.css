@@ -74,24 +74,26 @@ td, th {
 /* Feature section */
 
 .arrow{
-  padding-top: 10%;
+  padding-top: 80px;
 }
 
 #features {
+  padding: 50px 0px;
   position: relative;
 }
 
 .feature-box {
-  padding: 5% 2%;
+  padding: 5% 2% 3%;
 }
 
 .icon {
+  padding-bottom: 20px;
   margin-bottom: 1rem;
-  color: #A66658;
+  color: #7E7CA6;
 }
 
 .icon:hover {
-  color: #4e312b;
+  color: #313141;
 }
 
 /* property single */
@@ -128,7 +130,7 @@ td, th {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #A66658;
+  background: #7E7CA6;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -142,7 +144,7 @@ td, th {
 }
 
 .back-to-top:hover {
-  background: #A66F3F;
+  background: #47465e;
   color: #fffaf4;
 }
 
@@ -170,7 +172,7 @@ td, th {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #A66658;
+  border: 6px solid #7E7CA6;
   border-top-color: #fffaf4;
   border-bottom-color: #fffaf4;
   border-radius: 50%;
@@ -503,12 +505,12 @@ td, th {
   transition: 0.5s;
   margin-top: 30px;
   color: #fffaf4;
-  background: #A66658;
+  background: #7E7CA6;
 }
 
 #head .btn-get-started:hover {
   background: #fffaf4;
-  color: #A66658;
+  color: #7E7CA6;
 }
 
 #head .icon-boxes {
@@ -591,25 +593,17 @@ td, th {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 30px 0px 30px;
+  padding: 30px 0px 80px;
   overflow: hidden;
 }
 
-.section-bg {
-  background-color: #fffaf4;
-}
-
-.section-title {
-  text-align: center;
-  padding-bottom: 30px;
-}
-
 .section-title h2 {
+  text-align: center;
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
-  padding-bottom: 0;
+  padding: 50px 0px;
   color: #1f1f1f;
 }
 
@@ -678,6 +672,18 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Video
+--------------------------------------------------------------*/
+#video{
+  text-align: center; padding: 40px 0px 80px; 
+  background-color: #19171a;
+}
+
+#video h1{
+  padding-bottom: 30px; 
+  color: #fffaf4;
+}
+/*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
 .clients {
@@ -721,6 +727,12 @@ section {
 /*--------------------------------------------------------------
 # Carousel
 --------------------------------------------------------------*/
+#carousel{
+  background-color: #19171a; 
+  padding: 50px 0px 80px; 
+  color: #fff;
+}
+
 .car-padding{
   padding: 0% 10% 0% 10%;
   background-color: #fffaf4;
@@ -739,7 +751,7 @@ section {
   text-align: center;
   padding: 30px 10px 40px 10px;
   transition: all ease-in-out 0.3s;
-  background: #fffaf4;
+  background: #fff;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
   border-radius: 7%;
 }
@@ -756,6 +768,7 @@ section {
 }
 
 .services .icon-box .icon i {
+  padding-top: 20px;
   font-size: 36px;
   transition: 0.5s;
   position: relative;
@@ -769,7 +782,7 @@ section {
 
 .services .icon-box .icon svg path {
   transition: 0.5s;
-  fill: #fffaf4;
+  fill: #fff;
 }
 
 .services .icon-box h4 {
@@ -784,7 +797,6 @@ section {
 }
 
 .services .icon-box p {
-  line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
@@ -959,21 +971,21 @@ bg-color p{
 # Contact
 --------------------------------------------------------------*/
 #contact{
-  background-color: #fffaf4;
+  background-color: #fff;
 }
 
 .contact .info {
   width: 100%;
-  background: #fffaf4;
+  background: #fff;
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #A66658;
+  color: #7E7CA6;
   float: left;
   width: 44px;
   height: 44px;
-  background: #F2E0C9;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -993,7 +1005,7 @@ bg-color p{
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #A66658;
+  color: rgb(36, 36, 36);
 }
 
 .contact .info .email, .contact .info .phone {
@@ -1001,13 +1013,13 @@ bg-color p{
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #A66658;
-  color: #fffaf4;
+  background: #7E7CA6;
+  color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: #fffaf4;
+  background: #fff;
 }
 
 .contact .php-email-form .form-group {
@@ -1016,7 +1028,7 @@ bg-color p{
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #fffaf4;
+  color: #fff;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
@@ -1029,7 +1041,7 @@ bg-color p{
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: #fffaf4;
+  color: #fff;
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -1038,7 +1050,7 @@ bg-color p{
 
 .contact .php-email-form .loading {
   display: none;
-  background: #fffaf4;
+  background: #fff;
   text-align: center;
   padding: 15px;
 }
@@ -1061,11 +1073,11 @@ bg-color p{
   box-shadow: none;
   font-size: 14px;
   border-radius: 4px;
-  background-color: #fffbf7;
+  background-color: #fff;
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #A66658;
+  border-color: #504c4b;
 }
 
 .contact .php-email-form input {
@@ -1078,17 +1090,17 @@ bg-color p{
 
 
 .contact .php-email-form button[type="submit"] {
-  background: #A66658;
+  background: #7E7CA6;
   border: 0;
   padding: 10px 30px;
-  color: #fffaf4;
+  color: #fff;
   transition: 0.4s;
   border-radius: 4px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #F2E0C9;
-  color: #A66658;
+  background: #4c4b64;
+  color: #fff;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1166,15 +1178,14 @@ bg-color p{
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #444444;
+  color: #fff;
   font-size: 14px;
-  background: rgba(255, 255, 255, 0.671);
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #F2E0C9;
+  background: #19171a;
 }
 
 #footer .footer-top .footer-contact {
@@ -1194,13 +1205,13 @@ bg-color p{
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #777777;
+  color: rgb(182, 182, 182);
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #1f1f1f;
+  color: #fff;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1241,7 +1252,7 @@ bg-color p{
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #1f1f1f;
+  color: #fff;
 }
 
 #footer .footer-newsletter {
@@ -1251,7 +1262,7 @@ bg-color p{
 #footer .footer-newsletter h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+  color: #fff;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1292,16 +1303,14 @@ bg-color p{
   background: #1f1f1f;
 }
 
-#footer .credits {
-  padding-top: 5px;
-  font-size: 13px;
-  color: #444444;
+.copyright{
+  color: #000000;
 }
 
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #A66658;
+  background: #7E7CA6;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
