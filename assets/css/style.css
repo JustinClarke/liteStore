@@ -845,7 +845,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #2487ce;
+  color: #7e7ca6;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -861,7 +861,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(36, 135, 206, 0.6);
+  background: #c5c2ff91;
   position: absolute;
   left: 30px;
   right: 30px;
@@ -918,12 +918,12 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #fff;
+  color: #000;
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #ffffff;
+  color: #000;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -936,7 +936,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: rgba(255, 255, 255, 0.6);
+  color: #000;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -1094,7 +1094,7 @@ section {
 }
 
 .services .iconbox-blue i {
-  color: #A66658;
+  color: #7e7ca6;
 }
 
 .services .iconbox-blue:hover .icon i {
@@ -1102,11 +1102,11 @@ section {
 }
 
 .services .iconbox-blue:hover .icon path {
-  fill: #A66658;
+  fill: #7e7ca6;
 }
 
 .services .iconbox-orange i {
-  color: #A66658;
+  color: #7e7ca6;
 }
 
 .services .iconbox-orange:hover .icon i {
@@ -1114,11 +1114,11 @@ section {
 }
 
 .services .iconbox-orange:hover .icon path {
-  fill: #A66658;
+  fill: #7e7ca6;
 }
 
 .services .iconbox-pink i {
-  color: #A66658;
+  color: #7e7ca6;
 }
 
 .services .iconbox-pink:hover .icon i {
@@ -1126,11 +1126,11 @@ section {
 }
 
 .services .iconbox-pink:hover .icon path {
-  fill: #A66658;
+  fill: #7e7ca6;
 }
 
 .services .iconbox-yellow i {
-  color: #A66658;
+  color: #7e7ca6;
 }
 
 .services .iconbox-yellow:hover .icon i {
@@ -1138,7 +1138,7 @@ section {
 }
 
 .services .iconbox-yellow:hover .icon path {
-  fill: #A66658;
+  fill: #7e7ca6;
 }
 
 .services .iconbox-red i {
