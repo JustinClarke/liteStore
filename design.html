@@ -35,71 +35,68 @@
 <body>
   <main id="main">
 
-  <!--  Header  -->
-  <header id="header" class="fixed-top">
-      <div class="container d-flex align-items-center justify-content-between">
+    <!--  Header  -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
 
-          <h1 class="logo"><a href="index.html">LiteStore</a></h1>
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            <h1 class="logo"><a href="index.html">LiteStore</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-          <nav id="navbar" class="navbar">
-              <ul>
-                  <!-- style="" -->
-                  <li><a class="nav-link scrollto" href="design.html" style="font-weight: bold; color: #fff; background-color: #1a1a1a;">Designers</a></li>
-                  <li><a class="nav-link scrollto" href="find-a-space.html" target="_blank">Find a space</a></li>
-                  <li><a class="nav-link scrollto" href="list-your-space.html" target="_blank">List a space</a></li>
-                  <li><a class="nav-link scrollto" href="">How it works</a></li>
-                  <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#loginmod" href="">Sign In</a></li>
-                  <li><a class="nav-link scrollto" href="tel:+91-63-63294498" style="color: #fff; background-color: #7E7CA6; font-family: cascadia mono; margin-top: 2.1px;">6363294498</a></li>
-              </ul>
-              <i class="bi bi-list mobile-nav-toggle"></i>
-          </nav><!-- .navbar -->
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <!-- style="" -->
+                    <li><a class="nav-link scrollto" href="design.html" style="font-weight: bold; color: #fff; background-color: #1a1a1a;">Designers</a></li>
+                    <li><a class="nav-link scrollto" href="find-a-space.html" target="_blank">Find a space</a></li>
+                    <li><a class="nav-link scrollto" href="list-your-space.html" target="_blank">List a space</a></li>
+                    <li><a class="nav-link scrollto" href="">How it works</a></li>
+                    <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#loginmod" href="">Sign In</a></li>
+                    <li><a class="nav-link scrollto" href="tel:+91-63-63294498" style="color: #fff; background-color: #7E7CA6; font-family: cascadia mono; margin-top: 2.1px;">6363294498</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
 
-      </div>
-  </header><!-- End Header -->
+        </div>
+    </header><!-- End Header -->
 
+    <!-- Log in Modal -->
+    <div class="modal fade" id="loginmod" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="text-align: center;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">LiteStore</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id=""style="margin: 5% 5%">
+                            <div class="container">
+                              <h1 style="padding-bottom: 10px;">Log In</h1>
+                            </div>
+                            <form>
+                            <div class="row mb-3">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label" style="margin-right: 0px;">Email</label>
+                                <div class="col-sm-10">
+                                  <input type="email" class="form-control" id="inputEmail3">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputPassword3" class="col-sm-2 col-form-label" style="margin-right: 0px;">Password</label>
+                                <div class="col-sm-10">
+                                  <input type="password" class="form-control" id="inputPassword3">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="background-color: #7E7CA6;">Log in</button>
+                    </form>
+                    </div>
 
-      <!-- Log in Modal -->
-      <div class="modal fade" id="loginmod" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-              <div class="modal-content" style="text-align: center;">
-                  <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">LiteStore</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                      <div id=""style="margin: 5% 5%">
-                              <div class="container">
-                                <h1 style="padding-bottom: 10px;">Log In</h1>
-                              </div>
-                              <form>
-                              <div class="row mb-3">
-                                  <label for="inputEmail3" class="col-sm-2 col-form-label" style="margin-right: 0px;">Email</label>
-                                  <div class="col-sm-10">
-                                    <input type="email" class="form-control" id="inputEmail3">
-                                  </div>
-                              </div>
-                              <div class="row mb-3">
-                                  <label for="inputPassword3" class="col-sm-2 col-form-label" style="margin-right: 0px;">Password</label>
-                                  <div class="col-sm-10">
-                                    <input type="password" class="form-control" id="inputPassword3">
-                                  </div>
-                              </div>
-                              <button type="submit" class="btn btn-primary" style="background-color: #7E7CA6;">Log in</button>
-                      </form>
-                      </div>
-
-                      </div>
-                  <div class="modal-footer">
-                      <a class="btn btn-primary" style="background-color: #7E7CA6;" href="signup.html" data-toggle="modal" data-target="#modal">Sign Up</a>
-                      <button type="button" class="btn btn-secondary"  data-bs-dismiss="modal">Close</button>
-                  </div>
-              </div>
-          </div>
-      </div>
-
-
+                    </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary" style="background-color: #7E7CA6;" href="signup.html" data-toggle="modal" data-target="#modal">Sign Up</a>
+                    <button type="button" class="btn btn-secondary"  data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--  Head Section  -->
     <section id="headr" class="d-flex align-items-center">
@@ -110,8 +107,6 @@
         </div>
       </div>
     </section><!-- End head -->
-
-
 
     <!--  Features Section  -->
     <section id="features" style="background-color: #0c0c0c; color: #fff; padding-bottom: 0px;">
@@ -151,7 +146,7 @@
     </section>
 
 
-    <!-- ======= Portfolio Section ======= -->
+    <!-- ======= Portfolio / lightbox Section ======= -->
     <section id="portfolio" class="portfolio" style="background-color: #000; color: #fff;">
       <div class="container" data-aos="fade-up">
 
@@ -231,67 +226,67 @@
             </div>
       </section><!-- End Contact Section -->
 
-      <!--  Footer  -->
-      <footer id="footer">
+    <!--  Footer  -->
+    <footer id="footer">
 
-          <div class="footer-top">
-              <div class="container">
-                  <div class="row">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
 
-                      <div class="col-lg-3 col-md-6 footer-contact">
-                          <h3>LiteStore</h3>
-                          <p>
-                              <br>#58, Domlur Layout,
-                              <br>Bangalore-71<br>
-                              <strong>Phone:</strong> +91 6363294498<br>
-                              <strong>Email:</strong> support@litestore.in<br>
-                          </p>
-                      </div>
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>LiteStore</h3>
+                        <p>
+                            <br>#58, Domlur Layout,
+                            <br>Bangalore-71<br>
+                            <strong>Phone:</strong> +91 6363294498<br>
+                            <strong>Email:</strong> support@litestore.in<br>
+                        </p>
+                    </div>
 
-                      <div class="col-lg-2 col-md-6 footer-links">
-                          <h4>How it works</h4>
-                          <ul>
-                              <li></i> <a href="#">Why LiteStore</a></li>
-                              <li></i> <a href="#">Listing Space</a></li>
-                              <li></i> <a href="#">Finding Space</a></li>
-                          </ul>
-                      </div>
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>How it works</h4>
+                        <ul>
+                            <li></i> <a href="#">Why LiteStore</a></li>
+                            <li></i> <a href="#">Listing Space</a></li>
+                            <li></i> <a href="#">Finding Space</a></li>
+                        </ul>
+                    </div>
 
-                      <div class="col-lg-2 col-md-6 footer-links">
-                          <h4>About</h4>
-                          <ul>
-                              <li></i> <a href="#">Company</a></li>
-                              <li></i> <a href="careers.html">Careers</a></li>
-                              <li></i> <a href="faqs.html">FAQs</a></li>
-                          </ul>
-                      </div>
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>About</h4>
+                        <ul>
+                            <li></i> <a href="#">Company</a></li>
+                            <li></i> <a href="careers.html">Careers</a></li>
+                            <li></i> <a href="faqs.html">FAQs</a></li>
+                        </ul>
+                    </div>
 
-                      <div class="col-lg-2 col-md-6 footer-links">
-                          <h4>Discover</h4>
-                          <ul>
-                              <li></i> <a href="#">Blog</a></li>
-                              <li></i> <a href="#">Sucess Stories</a></li>
-                              <li></i> <a href="#">Events</a></li>
-                          </ul>
-                      </div>
-                  </div>
-              </div>
-          </div>
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Discover</h4>
+                        <ul>
+                            <li></i> <a href="#">Blog</a></li>
+                            <li></i> <a href="#">Sucess Stories</a></li>
+                            <li></i> <a href="#">Events</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-          <div class="container d-md-flex py-4">
+        <div class="container d-md-flex py-4">
 
-              <div class="me-md-auto text-center text-md-start">
-                  <div class="copyright">
-                      &copy; Copyright 2021 <strong><span>LiteStore</span></strong>. All Rights Reserved
-                  </div>
-              </div>
-              <div class="social-links text-center text-md-right pt-3 pt-md-0">
-                  <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
-          </div>
-      </footer><!-- End Footer -->
+            <div class="me-md-auto text-center text-md-start">
+                <div class="copyright">
+                    &copy; Copyright 2021 <strong><span>LiteStore</span></strong>. All Rights Reserved
+                </div>
+            </div>
+            <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
 
     </main><!-- End #main -->
 
