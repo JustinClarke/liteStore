@@ -29,6 +29,28 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  
+  <!-- API for Spreadsheets -->
+  <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous">
+        </script>
+        <script>
+            function SubForm (){
+                $.ajax({
+                    url:'https://api.apispreadsheets.com/data/12083/',
+                    type:'post',
+                    data:$("#myForm").serializeArray(),
+                    success: function(){
+                    alert("Form Data Submitted :)")
+                    },
+                    error: function(){
+                    alert("There was an error :(")
+                    }
+                });
+            }
+        </script>
 </head>
 
 <body>
@@ -304,7 +326,8 @@
 
               <div class="col-lg-8 mt-5 mt-lg-0">
 
-                  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form"> -->
+                  <form id="myForm" method="post" role="form" class="php-email-form">
                       <div class="row">
                           <div class="col-md-6 form-group">
                               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -312,22 +335,23 @@
                           <div class="col-md-6 form-group ">
                               <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                           </div>
-                      </div>
-                      <div class="form-group mt-3">
-                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                      </div>
-                      <div class="form-group mt-3">
-                          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                      </div>
-                      <div class="my-3">
-                          <div class="loading">Loading</div>
-                          <div class="error-message"></div>
-                          <div class="sent-message">Your message has been sent. Thank you!</div>
+                          </div>
+                          <div class="form-group mt-3">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                          </div>
+                          <div class="form-group mt-3">
+                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                          </div>
+                          <div class="my-3">
+                              <div class="loading">Loading</div>
+                              <div class="error-message"></div>
+                              <div class="sent-message">Your message has been sent. Thank you!</div>
+                          </div>
                       </div>
                       <div class="row">
 
                           <div class="col-sm-4 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                              <div class="text-center" style="padding-bottom: 10px;"><button type="submit">Send Message</button></div>
+                              <div class="text-center" style="padding-bottom: 10px;"><button type="submit" onclick="SubForm()">Send Message</button></div>
                           </div>
 
                           <div class="col-sm-4 d-flex align-items-center justify-content-center" data-aos="zoom-in">
@@ -345,7 +369,7 @@
           </div>
 
       </div>
-    </section><!-- End Contact Section -->
+  </section><!-- End Contact Section -->
 
     <!--  Footer  -->
     <footer id="footer">
