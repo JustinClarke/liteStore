@@ -90,6 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 table {
+  text-align: left;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
@@ -97,8 +98,12 @@ table {
 
 td, th {
   border-bottom: 1px solid rgb(238, 238, 238);
-  padding: 1rem;
+  padding: 1rem 0rem 1rem 1rem;
   font-size: 20px;
+}
+
+.ts{
+  color: #424242;
 }
 
 .top{
@@ -154,12 +159,9 @@ td, th {
 
 .icons {
   margin-bottom: 1rem;
-  color: #A66658;
+  color: #7E7CA6;
 }
 
-.icons:hover {
-  color: #4e312b;
-}
 
 @media (max-width: 450px) {
   .arrow{
@@ -1883,7 +1885,7 @@ bg-color p{
   width: 100%;
   position: absolute;
   z-index: 2;
-  background-color: #F2E0C9;
+  background-color: #7e7ca6;
 }
 
 .card-info {
@@ -1905,12 +1907,13 @@ bg-color p{
 
 @media (min-width: 992px) {
   .card-info .card-info-title {
+    color: #fff;
     font-size: 1rem;
   }
 }
 
 .card-info li span {
-  color: #A66658;
+  color: #fff;
   font-size: .9rem;
 }
 
