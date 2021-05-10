@@ -133,7 +133,7 @@ td, th {
 }
 
 .feature-box {
-  padding: 5% 2% 3%;
+  padding: 5% 0% 3%;
 }
 
 .icon {
@@ -339,7 +339,7 @@ td, th {
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
   color: #fffaf4;
-  background-color: #A66658;
+  background-color: #7E7CA6;
 }
 
 
@@ -534,13 +534,24 @@ td, th {
   height: calc(100vh - 110px);
   text-align: center;
   position: relative;
-  background: url("../img/pexels-pixabay-509922.jpg") top center;
+  background: url("../img/pexels/newer/pexels-rachel-claire-4846436.jpg") top center;
   background-size: cover;
+}
+
+@media (max-width: 450px) {
+  #head {
+    width: 100%;
+    height: calc(100vh - 110px);
+    text-align: center;
+    position: relative;
+    background: url("../img/pexels/newer/pexels-rachel-claire-4846436_1.jpg") top center;
+    background-size: cover;
+  }
 }
 
 #head:before {
   content: "";
-  background: rgba(0, 0, 0, 0.212);
+  background: rgba(17, 17, 17, 0.658);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -640,7 +651,12 @@ td, th {
     padding: 400px 0px 400px;
   }
   #head h1{
-    font-size: 50px;
+    font-size: 75px;
+    padding-bottom: 0px;
+  }
+  #head h2 {
+    font-size: 18px;
+    line-height: 24px;
   }
 }
 
