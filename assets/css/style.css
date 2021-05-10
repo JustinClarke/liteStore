@@ -1180,6 +1180,17 @@ section {
 .services .iconbox-teal:hover .icon path {
   fill: #7e7ca6;
 }
+
+
+#services .serve{
+  padding-left: 7%;
+}
+
+@media (max-width: 450px) {
+  #services .serve{
+    padding-left: 15%;
+  }
+}
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
