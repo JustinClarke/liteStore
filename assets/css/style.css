@@ -140,6 +140,11 @@ td, th {
   padding: 5% 0% 3%;
 }
 
+
+.feature-boxes {
+  padding: 2% 5% 3%;
+}
+
 .icon {
   padding-bottom: 20px;
   margin-bottom: 1rem;
@@ -680,7 +685,7 @@ td, th {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 30px 0px 50px;
+  padding: 50px 0px 50px;
   overflow: hidden;
 }
 
@@ -690,7 +695,7 @@ section {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
-  padding: 50px 0px 5px;
+  padding: 20px 0px 5px;
   color: #1f1f1f;
 }
 
@@ -1309,7 +1314,7 @@ bg-color p{
 }
 
 .contact h3{
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .contact .info h4 {
