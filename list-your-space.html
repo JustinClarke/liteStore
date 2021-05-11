@@ -30,6 +30,27 @@
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- https://apispreadsheets.com/upload
+  This is a Spreadsheet API That is linked to Google Sheets - "List a Space Sheet" -->
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script>
+  function SubForm (){
+      $.ajax({
+          url:'https://api.apispreadsheets.com/data/12210/',
+          type:'post',
+          data:$("#ListForm").serializeArray(),
+          success: function(){
+            alert("Form Data Submitted :)")
+          },
+          error: function(){
+            alert("There was an error :(")
+          }
+      });
+  }
+  </script>
 </head>
 
 <body>
@@ -216,7 +237,8 @@
 
           <div class="col mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form"> -->
+            <form id="ListForm" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -226,20 +248,15 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="address" id="phone" placeholder="Phone Number" required>
+                <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone Number" required>
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="address" rows="5" placeholder="Address" required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
               <div class="row">
 
                 <div class="col d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                  <div class="text-center" style="padding-bottom: 10px;"><button type="submit">Let's get started</button></div>
+                  <div class="text-center" style="padding-bottom: 10px;"><button type="submit" onclick="SubForm()">Let's get started</button></div>
                 </div>
 
               </div>
