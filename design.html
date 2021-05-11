@@ -32,7 +32,7 @@
 
   <!-- https://apispreadsheets.com/upload
   This is a Spreadsheet API That is linked to Google Sheets - "List a Space Sheet" -->
-  <script
+  <!-- <script
     src="https://code.jquery.com/jquery-3.4.1.js"
     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
@@ -50,7 +50,7 @@
           }
       });
   }
-  </script>
+  </script> -->
 
 </head>
 
@@ -226,7 +226,8 @@
           <h1 style="text-align: center;">Upload your design</h1>
           
               <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form"> -->
-              <form id="designUpload" method="post" role="form" class="php-email-form">
+              <!-- <form id="designUpload" method="post" role="form" class="php-email-form"> -->                
+              <form class="php-email-form" name="design" method="POST" data-netlify="true">
                 <div class="row" style="margin: 0% 20%;">
                   <div class="col-md-6 form-group">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -238,9 +239,9 @@
                     <input type="text" class="form-control" name="description" id="description" placeholder="Describe the concept (upto 100 words)" required>
                   </div>
                   <div class="form-group mt-3">
-                      <input class="form-control form-control-lg" name="image" id="formFileLg" type="file" />
+                      <input class="form-control form-control-lg" id="formFileLg" name="picture" type="file" />
                   </div>
-                      <div class="text-center" style="padding: 10px 0px;"><button onclick="SubForm()" type="submit">Submit</button></div>
+                      <div class="text-center" style="padding: 10px 0px;"><button type="submit">Submit</button></div>
                   </div>
                 </div>
               </form>
