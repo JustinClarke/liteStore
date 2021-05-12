@@ -391,7 +391,7 @@ td, th {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #F2E0C9;
+  color: #fff;
 }
 
 .navbar .dropdown:hover > ul {
@@ -426,7 +426,7 @@ td, th {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #A66658;
+  color: #7E7CA6;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -481,11 +481,11 @@ td, th {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #A66658;
+  color: #7E7CA6;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #A66658;
+  color: #7E7CA6;
 }
 
 .navbar-mobile .getstarted {
@@ -500,7 +500,7 @@ td, th {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fffaf4;
+  background: #fff;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.158);
 }
 
@@ -517,7 +517,7 @@ td, th {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #A66658;
+  color: #7E7CA6;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -833,7 +833,7 @@ section {
 --------------------------------------------------------------*/
 #carousel{
   background-color: #c0c0c0; 
-  padding: 50px 0px 80px; 
+  padding: 15px 10px 30px;
   color: rgb(49, 49, 49);
 }
 
