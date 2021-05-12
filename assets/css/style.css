@@ -1722,7 +1722,7 @@ bg-color p{
 --------------------------------------------------------------*/
 
 #prop-name h2{
-  color: #bdbdbd;
+  color: #fff;
   font-size: 25px;
 }
 
@@ -1739,7 +1739,7 @@ bg-color p{
     display: none;
   }
   #prop-name h2{
-    color: #bdbdbd;
+    color: #fff;
     font-size: 20px;
   }
   .invisible-desk{
