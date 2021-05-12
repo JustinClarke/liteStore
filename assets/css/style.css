@@ -1575,7 +1575,7 @@ bg-color p{
 }
 
 #footer .footer-top .footer-links ul li {
-  padding: 8px 0px;
+  padding: 10px 0px;
   display: flex;
   align-items: center;
 }
@@ -1697,6 +1697,9 @@ bg-color p{
   #footer .footer-top{
     padding-left: 15px;
   }
+  #footer .footer-top .footer-links ul li {
+    padding: 7px 0px;
+  }
 }
 @media (min-width: 992px) {
   .list-a li {
@@ -1717,6 +1720,35 @@ bg-color p{
 /*--------------------------------------------------------------
 # Card General
 --------------------------------------------------------------*/
+
+#prop-name h2{
+  color: #bdbdbd;
+  font-size: 25px;
+}
+
+.invisible{
+  display: contents;
+}
+
+.invisible-desk{
+  display: none;
+}
+
+@media (max-width: 450px) {
+  .invisible{
+    display: none;
+  }
+  #prop-name h2{
+    color: #bdbdbd;
+    font-size: 20px;
+  }
+  .invisible-desk{
+    display: contents;
+  }
+}
+
+
+
 @media (max-width: 767px) {
   .card-box-a,
   .card-box-b,
