@@ -169,10 +169,10 @@ td, th {
 
 @media (max-width: 450px) {
   h3{
-    font-size: 15px;
+    font-size: 16px;
   }
   p{
-    font-size: 10px;
+    font-size: 14px;
   }
   .arrow{
     display: none;
@@ -181,7 +181,7 @@ td, th {
     padding: 2% 20%;
   }
   .icon {
-    font-size: 40px;
+    font-size: 45px;
     padding-bottom: 0px;
     margin-bottom: 1rem;
     color: #7E7CA6;
@@ -532,7 +532,7 @@ td, th {
   height: calc(100vh - 110px);
   text-align: center;
   position: relative;
-  background: url("../img/space.jpg") top center;
+  background: url("../img/design-bg.jpeg") top center;
   background-size: cover;
 }
 
