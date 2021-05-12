@@ -1327,6 +1327,7 @@ bg-color p{
 
 .contact h3{
   font-size: 20px;
+  padding-bottom: 15px;
 }
 
 .contact .info h4 {
@@ -1455,6 +1456,12 @@ bg-color p{
   }
 }
 
+@media (max-width: 450px) {
+  #contact h3{
+    padding: 0% 20%;
+    margin: 0px;
+  } 
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -1519,7 +1526,7 @@ bg-color p{
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #19171a;
+  background: #0c0c0c;
 }
 
 #footer .footer-top .footer-contact {
@@ -1568,7 +1575,7 @@ bg-color p{
 }
 
 #footer .footer-top .footer-links ul li {
-  padding: 10px 0;
+  padding: 8px 0px;
   display: flex;
   align-items: center;
 }
@@ -1685,6 +1692,12 @@ bg-color p{
   padding-right: 5px;
 }
 
+
+@media (max-width: 450px) {
+  #footer .footer-top{
+    padding-left: 15px;
+  }
+}
 @media (min-width: 992px) {
   .list-a li {
     width: 33.333%;
