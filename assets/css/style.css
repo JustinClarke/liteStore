@@ -63,7 +63,7 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
   font-family: "Raleway", sans-serif;
 }
 
@@ -529,7 +529,7 @@ td, th {
 --------------------------------------------------------------*/
 #headr {
   width: 100%;
-  height: calc(100vh - 110px);
+  height: calc(100vh - 0px);
   text-align: center;
   position: relative;
   background: url("../img/design-bg.jpeg") top center;
@@ -549,8 +549,8 @@ td, th {
 
 #head {
   width: 100%;
-  /* height: calc(100vh - 110px); */
-  height: 1080px;
+  height: calc(100vh - 0px);
+  /* height: 1080px; */
   text-align: center;
   position: relative;
   background: url("../img/pexels/newer/space.jpg") top center;
@@ -560,7 +560,7 @@ td, th {
 @media (max-width: 450px) {
   #head {
     width: 100%;
-    height: calc(100vh - 110px);
+    height: calc(100vh - 0px);
     text-align: center;
     position: relative;
     background: url("../img/pexels/newer/pexels-rachel-claire-4846436_1.jpg") top center;
