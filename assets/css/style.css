@@ -549,7 +549,8 @@ td, th {
 
 #head {
   width: 100%;
-  height: calc(100vh - 110px);
+  /* height: calc(100vh - 110px); */
+  height: 1080px;
   text-align: center;
   position: relative;
   background: url("../img/pexels/newer/space.jpg") top center;
