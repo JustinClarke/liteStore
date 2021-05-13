@@ -30,16 +30,21 @@
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- uploadcare API -->
+  <script
+  src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js">
+  </script>
+
   <!-- https://apispreadsheets.com/upload
   This is a Spreadsheet API That is linked to Google Sheets - "List a Space Sheet" -->
-  <!-- <script
+  <script
     src="https://code.jquery.com/jquery-3.4.1.js"
     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
   <script>
   function SubForm (){
       $.ajax({
-          url:'https://api.apispreadsheets.com/data/12215/',
+          url:'https://api.apispreadsheets.com/data/12327/',
           type:'post',
           data:$("#designUpload").serializeArray(),
           success: function(){
@@ -50,7 +55,7 @@
           }
       });
   }
-  </script> -->
+  </script>
 
 </head>
 
@@ -225,26 +230,27 @@
           <h1 style="text-align: center; padding-bottom: 3%;">Upload Your Design</h1>
           
               <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form"> -->
-              <!-- <form id="designUpload" method="post" role="form" class="php-email-form"> -->                
-              <form data-netlify="true" method="POST" class="php-email-form" name="design">
+              <form id="designUpload" method="post" role="form" class="php-email-form">                
+              <!-- <form data-netlify="true" method="POST" class="php-email-form" name="design"> -->
                 <div class="row" style="margin: 0% 10%;">
-                  <div class="col-md-6 form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                  </div>
-                  <div class="col-md-6 form-group ">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                  </div>
-                  <div class="form-group mt-3">
-                    <input type="text" class="form-control" name="description" id="description" placeholder="Describe the concept (upto 100 words)" required>
-                  </div>
-                  <div class="form-group mt-3">
-                      <input class="form-control form-control-lg" id="formFileLg" name="picture" type="file" />
-                  </div>
-                      <div class="text-center" style="padding: 10px 0px;"><button type="submit">Submit</button></div>
+                    <div class="col-md-6 form-group">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 form-group ">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group mt-3">
+                      <textarea class="form-control" name="description" rows="5" placeholder="Describe the concept (upto 100 words)" required></textarea>
+                    </div>
+                    <div style="text-align: center; padding-top: 20px;">
+                      <input type="hidden" role="uploadcare-uploader" data-public-key="b98fef5d0782d537559c" name="my_file" />
+                    </div>
+                    <div class="form-group mt-3">
+                        <!-- <input class="form-control form-control-lg" id="formFileLg" name="picture" type="file" /> -->
+                        <div class="text-center" style="padding: 10px 0px;"><button type="submit" onclick="SubForm()">Submit</button></div>
                   </div>
                 </div>
               </form>
-
             </div>
       </section><!-- End Upload Section -->
 
