@@ -55,29 +55,28 @@
   
   <main id="main">
 
-    <!--  Header  -->
-    <header id="header" class="fixed-top">
-        <div class="container d-flex align-items-center justify-content-between">
+		<!--  Header  -->
+		<header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
 
-            <h1 class="logo"><a href="index.html">LiteStore</a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          <h1 class="logo"><a href="index.html">LiteStore</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <!-- style="" -->
-                    <li><a class="nav-link scrollto" href="design.html" style="font-weight: bold; color: #fff; background-color: #1a1a1a;">Designers</a></li>
-                    <li><a class="nav-link scrollto" href="find-a-space.html" target="_blank">Find a space</a></li>
-                    <li><a class="nav-link scrollto" href="list-your-space.html" target="_blank">List a space</a></li>
-                    <li><a class="nav-link scrollto" href="">How it works</a></li>
-                    <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#loginmod" href="">Sign In</a></li>
-                    <li><a class="nav-link scrollto" href="tel:+91-63-63294498" style="color: #fff; background-color: #7E7CA6; font-family: cascadia mono; margin-top: 2.1px;">6363294498</a></li>
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
+          <nav id="navbar" class="navbar">
+              <ul>
+                  <li><a class="nav-link scrollto" href="design.html" style="font-weight: bold; color: #fff; background-color: #1a1a1a;">Designers</a></li>
+                  <li><a class="nav-link scrollto" href="find-a-space.html" target="_blank">Find a space</a></li>
+                  <li><a class="nav-link scrollto" href="list-your-space.html" target="_blank">List a space</a></li>
+                  <li><a class="nav-link scrollto" href="faqs.html">FAQs</a></li>
+                  <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#loginmod" href="">Sign In</a></li>
+                  <li><a class="nav-link scrollto" href="tel:+91-63-63294498" style="color: #fff; background-color: #7E7CA6; font-family: cascadia mono;">6363294498</a></li>
+              </ul>
+              <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
 
-        </div>
-    </header><!-- End Header -->
+      </div>
+  </header><!-- End Header -->
 
 
     <!-- Log in Modal -->
@@ -220,14 +219,17 @@
     <!--  Contact Section  -->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
-
-          <div class="section-title" style="text-align: center;">
-              <h2>Contact</h2>
-              <h3>We would love to hear from you!</h3>
-              <!-- <p>Schedule a call</p> -->
+          <div class="row">
+              <div class="col">
+                  <div class="section-title" style="text-align: center;">
+                      <h2>Contact</h2>
+                      <h3>We would love to hear from you!</h3>
+                      <!-- <p>Schedule a call</p> -->
+                  </div>
+              </div>
           </div>
 
-          <div class="row mt-5">
+          <!-- <div class="row mt-5">
 
               <div class="col-lg-4">
                   <div class="info">
@@ -251,9 +253,9 @@
 
                   </div>
 
-              </div>
+              </div> -->
 
-              <div class="col-lg-8 mt-5 mt-lg-0">
+              <div class="col mt-5 mt-lg-0" style="margin: 0% 10%;">
 
                   <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form"> -->
                   <form id="myForm" method="post" role="form" class="php-email-form">
@@ -298,17 +300,17 @@
           </div>
       </section><!-- End Contact Section -->
 
-      
-    <!--  Footer  -->
-    <footer id="footer">
+  <!--  Footer  -->
+  <footer id="footer">
 
       <div class="footer-top">
           <div class="container">
               <div class="row">
 
-                  <div class="col-lg-3 col-md-6 footer-contact">
-                      <h3>LiteStore</h3>
+                  <div class="col-lg-3 col-md-6 footer-contact ">
+                      
                       <p>
+                          <span style="font-size: 30px;">LiteStore</span>
                           <br>#58, Domlur Layout,
                           <br>Bangalore-71<br>
                           <strong>Phone:</strong> +91 6363294498<br>
@@ -320,8 +322,8 @@
                       <h4>How it works</h4>
                       <ul>
                           <li></i> <a href="#">Why LiteStore</a></li>
-                          <li></i> <a href="#">Listing Space</a></li>
-                          <li></i> <a href="#">Finding Space</a></li>
+                          <li></i> <a href="list-your-space.html">List a Space</a></li>
+                          <li></i> <a href="find-a-space.html">Find a Space</a></li>
                       </ul>
                   </div>
 
@@ -346,7 +348,7 @@
           </div>
       </div>
 
-      <div class="container d-md-flex py-4">
+      <div class="container d-md-flex py-4" style="background-color: #fff;">
 
           <div class="me-md-auto text-center text-md-start">
               <div class="copyright">
@@ -359,8 +361,7 @@
               <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
           </div>
       </div>
-  </footer>
-  <!-- End Footer -->
+  </footer><!-- End Footer -->
 
   </main><!-- End #main -->
 
