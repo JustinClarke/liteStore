@@ -148,7 +148,7 @@ td, th {
 .icon {
   padding-bottom: 20px;
   margin-bottom: 1rem;
-  color: #7E7CA6;
+  color: #7e7ca6;
 }
 
 .icon:hover {
@@ -163,7 +163,7 @@ td, th {
 
 .icons {
   margin-bottom: 1rem;
-  color: #7E7CA6;
+  color: #7e7ca6;
 }
 
 
@@ -184,7 +184,7 @@ td, th {
     font-size: 45px;
     padding-bottom: 0px;
     margin-bottom: 1rem;
-    color: #7E7CA6;
+    color: #7e7ca6;
   }
 }
 
@@ -198,7 +198,7 @@ td, th {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #7E7CA6;
+  background: #7e7ca6;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -240,7 +240,7 @@ td, th {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #7E7CA6;
+  border: 6px solid #7e7ca6;
   border-top-color: #000;
   border-bottom-color: #000;
   border-radius: 50%;
@@ -357,7 +357,7 @@ td, th {
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
   color: #fffaf4;
-  background-color: #7E7CA6;
+  background-color: #7e7ca6;
 }
 
 
@@ -426,7 +426,7 @@ td, th {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #7E7CA6;
+  color: #7e7ca6;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -481,11 +481,11 @@ td, th {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #7E7CA6;
+  color: #7e7ca6;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #7E7CA6;
+  color: #7e7ca6;
 }
 
 .navbar-mobile .getstarted {
@@ -517,7 +517,7 @@ td, th {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #7E7CA6;
+  color: #7e7ca6;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -554,7 +554,7 @@ td, th {
   text-align: center;
   position: relative;
   background-color: #000;
-  /* background: url("../img/pexels/newer/space.jpg") top center; */
+  background: url("../img/pexels/new.jpg") top center;
   background-size: cover;
 }
 
@@ -564,7 +564,7 @@ td, th {
     height: calc(100vh - 0px);
     text-align: center;
     position: relative;
-    /* background: url("../img/pexels/newer/pexels-rachel-claire-4846436_1.jpg") top center; */
+    background: url("../img/pexels/newer/pexels-rachel-claire-4846436_1.jpg") top center;
     background-size: cover;
   }
 }
@@ -606,12 +606,12 @@ td, th {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #7E7CA6;
+  background: #7e7ca6;
 }
 
 #head .btn-get-started:hover {
   background: #fff;
-  color: #7E7CA6;
+  color: #7e7ca6;
 }
 
 #head .icon-boxes {
@@ -1315,7 +1315,7 @@ bg-color p{
 
 .contact .info i {
   font-size: 20px;
-  color: #7E7CA6;
+  color: #7e7ca6;
   float: left;
   width: 44px;
   height: 44px;
@@ -1350,7 +1350,7 @@ bg-color p{
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #7E7CA6;
+  background: #7e7ca6;
   color: rgb(247, 247, 247);
 }
 
@@ -1427,7 +1427,7 @@ bg-color p{
 
 
 .contact .php-email-form button[type="submit"] {
-  background: #7E7CA6;
+  background: #7e7ca6;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1653,7 +1653,7 @@ bg-color p{
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #7E7CA6;
+  background: #7e7ca6;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
