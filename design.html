@@ -10,7 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets\img\favicon\favicon.png" rel="icon">
+        <link rel="icon" href="assets\img\favicon\light.png" id="light-scheme-icon">
+        <link rel="icon" href="assets\img\favicon\dark.png" id="dark-scheme-icon">
 
   <!-- font-awesome -->
   <script src="https://kit.fontawesome.com/3547ccc8ab.js" crossorigin="anonymous"></script>
@@ -76,8 +77,15 @@
                               <li><a class="nav-link scrollto" href="design.html" style="font-weight: bold; background-color: #000; color: #fff;">DesignHub</a></li>
                               <li><a class="nav-link scrollto" href="find-a-space.html">Find a space</a></li>
                               <li><a class="nav-link scrollto" href="list-your-space.html">List a space</a></li>
-                              <li><a class="nav-link scrollto" href="faqs.html">FAQs</a></li>
-                              <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#loginmod" href="">Sign In</a></li>
+                              <li><a class="nav-link scrollto" href="faqs.html">FAQs</a>
+                              </li>
+                              <div class="dropdown">
+                                    <li><a class="nav-link scrollto dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Account</a></li>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #fff;">
+                                            <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#loginmod" href="">Sign In</a></li>
+                                            <li><a class="nav-link scrollto" href="signup.html">Sign Up</a></li>
+                                        </ul>
+                                      </div>
                               <li><a class="nav-link scrollto" href="tel:+91-63-63294498" style="font-family: montserrat; border: 2px solid #7e7ca6;">6363294498</a></li>
                       </ul>
                       <i class="bi bi-list mobile-nav-toggle"></i>
@@ -285,7 +293,7 @@
                   <div class="col-lg-2 col-md-6 footer-links">
                       <h4>About</h4>
                       <ul>
-                          <li></i> <a href="#">Company</a></li>
+                          <li></i> <a href="company.html">Company</a></li>
                           <li></i> <a href="careers.html">Careers</a></li>
                           <li></i> <a href="faqs.html">FAQs</a></li>
                       </ul>
