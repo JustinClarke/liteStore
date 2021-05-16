@@ -57,7 +57,9 @@
         }
     </script>
 
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.css" />
 
 </head>
 
@@ -72,6 +74,19 @@
 
     <!-- Initialize Firebase -->
     <script src="/__/firebase/init.js"></script>
+
+      <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="/__/firebase/8.6.1/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="/__/firebase/8.6.1/firebase-auth.js"></script>
+    <script src="/__/firebase/8.6.1/firebase-firestore.js"></script>
+    <script src="/__/firebase/8.6.1/firebase-firestore.js"></script>
+    <script src="/__/firebase/8.6.1/firebase-functions.js"></script>
+    <script src="/__/firebase/8.6.1/firebase-messaging.js"></script>
+    <script src="/__/firebase/8.6.1/firebase-storage.js"></script>
+    <script src="/__/firebase/8.6.1/firebase-performance.js"></script>
+    <script src="/__/firebase/8.6.1/firebase-database.js"></script>
 
     <!-- Log in Modal -->
     <div class="modal fade" id="loginmod" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -90,23 +105,23 @@
                             <div class="row mb-3" style="padding: 5% 0%;">
                                 <!-- <label for="inputEmail3" class="col-3 col-form-label" style="text-align: left;">Username</label> -->
                                 <div class="col">
-                                  <input type="email" class="form-control" placeholder="Username" id="inputEmail3">
+                                  <input type="email" class="form-control" placeholder="Username" id="inputEmail">
                                 </div>
                             </div>
                             <div class="row mb-3">
                                 <!-- <label for="inputPassword3" class="col-3 col-form-label" style="text-align: left;">Password</label> -->
                                 <div class="col">
-                                  <input type="password" class="form-control" placeholder="Password" id="inputPassword3">
+                                  <input type="password" class="form-control" placeholder="Password" id="inputPassword">
                                 </div>
                             </div>
-                            <button type="submit" class="btn" style="background-color: #7e7ca6; color: #fff;">Log in</button>
+                            <button type="submit" id="loginButton" class="btn" style="background-color: #7e7ca6; color: #fff;">Log in</button>
                             <div class="g-signin2" data-onsuccess="onSignIn"></div>
                     </form>
                     </div>
 
                     </div>
                 <div class="modal-footer">
-                    <a class="btn" style="background-color: #7e7ca6; color: #fff;" href="signup.html" data-toggle="modal" data-target="#modal">Sign Up</a>
+                    <a class="btn" id="logoutButton" style="background-color: #7e7ca6; color: #fff;" href="signup.html" data-toggle="modal" data-target="#modal">Sign Up</a>
                     <button type="button" class="btn"  data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
@@ -129,7 +144,7 @@
                 <div class="dropdown">
                     <li><a class="nav-link scrollto dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">FAQs</a></li>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #fff;">
-                            <li><a class="nav-link scrollto" href="pages/faqs/faqs.html" style="font-weight: bold;">All</a></li>
+                            <li><a class="nav-link scrollto" href="pages/faqs.html" style="font-weight: bold;">All</a></li>
                             <li><a class="nav-link scrollto" href="#">General</a></li>
                             <div class="dropdown">
                                 <li><a class="nav-link scrollto dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">For Landowners</a></li>
