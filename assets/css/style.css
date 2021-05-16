@@ -562,7 +562,7 @@ td, th {
     height: calc(100vh - 0px);
     text-align: center;
     position: relative;
-    background: url("../img/pexels/newer/pexels-rachel-claire-4846436_1.jpg") top center;
+    background: url("../img/home.jpg") top center;
     background-size: cover;
   }
 }

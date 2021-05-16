@@ -57,10 +57,21 @@
             }
         </script>
 
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+
 </head>
 
 <body>
 	<main id="main">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.6.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.6.1/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
 
     <!-- Log in Modal -->
     <div class="modal fade" id="loginmod" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -89,6 +100,7 @@
                                 </div>
                             </div>
                             <button type="submit" class="btn" style="background-color: #7e7ca6; color: #fff;">Log in</button>
+                            <div class="g-signin2" data-onsuccess="onSignIn"></div>
                     </form>
                     </div>
 
@@ -156,7 +168,8 @@
                                 <li><a class="nav-link scrollto" href="signup.html">Sign Up</a></li>
                             </ul>
                           </div>
-                        <li><a class="nav-link scrollto" href="tel:+91-63-63294498" style="font-family: montserrat; border: 2px solid #7e7ca6;">6363294498</a></li>
+                          <li><a class="nav-link scrollto" href="tel:+91-63-63294498" style="font-family: montserrat; border: 2px solid #7e7ca6; 
+                            padding: 8px 8px 8px 5px;"><i class="fas fa-phone-alt fa-4x" style="padding: 10px 10px 10px 0px;"></i>6363294498</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
