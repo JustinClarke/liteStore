@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>LiteStore | Careers</title>
+  <title>LiteStore | Home</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -16,9 +16,9 @@
   <!-- font-awesome -->
   <script src="https://kit.fontawesome.com/3547ccc8ab.js" crossorigin="anonymous"></script>
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -32,97 +32,75 @@
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- API for Spreadsheets -->
-  <script
-            src="https://code.jquery.com/jquery-3.4.1.js"
-            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-            crossorigin="anonymous">
-        </script>
-        <script>
-            function SubForm (){
-                $.ajax({
-                    url:'https://api.apispreadsheets.com/data/12085/',
-                    type:'post',
-                    data:$("#myForm").serializeArray(),
-                    success: function(){
-                    alert("Form Data Submitted :)")
-                    },
-                    error: function(){
-                    alert("There was an error :(")
-                    }
-                });
-            }
-        </script>
-
 </head>
 
 <body>
   <main id="main">
-      
+
     <!--  Header  -->
     <header id="header" class="fixed-top">
         <div class="container d-flex align-items-center justify-content-between">
-
-                <!-- <h1 class="logo"><a href="index.html" style="font-weight: 500;">LiteStore</a></h1> -->
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-
-                <nav id="navbar" class="navbar">
-                        <ul>
-                                <li><a class="nav-link scrollto" href="design.html" style="font-weight: bold; ">DesignHub</a></li>
-                                <li><a class="nav-link scrollto" href="find-a-space.html">Find a space</a></li>
-                                <li><a class="nav-link scrollto" href="list-your-space.html">List a space</a></li>
-                                <div class="dropdown">
-                    <li><a class="nav-link scrollto dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">FAQs</a></li>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #fff;">
-                            <li><a class="nav-link scrollto" href="faqs.html" style="font-weight: bold;">All</a></li>
-                            <li><a class="nav-link scrollto" href="#">General</a></li>
-                            <div class="dropdown">
-                                <li><a class="nav-link scrollto dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">For Landowners</a></li>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #fff;">
-                                        <li><a class="nav-link scrollto" href="#">General</a></li>
-                                        <li><a class="nav-link scrollto" href="#">How does it work</a></li>
-                                        <li><a class="nav-link scrollto" href="#">Legal Questions</a></li>
-                                        <li><a class="nav-link scrollto" href="#">Payments</a></li>
-                                    </ul>
-                                </div>
-                            <div class="dropdown">
-                                <li><a class="nav-link scrollto dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">For Brands and Businesses</a></li>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #fff;">
-                                        <li><a class="nav-link scrollto" href="#">General</a></li>
-                                        <li><a class="nav-link scrollto" href="#">How does it work</a></li>
-                                        <li><a class="nav-link scrollto" href="#">Booking a Space</a></li>
-                                        <li><a class="nav-link scrollto" href="#">Legal Questions</a></li>
-                                        <li><a class="nav-link scrollto" href="#">Payments and Pricing</a></li>
-                                    </ul>
-                                </div>
-                                <li><a class="nav-link scrollto" href="#">LiteStore Services</a></li>
-                                <li><a class="nav-link scrollto" href="#">Covid-19 Questions</a></li>
-                                <div class="dropdown">
-                                    <li><a class="nav-link scrollto dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">For Designers</a></li>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #fff;">
-                                            <li><a class="nav-link scrollto" href="#">General</a></li>
-                                            <li><a class="nav-link scrollto" href="#">Payments</a></li>
-                                        </ul>
-                                    </div>
-                                </ul>
-                              </div>
-                                <div class="dropdown">
-                                <li><a class="nav-link scrollto dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Account</a></li>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #fff;">
-                                        <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#loginmod" href="#">Sign In</a></li>
-                                        <li><a class="nav-link scrollto" href="signup.html">Sign Up</a></li>
-                                    </ul>
+  
+          <!-- <h1 class="logo"><a href="index.html" style="font-weight: 500;">LiteStore</a></h1> -->
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+  
+          <nav id="navbar" class="navbar">
+              <ul>
+                  <li><a class="nav-link scrollto" href="/pages/design.html" style="font-weight: bold; ">DesignHub</a></li>
+                  <li><a class="nav-link scrollto" href="/pages/find-a-space.html">Find a space</a></li>
+                  <li><a class="nav-link scrollto" href="/pages/list-your-space.html">List a space</a></li>
+                  <div class="dropdown">
+                      <li><a class="nav-link scrollto dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">FAQs</a></li>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #fff;">
+                              <li><a class="nav-link scrollto" href="/pages/faqs/faqs.html" style="font-weight: bold;">All</a></li>
+                              <li><a class="nav-link scrollto" href="#">General</a></li>
+                              <div class="dropdown">
+                                  <li><a class="nav-link scrollto dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">For Landowners</a></li>
+                                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #fff;">
+                                          <li><a class="nav-link scrollto" href="#">General</a></li>
+                                          <li><a class="nav-link scrollto" href="#">How does it work</a></li>
+                                          <li><a class="nav-link scrollto" href="#">Legal Questions</a></li>
+                                          <li><a class="nav-link scrollto" href="#">Payments</a></li>
+                                      </ul>
                                   </div>
-                                <li><a class="nav-link scrollto" href="tel:+91-63-63294498" style="font-family: montserrat; border: 2px solid #7e7ca6; 
-                            padding: 8px 8px 8px 5px;"><i class="fas fa-phone-alt fa-4x" style="padding: 10px 10px 10px 0px;"></i>6363294498</a></li>
-                        </ul>
-                        <i class="bi bi-list mobile-nav-toggle"></i>
-                </nav><!-- .navbar -->
-
+                              <div class="dropdown">
+                                  <li><a class="nav-link scrollto dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">For Brands and Businesses</a></li>
+                                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #fff;">
+                                          <li><a class="nav-link scrollto" href="#">General</a></li>
+                                          <li><a class="nav-link scrollto" href="#">How does it work</a></li>
+                                          <li><a class="nav-link scrollto" href="#">Booking a Space</a></li>
+                                          <li><a class="nav-link scrollto" href="#">Legal Questions</a></li>
+                                          <li><a class="nav-link scrollto" href="#">Payments and Pricing</a></li>
+                                      </ul>
+                                  </div>
+                                  <li><a class="nav-link scrollto" href="#">LiteStore Services</a></li>
+                                  <li><a class="nav-link scrollto" href="#">Covid-19 Questions</a></li>
+                                  <div class="dropdown">
+                                      <li><a class="nav-link scrollto dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">For Designers</a></li>
+                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #fff;">
+                                              <li><a class="nav-link scrollto" href="#">General</a></li>
+                                              <li><a class="nav-link scrollto" href="#">Payments</a></li>
+                                          </ul>
+                                      </div>
+                                  </ul>
+                                </div>
+                          <div class="dropdown">
+                          <li><a class="nav-link scrollto dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Account</a></li>
+                              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #fff;">
+                                  <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#loginmod" href="#">Sign In</a></li>
+                                  <li><a class="nav-link scrollto" href="/pages/signup.html">Sign Up</a></li>
+                              </ul>
+                            </div>
+                            <li><a class="nav-link scrollto" href="tel:+91-63-63294498" style="font-family: montserrat; border: 2px solid #7e7ca6; 
+                              padding: 8px 8px 8px 5px;"><i class="fas fa-phone-alt fa-4x" style="padding: 10px 10px 10px 0px;"></i>6363294498</a></li>
+                  </ul>
+                  <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+  
         </div>
-</header><!-- End Header -->
-    
+      </header><!-- End Header -->
+
     <!-- Log in Modal -->
     <div class="modal fade" id="loginmod" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -162,65 +140,59 @@
         </div>
     </div>
 
-    <!-- ======= Intro Single ======= -->
-    <section class="head-section" style="padding-top: 100px;">
+    <div id="signup" style="margin: 5% 20%; padding-top: 40px;">
         <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-lg-8">
-              <div class="title-single-box">
-                <h1 class="title-single">Why work with us?</h1>
-                <p class="color-text-a" style="font-size: 20px;">As India’s first online marketplace for short term retail spaces, we are working in exciting, uncharted territory. We believe in bringing people together - not only as a company, but in the workplace as well. We are a team of self-starters who lift each other up and bring ideas to life, together.
-                    <br>We believe in creating a healthy company culture where people are excited to come into work everyday and make an impact. 
-                    If this sounds like something you would like to be a part of, please get in touch! We would love to speak to you. 
-                </p>
-                <p href="mailto:support@litestore.in">Tell us what you are passionate about at: support@litestore.in</p>
-              </div>
-            </div>
-            <div class="col-md-12 col-lg-4">
-              <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item">
-                    <a href="#">Home</a>
-                  </li>
-                  <li class="breadcrumb-item active" aria-current="page">
-                    Careers
-                  </li>
-                </ol>
-              </nav>
-            </div>
-          </div>
+            <h1 style="text-align: center; padding-bottom: 10px;">Sign Up</h1>
         </div>
-    </section><!-- End Intro Single-->
-
-    <!--  Table Section  -->
-    <section id="clients" class="clients section-bg-black" style="background-color: rgb(255, 255, 255);">
-        <div class="container">
-          <table>
-            <tbody>
-              <tr>
-                <td class="top"><i class="fas fa-paint-brush fa-2x"></i></td>
-                <td class="top">Graphic Designer - Bangalore</td>
-              </tr>
-                <tr>
-                <td><i class="fas fa-hotel fa-2x"></i></td>
-                <td>Leasing Partner - Bangalore</td>
-              </tr>
-              <tr>
-                <td><i class="fas fa-chart-line fa-2x"></i></td>
-                <td>Marketing and Advertising Consultants - Bangalore</td>
-              </tr>
-              <tr>
-                <td><i class="fas fa-user-circle fa-2x"></i></td>
-                <td>Account Manager - Bangalore</td>
-              </tr>
-              <tr>
-                <td><i class="fas fa-spray-can fa-2x"></i></td>
-                <td>Retail Design Strategist -  Bangalore</td>
-              </tr>
-            </tbody>
-          </table>
+        <form class="row g-3" style="padding-top: 25px;">
+            <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="abc@example.com">
+            </div>
+            <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Phone Number</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="+1 2345 6789">
+            </div>
+            <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="****">
+            </div>
+            <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="****">
+            </div>
+            <div class="col-12">
+            <label for="inputAddress" class="form-label">Name of the Business</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Eg. LiteStore">
+            </div>
+            <div class="col-12">
+            <label for="inputAddress2" class="form-label">Place of the Business -</label>
+            <!-- <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"> -->
+            </div>
+            <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+            <label for="inputAddress" class="form-label">URL</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="example.org">
+            </div>
+        </form>
+        <div class="form-check" style="text-align: center; padding-top: 5%;">
+            <button type="submit" class="btn " style="background-color: #7e7ca6; color: #fff;">Sign Up</button>
         </div>
-      </section>
+    </div>
 
     <!--  Contact Section  -->
     <section id="contact" class="contact">
@@ -304,7 +276,7 @@
                     </div>
                 </form>
             </div>
-        </section><!-- End Contact Section -->
+    </section><!-- End Contact Section -->
 
     <!--  Footer  -->
     <footer id="footer">
@@ -370,10 +342,10 @@
     </footer><!-- End Footer -->
 
     </main><!-- End #main -->
-
+  
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
+  
     <!-- Vendor JS Files -->
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -382,10 +354,10 @@
     <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/vendor/purecounter/purecounter.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
+  
     <!--  Main JS File -->
     <script src="assets/js/main.js"></script>
-
-    </body>
-
-</html>
+  
+  </body>
+  
+  </html>
