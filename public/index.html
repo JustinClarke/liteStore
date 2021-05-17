@@ -67,24 +67,20 @@
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="/__/firebase/8.6.1/firebase-app.js"></script>
 
-    <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="/__/firebase/8.6.1/firebase-analytics.js"></script>
-
     <!-- Initialize Firebase -->
     <script src="/__/firebase/init.js"></script>
 
-      <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
-    <script src="/__/firebase/8.6.1/firebase-analytics.js"></script>
-
     <!-- Add Firebase products that you want to use -->
     <script src="/__/firebase/8.6.1/firebase-auth.js"></script>
-    <script src="/__/firebase/8.6.1/firebase-firestore.js"></script>
+
+    <!-- <script src="/__/firebase/8.6.1/firebase-firestore.js"></script>
     <script src="/__/firebase/8.6.1/firebase-firestore.js"></script>
     <script src="/__/firebase/8.6.1/firebase-functions.js"></script>
     <script src="/__/firebase/8.6.1/firebase-messaging.js"></script>
     <script src="/__/firebase/8.6.1/firebase-storage.js"></script>
     <script src="/__/firebase/8.6.1/firebase-performance.js"></script>
     <script src="/__/firebase/8.6.1/firebase-database.js"></script>
+    <script src="/__/firebase/8.6.1/firebase-analytics.js"></script> -->
 
 	<main id="main">
 
@@ -105,16 +101,17 @@
                             <div class="row mb-3" style="padding: 5% 0%;">
                                 <!-- <label for="inputEmail3" class="col-3 col-form-label" style="text-align: left;">Username</label> -->
                                 <div class="col">
-                                  <input type="email" class="form-control" placeholder="Username" id="inputEmail3">
+                                  <input type="email" class="form-control" placeholder="Username" id="inputEmail">
                                 </div>
                             </div>
                             <div class="row mb-3">
                                 <!-- <label for="inputPassword3" class="col-3 col-form-label" style="text-align: left;">Password</label> -->
                                 <div class="col">
-                                  <input type="password" class="form-control" placeholder="Password" id="inputPassword3">
+                                  <input type="password" class="form-control" placeholder="Password" id="inputPassword">
                                 </div>
                             </div>
-                            <button type="submit" class="btn" style="background-color: #7e7ca6; color: #fff;">Log in</button>
+                            <button type="submit" id="loginButton" class="btn" style="background-color: #7e7ca6; color: #fff;">Log in</button>
+                            <button type="submit" id="logoutButton" class="btn" style="background-color: #7e7ca6; color: #fff;">Log out</button>
                     </form>
                     </div>
 
@@ -270,7 +267,7 @@
 
             <h1>Introducing LiteStore</h1>
             <div style="padding:56.25% 0 0 0;position:relative;">
-                <iframe src="https://player.vimeo.com/video/546430078?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CC  version"></iframe>
+                <iframe src="https://player.vimeo.com/video/546430078?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CC  version"></iframe>
             </div>
             <script src="https://player.vimeo.com/api/player.js"></script>
 
@@ -561,12 +558,7 @@
     </footer><!-- End Footer -->
 
 	</main><!-- End #main -->
-       <script>
-        function showPage() {
-          document.getElementById("preloader").style.opacity = 0;
-          document.getElementById("wrapper").style.opacity = 1;
-        }</script>
-
+    
 		<div id="preloader"></div>
         
 		<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -580,8 +572,9 @@
 		<script src="assets/vendor/purecounter/purecounter.js"></script>
 		<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-		<!--  Main JS File -->
+		<!--  Main JS Files -->
 		<script src="assets/js/main.js"></script>
+		<script src="assets/js/app.js"></script>
 
 </body>
 
