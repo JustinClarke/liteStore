@@ -57,7 +57,7 @@ a {
 }
 
 a:hover {
-  color: #7e7ca6;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -354,7 +354,7 @@ td, th {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #fffaf4;
+  color: #fff;
   background-color: #7e7ca6;
 }
 
@@ -369,7 +369,7 @@ td, th {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fffaf4;
+  background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
@@ -483,7 +483,7 @@ td, th {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #7e7ca6;
+  color: #fff;
 }
 
 .navbar-mobile .getstarted {
