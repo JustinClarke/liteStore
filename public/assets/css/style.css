@@ -1281,6 +1281,9 @@ bg-color p{
   color: #343a40;
 }
 
+.faq .faq-list a {
+  color: #000;
+}
 .faq .faq-list a.collapsed:hover {
   color: #7e7ca6;
 }
