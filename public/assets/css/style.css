@@ -525,7 +525,7 @@ td, th {
 /*--------------------------------------------------------------
 # head Section
 --------------------------------------------------------------*/
-#headr {
+#head-d {
   width: 100%;
   height: calc(100vh - 0px);
   text-align: center;
@@ -534,7 +534,7 @@ td, th {
   background-size: cover;
 }
 
-#headr:before {
+#head-d:before {
   content: "";
   background: rgba(0, 0, 0, 0.747);
   position: absolute;
@@ -544,6 +544,24 @@ td, th {
   right: 0;
 }
 
+#head-c {
+  width: 100%;
+  height: calc(100vh - 0px);
+  text-align: center;
+  position: relative;
+  background: url("../img/stock/shutterstock_1933100564.jpg") top center;
+  background-size: cover;
+}
+
+#head-c:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.158);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 
 #head {
   width: 100%;
@@ -717,6 +735,27 @@ section {
   color: #1a1a1a;
 }
 
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+
+#community .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 14px 50px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: #7e7ca6;
+}
+
+#community .btn-get-started:hover {
+  background: #000;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
