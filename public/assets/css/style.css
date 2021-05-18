@@ -525,7 +525,37 @@ td, th {
 /*--------------------------------------------------------------
 # head Section
 --------------------------------------------------------------*/
-#headr {
+#head-c {
+  width: 100%;
+  height: calc(100vh - 0px);
+  text-align: center;
+  position: relative;
+  background: url("../img/stock/shutterstock_1933100564.jpg") top center;
+  background-size: cover;
+}
+
+#headc:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.747);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+#head-c h1{
+  font-size: 100px;
+}
+
+@media (max-width: 450px) {
+  #head-c h1{
+    font-size: 50px;
+  }
+}
+
+#head-d {
   width: 100%;
   height: calc(100vh - 0px);
   text-align: center;
@@ -534,7 +564,7 @@ td, th {
   background-size: cover;
 }
 
-#headr:before {
+#head-d:before {
   content: "";
   background: rgba(0, 0, 0, 0.747);
   position: absolute;
