@@ -15,7 +15,7 @@ const config = {
   const inputPassword = document.getElementById('inputPassword');
   const loginButton = document.getElementById('loginButton');
   const logoutButton = document.getElementById('logoutButton');
-  const logoutButton = document.getElementById('signupButton');
+  const signupButton = document.getElementById('signupButton');
   
   //add login event
   loginButton.addEventListener('click', e =>{
