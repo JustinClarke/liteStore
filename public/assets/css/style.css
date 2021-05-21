@@ -569,7 +569,7 @@ td, th {
   text-align: center;
   position: relative;
   background-color: #000;
-  background: url("../img/stock/racks.jpg") top center;
+  background: url("../img/stock/stand.jpg") top center;
   background-size: cover;
 }
 
@@ -579,7 +579,7 @@ td, th {
     height: calc(100vh - 0px);
     text-align: center;
     position: relative;
-    background: url("../img/stock/racks.jpg") top center;
+    background: url("../img/stock/stand.jpg") top center;
     background-size: cover;
   }
 }
