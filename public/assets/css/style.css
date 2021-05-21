@@ -42,6 +42,21 @@
   <div id="cloud-scroll"></div>
 </div> */
 
+/*--------------------------------------------------------------
+# Content Styles
+--------------------------------------------------------------*/
+.content-style{
+  padding: 7% 10% 0%; 
+  margin: 0% 6% 0%;
+}
+
+@media (max-width: 450px) {
+  .content-style{
+    padding: 20% 0%; 
+    margin: 0% 2%;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # General
@@ -548,7 +563,7 @@ td, th {
   height: calc(100vh - 0px);
   text-align: center;
   position: relative;
-  background: url("../img/stock/shutterstock_1933100564.jpg") top center;
+  background: url("../img/stock/com.jpg") top center;
   background-size: cover;
 }
 
@@ -561,6 +576,37 @@ td, th {
   left: 0;
   right: 0;
 }
+@media (max-width: 450px) {
+  #head-c {
+    width: 100%;
+    height: calc(100vh - 0px);
+    text-align: center;
+    position: relative;
+    background: url("../img/stock/com-m.png") top center;
+    background-size: cover;
+  }
+}
+#head-c h1{
+  color: #fff;
+  font-size: 100px;
+  padding-bottom: 0px;
+}
+@media (max-width: 450px) {
+  #head-c {
+    position: relative;
+    background-size: cover;
+    padding: 400px 0px 400px;
+  }
+  #head-c h1{
+    font-size: 70px;
+    padding-bottom: 0px;
+  }
+  #head-c h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
 
 #head {
   width: 100%;
@@ -569,7 +615,7 @@ td, th {
   text-align: center;
   position: relative;
   background-color: #000;
-  background: url("../img/stock/stand.jpg") top center;
+  background: url("../img/stock/stands.jpg") top center;
   background-size: cover;
 }
 
@@ -579,7 +625,7 @@ td, th {
     height: calc(100vh - 0px);
     text-align: center;
     position: relative;
-    background: url("../img/stock/stand.jpg") top center;
+    background: url("../img/stock/stands-m.png") top center;
     background-size: cover;
   }
 }
@@ -757,10 +803,6 @@ section {
 
 #community .btn-get-started:hover {
   background: #000;
-}
-
-#design{
-  /* background: url("../img/stock/colorr.png"); */
 }
 
 #design .btn-get-started {
