@@ -57,11 +57,18 @@
   }
 }
 
+/*--------------------------------------------------------------
+# Phone Button on NavBar
+--------------------------------------------------------------*/
+
 .phone-sty{
   font-family: montserrat; 
-  border: 2px solid #7e7ca6; 
-  border-radius: 6px;
+  border: 2px solid #000;
   padding: 8px 8px 8px 5px;
+}
+
+.phone-sty:hover{
+  border: 2px solid #7e7ca6;
 }
 
 /*--------------------------------------------------------------
@@ -366,7 +373,7 @@ td, th {
   color: #1f1f1f;
   white-space: nowrap;
   transition: 0.3s;
-  border-radius: 6px;
+  border-radius: 4px;
 }
 
 .navbar a i {
