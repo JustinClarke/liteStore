@@ -57,6 +57,13 @@
   }
 }
 
+.phone-sty{
+  font-family: montserrat; 
+  border: 2px solid #7e7ca6; 
+  border-radius: 6px;
+  padding: 8px 8px 8px 5px;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -359,6 +366,7 @@ td, th {
   color: #1f1f1f;
   white-space: nowrap;
   transition: 0.3s;
+  border-radius: 6px;
 }
 
 .navbar a i {
