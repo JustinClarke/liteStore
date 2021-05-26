@@ -5,114 +5,115 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>LiteStore | FAQs</title>
+  <title> LiteStore | Blog</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-        <link rel="icon" href="assets\img\favicon\light.webp" id="light-scheme-icon">
-        <link rel="icon" href="assets\img\favicon\dark.webp" id="dark-scheme-icon">
+  <link rel="icon" href="../assets/img/favicon/light.webp" id="light-scheme-icon">
+  <link rel="icon" href="../assets/img/favicon/dark.webp" id="dark-scheme-icon">
+
+  <!-- font-awesome -->
+  <script src="https://kit.fontawesome.com/3547ccc8ab.js" crossorigin="anonymous"></script>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <!-- <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <!-- <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"> -->
+  <!-- <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> -->
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <!-- <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
 
   <!-- Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
 
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  
-  <!-- API for Spreadsheets -->
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  <!-- https://apispreadsheets.com/upload
+  This is a Spreadsheet API That is linked to Google Sheets - "List a Space Sheet" -->
   <script
-            src="https://code.jquery.com/jquery-3.4.1.js"
-            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-            crossorigin="anonymous">
-        </script>
-        <script>
-            function SubForm (){
-                $.ajax({
-                    url:'https://api.apispreadsheets.com/data/12085/',
-                    type:'post',
-                    data:$("#myForm").serializeArray(),
-                    success: function(){
-                    alert("Form Data Submitted :)")
-                    },
-                    error: function(){
-                    alert("There was an error :(")
-                    }
-                });
-            }
-        </script>
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script>
+  function SubForm (){
+      $.ajax({
+          url:'https://api.apispreadsheets.com/data/12210/',
+          type:'post',
+          data:$("#ListForm").serializeArray(),
+          success: function(){
+            alert("Form Data Submitted :)")
+          },
+          error: function(){
+            alert("There was an error :(")
+          }
+      });
+  }
+  </script>
 </head>
 
 <body>
-  
   <main id="main">
 
     <!--  Header  -->
     <header id="header" class="fixed-top">
-        <div class="container d-flex align-items-center justify-content-between">
-  
-          <!-- <h1 class="logo"><a href="index.html" style="font-weight: 500;">LiteStore</a></h1> -->
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <a href="index.html" class="logo"><img src="assets/img/logo.webp" alt="" class="img-fluid"></a>
-  
-          <nav id="navbar" class="navbar">
-              <ul>
-                  <li><a class="nav-link scrollto" href="design.html" style="font-weight: bold; ">DesignHub</a></li>
-                  <li><a class="nav-link scrollto" href="find-a-space.html">Find a space</a></li>
-                  <li><a class="nav-link scrollto" href="list-your-space.html">List a space</a></li>
-                  <li class="dropdown"><a class="nav-link scrollto" href="#" style="background-color: #7e7ca6; color: #fff; "><span>FAQs</span> <i class="bi bi-chevron-down"></i></a>
-                  <ul>
-                      <!-- <li><a class="nav-link scrollto" href="faqs.html" style="font-weight: bold;">All</a></li> -->
-                      <li><a class="nav-link scrollto" href="faqs-general.html">General</a></li>
-                      <li class="dropdown"><a href="#"><span>For Landowners</span> <i class="bi bi-chevron-right"></i></a>
-                        <ul>
-                          <li><a class="nav-link scrollto" href="faqs-for-landowners.html#sec-1">General</a></li>
-                          <li><a class="nav-link scrollto" href="faqs-for-landowners.html#sec-2">How does it work</a></li>
-                          <li><a class="nav-link scrollto" href="faqs-for-landowners.html#sec-3">Legal Questions</a></li>
-                          <li><a class="nav-link scrollto" href="faqs-for-landowners.html#sec-4">Payments</a></li>
-                        </ul>
-                      </li>
-                      <li class="dropdown"><a href="#"><span>For Brands and Businesses</span> <i class="bi bi-chevron-right"></i></a>
-                        <ul>
-                          <li><a class="nav-link scrollto" href="faqs-for-brands.html#sec-5">How it works</a></li>
-                          <li><a class="nav-link scrollto" href="faqs-for-brands.html#sec-6">Booking a Space</a></li>
-                          <li><a class="nav-link scrollto" href="faqs-for-brands.html#sec-7">Legal Questions</a></li>
-                          <li><a class="nav-link scrollto" href="faqs-for-brands.html#sec-8">Payments and Pricing</a></li>
-                        </ul>
-                      </li>
-                      <li><a class="nav-link scrollto" href="faqs-litestore.html#services">LiteStore Services</a></li>
-                      <li><a class="nav-link scrollto" href="faqs-litestore.html#covid">Covid-19 Questions</a></li>
-                      <li><a class="nav-link scrollto" href="faqs-litestore.html#designers">For Designers</a></li>
-                        <!-- <ul>
-                          <li><a class="nav-link scrollto" href="#">General</a></li>
-                          <li><a class="nav-link scrollto" href="#">Payments</a></li>
-                        </ul>
-                      </li> -->
-                  </ul>
-                  <li class="dropdown"><a class="nav-link scrollto" href="#"><span>Account</span> <i class="bi bi-chevron-down"></i></a>
-                  <ul>
-                      <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#loginmod" href="#">Sign In</a></li>
-                      <li><a class="nav-link scrollto" href="signup.html">Sign Up</a></li>
-                  </ul>
-                 <li><a class="nav-link scrollto phone-sty" href="tel:+91-63-63294498" style="font-family: montserrat; border: 2px solid #7e7ca6; 
-                      padding: 8px 8px 8px 5px;"><i class="fas fa-phone-alt fa-4x" style="padding: 10px 10px 10px 0px;"></i>6363294498</a></li>
-              </ul>
-              <i class="bi bi-list mobile-nav-toggle"></i>
-          </nav><!-- .navbar -->
-  
-        </div>
+      <div class="container d-flex align-items-center justify-content-between">
+
+        <!-- <h1 class="logo"><a href="index.html" style="font-weight: 500;">LiteStore</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html" class="logo"><img src="../assets/img/logo.webp" alt="" class="img-fluid"></a>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link scrollto" href="design.html" style="font-weight: bold; ">DesignHub</a></li>
+                <li><a class="nav-link scrollto" href="find-a-space.html">Find a space</a></li>
+                <li><a class="nav-link scrollto" href="list-your-space.html">List a space</a></li>
+                <li class="dropdown"><a class="nav-link scrollto" href="#"><span>FAQs</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                    <!-- <li><a class="nav-link scrollto" href="../faqs/faqs.html" style="font-weight: bold;">All</a></li> -->
+                    <li><a class="nav-link scrollto" href="../faqs/faqs-general.html">General</a></li>
+                    <li class="dropdown"><a href="#"><span>For Landowners</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a class="nav-link scrollto" href="../faqs/faqs-for-landowners.html#sec-1">General</a></li>
+                        <li><a class="nav-link scrollto" href="../faqs/faqs-for-landowners.html#sec-2">How does it work</a></li>
+                        <li><a class="nav-link scrollto" href="../faqs/faqs-for-landowners.html#sec-3">Legal Questions</a></li>
+                        <li><a class="nav-link scrollto" href="../faqs/faqs-for-landowners.html#sec-4">Payments</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>For Brands and Businesses</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a class="nav-link scrollto" href="../faqs/faqs-for-brands.html#sec-5">How it works</a></li>
+                        <li><a class="nav-link scrollto" href="../faqs/faqs-for-brands.html#sec-6">Booking a Space</a></li>
+                        <li><a class="nav-link scrollto" href="../faqs/faqs-for-brands.html#sec-7">Legal Questions</a></li>
+                        <li><a class="nav-link scrollto" href="../faqs/faqs-for-brands.html#sec-8">Payments and Pricing</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="../faqs/faqs-litestore.html#services">LiteStore Services</a></li>
+                    <li><a class="nav-link scrollto" href="../faqs/faqs-litestore.html#covid">Covid-19 Questions</a></li>
+                    <li><a class="nav-link scrollto" href="../faqs/faqs-litestore.html#designers">For Designers</a></li>
+                      <!-- <ul>
+                        <li><a class="nav-link scrollto" href="#">General</a></li>
+                        <li><a class="nav-link scrollto" href="#">Payments</a></li>
+                      </ul>
+                    </li> -->
+                </ul>
+                <li class="dropdown"><a class="nav-link scrollto" href="#"><span>Account</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                    <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#loginmod" href="#">Sign In</a></li>
+                    <li><a class="nav-link scrollto" href="signup.html">Sign Up</a></li>
+                </ul>
+               <li><a class="nav-link scrollto phone-sty" href="tel:+91-63-63294498" ><i class="fas fa-phone-alt fa-4x" style="padding: 10px 10px 10px 0px;"></i>6363294498</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+      </div>
     </header><!-- End Header -->
 
     <!-- Log in Modal -->
@@ -154,7 +155,66 @@
             </div>
         </div>
     </div>
-    
+
+    <!-- ======= Heading ======= -->
+    <section class="head-section" style="padding: 110px 0px 30px; background-color: #cdcbe76c;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-8" style="color: #444;">
+              <h1 class="title-single">Blogs</h1>
+            </div>
+          <div class="col-md-12 col-lg-4">
+            <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="#">Home</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Blogs
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Heading-->
+
+    <div class="card" style="margin: 5% 20%;">
+      <div class="card-header">
+        Blog
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-8">
+          <h5 class="card-title">The Future of Retail: More Than Just Space  - I</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="blog-future-of-retail-1.html" class="btn">Click here</a>
+          </div>
+          <div class="col-4">
+            <img src="../assets/img/blog/title.webp" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin: 5% 20%;">
+      <div class="card-header">
+        Blog
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-8">
+          <h5 class="card-title">The Future of Retail: More Than Just Space  - II</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="blog-future-of-retail-2.html" class="btn btn-primary">Click here</a>
+          </div>
+          <div class="col-4">
+            <img src="../assets/img/blog/blog-2.2.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!--  Contact Section  -->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
@@ -237,7 +297,7 @@
                   </div>
               </form>
           </div>
-      </section><!-- End Contact Section -->
+    </section><!-- End Contact Section -->
 
     <!--  Footer  -->
     <footer id="footer">
@@ -271,14 +331,14 @@
                         <ul>
                             <li></i> <a href="company.html">Company</a></li>
                             <li></i> <a href="careers.html">Careers</a></li>
-                            <li></i> <a href="faqs-general.html">FAQs</a></li>
+                            <li></i> <a href="../faqs/faqs.html">FAQs</a></li>
                         </ul>
                     </div>
 
                     <div class="col-lg-2 col-md-6 footer-links">
                         <h4>Discover</h4>
                         <ul>
-                            <li></i> <a href="blog-future-of-retail.html">Blog</a></li>
+                              <li></i> <a href="blog-future-of-retail-1.html">Blog</a></li>
                             <li></i> <a href="#">Sucess Stories</a></li>
                             <li></i> <a href="#">Events</a></li>
                         </ul>
@@ -303,23 +363,23 @@
     </footer><!-- End Footer -->
 
   </main><!-- End #main -->
+  
+    <div id="preloader"></div>
 
-  <div id="preloader"></div>
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <!-- <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> -->
-  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
-  <!-- <script src="assets/vendor/purecounter/purecounter.js"></script> -->
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!--  Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    
+    <!-- Vendor JS Files -->
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <!-- <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <!-- <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> -->
+    <script src="../assets/vendor/php-email-form/validate.js"></script>
+    <!-- <script src="../assets/vendor/purecounter/purecounter.js"></script> -->
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  
+    <!--  Main JS File -->
+    <script src="../assets/js/main.js"></script>
+  
+  </body>
+  
+  </html>
