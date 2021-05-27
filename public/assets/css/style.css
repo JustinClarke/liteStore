@@ -42,6 +42,37 @@
   <div id="cloud-scroll"></div>
 </div> */
 
+.news-single{
+  text-align: justify;
+}
+
+.news-single a{
+  font-weight: 600; 
+}
+
+.news-single::after{
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+#blog-list h5{
+  padding: 5px;
+}
+
+#blog-list{
+  margin: 0% 20%;
+}
+
+ @media (max-width: 450px) {
+   #blog-list{
+    margin: 5% 5%;
+    }
+ }
+
+.card{
+  margin-top: 20px;
+}
 
 .card a {
   background: #7e7ca6;
