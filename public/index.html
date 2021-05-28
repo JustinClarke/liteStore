@@ -8,11 +8,10 @@
     <title>LiteStore | Home</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
-    <meta property="og:image" content="https://litestore.in/assets/img/og-image.jpg"/>
 
     <!-- Favicons -->
-    <link rel="icon" href="assets/img/favicon/light.webp" id="light-scheme-icon">
-    <link rel="icon" href="assets/img/favicon/dark.webp" id="dark-scheme-icon">
+    <link rel="icon" href="assets\img\favicon\light.webp" id="light-scheme-icon">
+    <link rel="icon" href="assets\img\favicon\dark.webp" id="dark-scheme-icon">
 
     <!-- font-awesome -->
     <script src="https://kit.fontawesome.com/3547ccc8ab.js" crossorigin="anonymous"></script>
@@ -26,15 +25,12 @@
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">-->
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> 
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
     <script
         src="https://code.jquery.com/jquery-3.4.1.js"
@@ -58,20 +54,20 @@
     </script>
 
     <!-- Firebase -->
-    <!-- <script src="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.js"></script> -->
-    <!-- <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.css" /> -->
+    <script src="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.css" />
 
 </head>
 
 <body>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <!-- <script src="/__/firebase/8.6.1/firebase-app.js"></script> -->
+    <script src="/__/firebase/8.6.1/firebase-app.js"></script>
 
     <!-- Initialize Firebase -->
-    <!-- <script src="/__/firebase/init.js"></script> -->
+    <script src="/__/firebase/init.js"></script>
 
     <!-- Add Firebase products that you want to use -->
-    <!-- <script src="/__/firebase/8.6.1/firebase-auth.js"></script> -->
+    <script src="/__/firebase/8.6.1/firebase-auth.js"></script>
 
     <!-- <script src="/__/firebase/8.6.1/firebase-firestore.js"></script>
     <script src="/__/firebase/8.6.1/firebase-firestore.js"></script>
@@ -82,7 +78,7 @@
     <script src="/__/firebase/8.6.1/firebase-database.js"></script>
     <script src="/__/firebase/8.6.1/firebase-analytics.js"></script> -->
 
-    <main id="main">
+	<main id="main">
 
     <!-- Log in Modal -->
     <div class="modal fade" id="loginmod" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -95,24 +91,23 @@
                 <div class="modal-body">
                     <div id=""style="margin: 0% 20%">
                             <div class="container">
-                            <h1 style="padding-bottom: 5px;">Log In</h1>
+                              <h1 style="padding-bottom: 5px;">Log In</h1>
                             </div>
                             <form>
                             <div class="row mb-3" style="padding: 5% 0%;">
                                 <!-- <label for="inputEmail3" class="col-3 col-form-label" style="text-align: left;">Username</label> -->
                                 <div class="col">
-                                <input type="email" class="form-control" placeholder="Username" id="inputEmail">
+                                  <input type="email" class="form-control" placeholder="Username" id="inputEmail">
                                 </div>
                             </div>
                             <div class="row mb-3">
                                 <!-- <label for="inputPassword3" class="col-3 col-form-label" style="text-align: left;">Password</label> -->
                                 <div class="col">
-                                <input type="password" class="form-control" placeholder="Password" id="inputPassword">
+                                  <input type="password" class="form-control" placeholder="Password" id="inputPassword">
                                 </div>
                             </div>
                             <button type="submit" id="loginButton" class="btn" style="background-color: #7e7ca6; color: #fff;">Log in</button>
                             <button type="submit" id="logoutButton" class="btn" style="background-color: #7e7ca6; color: #fff;">Log out</button>
-                            <button type="submit" id="signupButton" class="btn" style="background-color: #7e7ca6; color: #fff;">Sign Up</button>
                     </form>
                     </div>
 
@@ -124,14 +119,14 @@
             </div>
         </div>
     </div>
-
+      
     <!--  Header  -->
     <header id="header" class="fixed-top">
-        <div class="container d-flex align-items-center justify-content-between">
+      <div class="container d-flex align-items-center justify-content-between">
 
         <!-- <h1 class="logo"><a href="index.html" style="font-weight: 500;">LiteStore</a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="" class="logo"><img src="assets/img/logo.webp" alt="" class="img-fluid"></a>
+        <a href="index.html" class="logo"><img src="assets/img/logo.webp" alt="" class="img-fluid"></a>
 
         <nav id="navbar" class="navbar">
             <ul>
@@ -140,44 +135,46 @@
                 <li><a class="nav-link scrollto" href="list-your-space.html">List a space</a></li>
                 <li class="dropdown"><a class="nav-link scrollto" href="#"><span>FAQs</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
-                    <!-- <li><a class="nav-link scrollto" href="faqs/faqs.html" style="font-weight: bold;">All</a></li> -->
-                    <li><a class="nav-link scrollto" href="faqs/faqs.html">General</a></li>
+                    <li><a class="nav-link scrollto" href="faqs.html" style="font-weight: bold;">All</a></li>
+                    <li><a class="nav-link scrollto" href="faqs-general.html">General</a></li>
                     <li class="dropdown"><a href="#"><span>For Landowners</span> <i class="bi bi-chevron-right"></i></a>
-                        <ul>
-                        <li><a class="nav-link scrollto" href="faqs/faqs-for-landowners.html#sec-1">General</a></li>
-                        <li><a class="nav-link scrollto" href="faqs/faqs-for-landowners.html#sec-2">How does it work</a></li>
-                        <li><a class="nav-link scrollto" href="faqs/faqs-for-landowners.html#sec-3">Legal Questions</a></li>
-                        <li><a class="nav-link scrollto" href="faqs/faqs-for-landowners.html#sec-4">Payments</a></li>
-                        </ul>
+                      <ul>
+                        <li><a class="nav-link scrollto" href="faqs-for-landowners.html#sec-1">General</a></li>
+                        <li><a class="nav-link scrollto" href="faqs-for-landowners.html#sec-2">How does it work</a></li>
+                        <li><a class="nav-link scrollto" href="faqs-for-landowners.html#sec-3">Legal Questions</a></li>
+                        <li><a class="nav-link scrollto" href="faqs-for-landowners.html#sec-4">Payments</a></li>
+                      </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>For Brands and Businesses</span> <i class="bi bi-chevron-right"></i></a>
-                        <ul>
-                        <li><a class="nav-link scrollto" href="faqs/faqs-for-brands.html#sec-5">How it works</a></li>
-                        <li><a class="nav-link scrollto" href="faqs/faqs-for-brands.html#sec-6">Booking a Space</a></li>
-                        <li><a class="nav-link scrollto" href="faqs/faqs-for-brands.html#sec-7">Legal Questions</a></li>
-                        <li><a class="nav-link scrollto" href="faqs/faqs-for-brands.html#sec-8">Payments and Pricing</a></li>
-                        </ul>
+                      <ul>
+                        <li><a class="nav-link scrollto" href="#">General</a></li>
+                        <li><a class="nav-link scrollto" href="#">How does it work</a></li>
+                        <li><a class="nav-link scrollto" href="#">Booking a Space</a></li>
+                        <li><a class="nav-link scrollto" href="#">Legal Questions</a></li>
+                        <li><a class="nav-link scrollto" href="#">Payments and Pricing</a></li>
+                      </ul>
                     </li>
-                    <li><a class="nav-link scrollto" href="faqs/faqs-litestore.html#services">LiteStore Services</a></li>
-                    <li><a class="nav-link scrollto" href="faqs/faqs-litestore.html#covid">Covid-19 Questions</a></li>
-                    <li><a class="nav-link scrollto" href="faqs/faqs-litestore.html#designers">For Designers</a></li>
-                        <!-- <ul>
+                    <li><a class="nav-link scrollto" href="#">LiteStore Services</a></li>
+                    <li><a class="nav-link scrollto" href="#">Covid-19 Questions</a></li>
+                    <li class="dropdown"><a href="#"><span>For Designers</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
                         <li><a class="nav-link scrollto" href="#">General</a></li>
                         <li><a class="nav-link scrollto" href="#">Payments</a></li>
-                        </ul>
-                    </li> -->
+                      </ul>
+                    </li>
                 </ul>
                 <li class="dropdown"><a class="nav-link scrollto" href="#"><span>Account</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                     <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#loginmod" href="#">Sign In</a></li>
                     <li><a class="nav-link scrollto" href="signup.html">Sign Up</a></li>
                 </ul>
-                <li><a class="nav-link scrollto phone-sty" href="tel:+91-63-63294498"><i class="fas fa-phone-alt fa-4x" style="padding: 10px 10px 10px 0px;"></i>6363294498</a></li>
+                <li><a class="nav-link scrollto" href="tel:+91-63-63294498" style="font-family: montserrat; border: 2px solid #7e7ca6; 
+                    padding: 8px 8px 8px 5px;"><i class="fas fa-phone-alt fa-4x" style="padding: 10px 10px 10px 0px;"></i>6363294498</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
 
-        </div>
+      </div>
     </header><!-- End Header -->
 
     <!--  Head Section  -->
@@ -185,7 +182,7 @@
         <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
             <h1>LiteStore</h1>
             <h2 class="display-4" style="color: aliceblue;"><strong>Rent your own retail space, instantly
-            <br>1 day | 1 week | 1 month</br></strong></h2>
+              <br>1 day | 1 week | 1 month</br></strong></h2>
             <a href="find-a-space.html" class="btn-get-started scrollto">Get Started</a>
         </div>
     </section><!-- End head -->
@@ -240,21 +237,21 @@
 
         </div>
     </section>
-    
+     
 <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body scrolling</button>
     
     <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-    <div class="offcanvas-header">
+      <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Colored with scrolling</h5>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
+      </div>
+      <div class="offcanvas-body">
         <p>Try scrolling the rest of the page to see this option in action.</p>
-    </div>
+      </div>
     </div> -->
 
     <!--  Video Section  -->
-    <section id="video" class="about">
+    <section id="video" class="about section-bg">
         <div class="container">
 
             <h1>Introducing LiteStore</h1>
@@ -270,9 +267,8 @@
     <section id="community">
         <div class="container">
             <div class="section-title" style="text-align: center;">
-                <!-- <img src="assets/img/stock/colorrr.webp" style="width: 300px;"> -->
-                <h2 style="color: #000;">LiteStore Community</h2>
-                <h3 style="color: #000;">Driving growth for small businesses and entrepreneurs</h3>
+                <h2>LiteStore Community</h2>
+                <h3>Driving growth for small businesses and entrepreneurs</h3>
                 <a href="community.html" class="btn-get-started scrollto">Get Started</a>
             </div>
         </div>
@@ -365,17 +361,6 @@
         </div>
     </section><!-- End Sevices Section -->
 
-    <!-- Design Section -->
-    <!-- <section id="design" style="background-color: #19171a;">
-        <div class="container">
-            <div class="section-title" style="text-align: center;">
-                <h2 style="color: #fff;">LiteStore Design Hub</h2>
-                <h3 style="color: #fff;">Driving growth for small businesses and entrepreneurs</h3>
-                <a href="community.html" class="btn-get-started scrollto">Get Started</a>
-            </div>
-        </div>
-    </section> -->
-
     <!-- Carousel Section -->
     <div id="carousel">
         <div class="container" style="text-align: center;">
@@ -383,7 +368,7 @@
             <p>Situated in the heart of Bangalore, Litestore-Indiranagar offers the perfect blend of a
                 commercial location without the traffic and noise of bustling roads</p>
         </div>
-        <div id="carouselExampleCaptions" class="carousel slide car-padding about" style="background-color: #c0c0c0;" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel carousel-light slide car-padding about" style="background-color: #c0c0c0;" data-bs-ride="carousel">
 
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -391,12 +376,12 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/img/post-single-2.webp" class="d-block w-100" alt="...">
+                    <img src="assets/img/post-single-2.jpeg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/img/post-single-1.webp" class="d-block w-100" alt="...">
+                    <img src="assets/img/post-single-1.jpeg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
@@ -413,13 +398,15 @@
     </div><!-- End of Carousel Section -->
 
     <!--  Clients Section  -->
-    <section id="clients" class="clients" style="background-color: #fff;">
+    <section id="clients" class="clients" style="background-color: rgb(255, 255, 255);">
         <div class="container">
-            <h2>Trusted by</h2>
-            <img src="assets/img/clients/Picture1.webp" class="img-fluid" style="width: 18%;" alt="">
-            <img src="assets/img/clients/Picture2.webp" class="img-fluid" style="width: 28%;" alt="">
-            <img src="assets/img/clients/Picture3.webp" class="img-fluid" style="width: 23%;" alt="">
-            <img src="assets/img/clients/Picture4.webp" class="img-fluid" style="width: 23%;" alt="">
+                    <h2>Trusted by</h2>
+                    <img src="assets/img/clients/Picture1.webp" class="img-fluid" style="width: 18%;" alt="">
+                    <img src="assets/img/clients/Picture2.webp" class="img-fluid" style="width: 28%;" alt="">
+                    <img src="assets/img/clients/Picture3.webp" class="img-fluid" style="width: 23%;" alt="">
+                    <img src="assets/img/clients/Picture4.webp" class="img-fluid" style="width: 23%;" alt="">
+            </div>
+
         </div>
     </section><!-- End Clients Section -->
 
@@ -437,7 +424,6 @@
             </div>
 
             <!-- <div class="row mt-5">
-
                 <div class="col-lg-4">
                     <div class="info">
                         <div class="address">
@@ -445,21 +431,17 @@
                             <h4>Location:</h4>
                             <p>#58, Domlur Layout, Bangalore-71</p>
                         </div>
-
                         <div class="email">
                             <i class="bi bi-envelope"></i>
                             <h4>Email:</h4>
                             <p>support@litestore.in</p>
                         </div>
-
                         <div class="phone">
                             <i class="bi bi-phone"></i>
                             <h4>Call:</h4>
                             <p>+91 6363294498</p>
                         </div>
-
                     </div>
-
                 </div> -->
 
                 <div class="col mt-5 mt-lg-0" style="margin: 0% 10%;">
@@ -498,14 +480,13 @@
                         <div class="col d-flex align-items-center justify-content-center" data-aos="zoom-in">
                             <div class="text-center" style="padding-bottom: 10px;"><button type="submit">Schedule a call</button></div>
                         </div>
-
                         <div class="col d-flex align-items-center justify-content-center" data-aos="zoom-in">
                             <div class="text-center" style="padding-bottom: 10px;"><button type="submit">Schedule a visit</button></div>
                         </div> -->
                     </div>
                 </form>
             </div>
-    </section><!-- End Contact Section -->
+        </section><!-- End Contact Section -->
 
     <!--  Footer  -->
     <footer id="footer">
@@ -539,14 +520,14 @@
                         <ul>
                             <li></i> <a href="company.html">Company</a></li>
                             <li></i> <a href="careers.html">Careers</a></li>
-                            <li></i> <a href="faqs/faqs-general.html">FAQs</a></li>
+                            <li></i> <a href="faqs.html">FAQs</a></li>
                         </ul>
                     </div>
 
                     <div class="col-lg-2 col-md-6 footer-links">
                         <h4>Discover</h4>
                         <ul>
-                            <li></i> <a href="blogs/list.html">Blog</a></li>
+                            <li></i> <a href="#">Blog</a></li>
                             <li></i> <a href="#">Sucess Stories</a></li>
                             <li></i> <a href="#">Events</a></li>
                         </ul>
@@ -570,25 +551,24 @@
         </div>
     </footer><!-- End Footer -->
 
-    </main><!-- End #main -->
+	</main><!-- End #main -->
     
-    <div id="preloader"></div>
+		<div id="preloader"></div>
+        
+		<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+		<!-- Vendor JS Files -->
+		<script src="assets/vendor/aos/aos.js"></script>
+		<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+		<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+		<script src="assets/vendor/php-email-form/validate.js"></script>
+		<script src="assets/vendor/purecounter/purecounter.js"></script>
+		<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/aos/aos.js"></script>
-    <!-- <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <!-- <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> -->
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <!-- <script src="assets/vendor/purecounter/purecounter.js"></script> -->
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-    <!--  Main JS Files -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/app.js"></script>
-    <script src="assets/js/favicon.js"></script>
+		<!--  Main JS Files -->
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/app.js"></script>
 
 </body>
 
