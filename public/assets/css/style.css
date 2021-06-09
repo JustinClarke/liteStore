@@ -599,6 +599,25 @@ td, th {
 /*--------------------------------------------------------------
 # head Section
 --------------------------------------------------------------*/
+#services_fas {
+  width: 100%;
+  height: calc(100vh - 0px);
+  text-align: center;
+  position: relative;  
+  background: url("../img/stock/com.webp") top center;
+  background-size: cover;
+}
+
+#services_fas:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.274);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 #head-d {
   width: 100%;
   height: calc(100vh - 0px);
@@ -623,7 +642,6 @@ td, th {
   height: calc(100vh - 0px);
   text-align: center;
   position: relative;
-  background: url("../img/stock/com.webp") top center;
   background-size: cover;
 }
 
@@ -841,6 +859,10 @@ section {
   color: #1a1a1a;
 }
 
+.tab-content h3{
+  padding: 2%;
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -864,6 +886,25 @@ section {
 
 #community .btn-get-started:hover {
   background: #000;
+}
+
+#services_fass .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 14px 50px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: #7e7ca6;
+}
+
+#services_fass .btn-get-started:hover {
+  background: #fff;
+  color: #000;
 }
 
 #design .btn-get-started {
