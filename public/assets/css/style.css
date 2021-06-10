@@ -599,25 +599,6 @@ td, th {
 /*--------------------------------------------------------------
 # head Section
 --------------------------------------------------------------*/
-#services_fas {
-  width: 100%;
-  height: calc(100vh - 0px);
-  text-align: center;
-  position: relative;  
-  background: url("../img/stock/com.webp") top center;
-  background-size: cover;
-}
-
-#services_fas:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.274);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
 #head-d {
   width: 100%;
   height: calc(100vh - 0px);
@@ -982,6 +963,31 @@ section {
   text-decoration: none;
 }
 
+/*--------------------------------------------------------------
+# Services-page
+--------------------------------------------------------------*/
+#tabs a:hover{
+  color: #000000;
+}
+#services_fas {
+  width: 100%;
+  height: calc(100vh - 0px);
+  text-align: center;
+  position: relative;  
+  background: url("../img/stock/com.webp") top center;
+  background-size: cover;
+  color: #fff;
+}
+
+#services_fas:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.274);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 /*--------------------------------------------------------------
 # Video
 --------------------------------------------------------------*/
