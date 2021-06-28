@@ -17,16 +17,20 @@
     <meta property="og:description" content="Booking retail space can’t get any easier LiteStore is an online platform for listing and booking commercial retail spaces which can be rented on an ultra short term basis." />
     <meta property="og:image" content="https://litestore.in/assets/img/og-image.jpg"/>
     
-    <title>Dashboard</title>
-    
+    <title>Landlord Dashboard</title>
+
     <!-- Favicons -->
     <link rel="icon" href="../../assets/img/favicon/light.webp" id="light-scheme-icon">
     <link rel="icon" href="../../assets/img/favicon/dark.webp" id="dark-scheme-icon">
     <link rel="apple-touch-icon" href="../../assets/img/favicon/dark.webp">
+
+    <!-- Custom CSS -->
+    <link href="../assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
+    <link href="../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="../dist/css/style.min.css" rel="stylesheet">
     <!-- Custom Javascript -->
-    <script src="assets/js/favicon.js"></script>
+    <script src="../assets/js/favicon.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -75,7 +79,7 @@
                     <!-- ============================================================== -->
                     <!-- This is for the sidebar toggle which is visible on mobile only -->
                     <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i
-                            class="ti-menu ti-close"></i></a>
+                            class="mdi mdi-menu"></i></a>
                 </div>
                 <!-- ============================================================== -->
                 <!-- End Logo -->
@@ -106,7 +110,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <!-- <img src="../assets/images/users/profile.png" alt="user" class="rounded-circle" width="31"> -->
-                                Puneet 
+                                Rohit Verma 
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end user-dd animated" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="javascript:void(0)"><i class="ti-user m-r-5 m-l-5"></i>
@@ -138,7 +142,7 @@
                     <ul id="sidebarnav">
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                                 href="index.html" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span
-                                    class="hide-menu">Dashboard</span></a></li>
+                                    class="hide-menu">Landlord Dashboard</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                                 href="profile.html" aria-expanded="false"><i
                                     class="mdi mdi-account-network"></i><span class="hide-menu">Profile</span></a></li>
@@ -149,7 +153,7 @@
                                 href="interested-customers.html" aria-expanded="false"><i class="mdi mdi-hand-pointing-right"></i><span
                                     class="hide-menu">Intrested Customers</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="calendar/index.html" aria-expanded="false"><i class="mdi mdi-calendar-text"></i><span
+                                href="calendar/calendar.html" aria-expanded="false"><i class="mdi mdi-calendar-text"></i><span
                                     class="hide-menu">Calendar</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                                 href="payments.html" aria-expanded="false"><i class="mdi mdi-cash"></i><span
@@ -176,10 +180,10 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb mb-0 d-flex align-items-center">
                               <li class="breadcrumb-item"><a href="index.html" class="link"><i class="mdi mdi-home-outline fs-4"></i></a></li>
-                              <li class="breadcrumb-item active" aria-current="page">Starter Page</li>
+                              <li class="breadcrumb-item active" aria-current="page">Payments</li>
                             </ol>
                           </nav>
-                        <h1 class="mb-0 fw-bold">Starter Page</h1> 
+                        <h1 class="mb-0 fw-bold">Payments</h1> 
                     </div>
                 </div>
             </div>
@@ -191,26 +195,97 @@
             <!-- ============================================================== -->
             <div class="container-fluid">
                 <!-- ============================================================== -->
-                <!-- Start Page Content -->
+                <!-- Sales chart -->
                 <!-- ============================================================== -->
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
-                                This is some text within a card block.
+                                <div class="d-md-flex align-items-center">
+                                    <div>
+                                        <h4 class="card-title">Payments Summary</h4>
+                                        <!-- <h6 class="card-subtitle">Ample admin Vs Pixel admin</h6> -->
+                                    </div>
+                                    <div class="ms-auto d-flex no-block align-items-center">
+                                        <ul class="list-inline dl d-flex align-items-center m-r-15 m-b-0">
+                                            <li class="list-inline-item d-flex align-items-center text-info"><i class="fa fa-circle font-10 me-1"></i> Retail
+                                            </li>
+                                            <li class="list-inline-item d-flex align-items-center text-primary"><i class="fa fa-circle font-10 me-1"></i> F&B
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="amp-pxl mt-4" style="height: 350px;">
+                                    <div class="chartist-tooltip"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Pending Payments</h4>
+                                <h6 class="card-subtitle">Recent</h6>
+                                <div class="mt-5 pb-3 d-flex align-items-center">
+                                    <span class="btn btn-primary btn-circle d-flex align-items-center">
+                                        <!-- <i class="mdi mdi-cart-outline fs-4" ></i> -->
+                                    </span>
+                                    <div class="ms-3">
+                                        <h5 class="mb-0 fw-bold">DropVaults</h5>
+                                        <span class="text-muted fs-6"></span>
+                                    </div>
+                                    <div class="ms-auto">
+                                        <span class="badge bg-light text-muted">-₹6000</span>
+                                    </div>
+                                </div>
+                                <div class="py-3 d-flex align-items-center">
+                                    <span class="btn btn-warning btn-circle d-flex align-items-center">
+                                        <!-- <i class="mdi mdi-star-circle fs-4" ></i> -->
+                                    </span>
+                                    <div class="ms-3">
+                                        <span class="text-muted fs-6">Nuage</span>
+                                    </div>
+                                    <div class="ms-auto">
+                                        <span class="badge bg-light text-muted">-₹4000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Recent Payments</h4>
+                                <h6 class="card-subtitle">Completed</h6>
+                                <div class="py-3 d-flex align-items-center">
+                                    <span class="btn btn-success btn-circle d-flex align-items-center">
+                                        <!-- <i class="mdi mdi-comment-multiple-outline text-white fs-4" ></i> -->
+                                    </span>
+                                    <div class="ms-3">
+                                        <span class="text-muted fs-6">Spring Diaries</span>
+                                    </div>
+                                    <div class="ms-auto">
+                                        <span class="badge bg-light text-muted">+₹8000</span>
+                                    </div>
+                                </div>
+                                <div class="py-3 d-flex align-items-center">
+                                    <span class="btn btn-info btn-circle d-flex align-items-center">
+                                        <!-- <i class="mdi mdi-diamond fs-4 text-white" ></i> -->
+                                    </span>
+                                    <div class="ms-3">
+                                        <span class="text-muted fs-6">Brahamaputra</span>
+                                    </div>
+                                    <div class="ms-auto">
+                                        <span class="badge bg-light text-muted">+₹5000</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- ============================================================== -->
-                <!-- End PAge Content -->
-                <!-- ============================================================== -->
-                <!-- ============================================================== -->
-                <!-- Right sidebar -->
-                <!-- ============================================================== -->
-                <!-- .right-sidebar -->
-                <!-- ============================================================== -->
-                <!-- End Right sidebar -->
+                <!-- Sales chart -->
                 <!-- ============================================================== -->
             </div>
             <!-- ============================================================== -->
@@ -245,6 +320,11 @@
     <script src="../dist/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
     <script src="../dist/js/custom.js"></script>
+    <!--This page JavaScript -->
+    <!--chartis chart-->
+    <script src="../assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="../dist/js/pages/dashboards/dashboard1.js"></script>
 </body>
 
 </html>

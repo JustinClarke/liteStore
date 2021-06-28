@@ -225,6 +225,11 @@ td, th {
 
 /* property single */
 
+.prop-desc{
+  padding: inherit; 
+  margin: 0% 15%;
+}
+
 .feature-boxs {
   padding: 0%;
 }
@@ -253,6 +258,10 @@ td, th {
     padding-bottom: 0px;
     margin-bottom: 1rem;
     color: #7e7ca6;
+  }
+  .prop-desc{
+    padding: inherit; 
+    margin: 0% 5%;
   }
 }
 
