@@ -2414,7 +2414,7 @@ bg-color p{
 .about-video .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#7e7ca6 50%, #7e7ca6 52%);
+  background: radial-gradient(#7e7ca6 50%, #4e4c6e44 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -2455,14 +2455,14 @@ bg-color p{
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid #7e7ca6;
+  border: 5px solid #4e4c6e44;
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 
 .about-video .play-btn:hover::after {
-  border-left: 15px solid #a09ed3;
+  border-left: 15px solid #7e7ca6;
   transform: scale(20);
 }
 
