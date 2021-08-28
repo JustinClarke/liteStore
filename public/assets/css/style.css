@@ -700,7 +700,7 @@ td, th {
 
 #head:before {
   content: "";
-  background: rgba(17, 17, 17, 0.356);
+  background: rgba(0, 0, 0, 0.123);
   position: absolute;
   bottom: 0;
   top: 0;
