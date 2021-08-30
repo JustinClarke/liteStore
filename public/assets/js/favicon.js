@@ -1,30 +1,31 @@
 'use strict';
 
 function setupIcons() {
-  const lightSchemeIcon = document.querySelector('link#light-scheme-icon');
-  const darkSchemeIcon = document.querySelector('link#dark-scheme-icon');
-  
-  function setLight() {
-    document.head.append(lightSchemeIcon);
-    darkSchemeIcon.remove();
-  }
+    const lightSchemeIcon = document.querySelector('link#light-scheme-icon');
+    const darkSchemeIcon = document.querySelector('link#dark-scheme-icon');
 
-  function setDark() {
-    lightSchemeIcon.remove();
-    document.head.append(darkSchemeIcon);
-  }
-
-
-  const matcher = window.matchMedia('(prefers-color-scheme:dark)');
-  function onUpdate() {
-    if (matcher.matches) {
-      setDark();
-    } else {
-      setLight();
+    function setLight() {
+        document.head.append(lightSchemeIcon);
+        darkSchemeIcon.remove();
     }
-  }
-  matcher.addListener(onUpdate);
-  onUpdate();
+
+    function setDark() {
+        lightSchemeIcon.remove();
+        document.head.append(darkSchemeIcon);
+    }
+
+
+    const matcher = window.matchMedia('(prefers-color-scheme:dark)');
+
+    function onUpdate() {
+        if (matcher.matches) {
+            setDark();
+        } else {
+            setLight();
+        }
+    }
+    matcher.addListener(onUpdate);
+    onUpdate();
 }
 
 setupIcons();

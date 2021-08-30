@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -17,7 +17,7 @@
     <!-- <meta property="og:url" content="https://litestore.in/blogs/list.html" /> -->
     <meta property="og:title" content="The Future of Retail: More Than Just Space - I" />
     <meta property="og:description" content="Booking retail space can’t get any easier LiteStore is an online platform for listing and booking commercial retail spaces which can be rented on an ultra short term basis." />
-    <meta name="image" property="og:image" content="https://litestore.in/assets/img/blog/cheetos.jpg"/>
+    <meta name="image" property="og:image" content="https://litestore.in/assets/img/blog/cheetos.jpg" />
 
     <!-- Favicons -->
     <link rel="icon" href="../assets/img/favicon/light.webp" id="light-scheme-icon">
@@ -46,86 +46,85 @@
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    
+
     <!-- API for Spreadsheets -->
-    <script
-        src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
     </script>
     <script>
-        function SubForm (){
+        function SubForm() {
             $.ajax({
-                url:'https://api.apispreadsheets.com/data/12085/',
-                type:'post',
-                data:$("#myForm").serializeArray(),
-                success: function(){
-                alert("Form Data Submitted :)")
+                url: 'https://api.apispreadsheets.com/data/12085/',
+                type: 'post',
+                data: $("#myForm").serializeArray(),
+                success: function() {
+                    alert("Form Data Submitted :)")
                 },
-                error: function(){
-                alert("There was an error :(")
+                error: function() {
+                    alert("There was an error :(")
                 }
             });
         }
     </script>
-  </head>
+</head>
 
-  <body>
-    
+<body>
+
     <!--  Header  -->
     <header id="header" class="fixed-top">
-      <div class="container d-flex align-items-center justify-content-between">
+        <div class="container d-flex align-items-center justify-content-between">
 
-        <!-- <h1 class="logo"><a href="index.html" style="font-weight: 500;">LiteStore</a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="../index.html" class="logo"><img src="../assets/img/logo.webp" alt="" class="img-fluid"></a>
+            <!-- <h1 class="logo"><a href="index.html" style="font-weight: 500;">LiteStore</a></h1> -->
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <a href="../index.html" class="logo"><img src="../assets/img/logo.webp" alt="" class="img-fluid"></a>
 
-        <nav id="navbar" class="navbar">
-            <ul>
-              <li><a class="nav-link scrollto" href="../community.html" style="font-weight: bold; ">Community</a></li>
-              <li><a class="nav-link scrollto" href="../list-your-space.html">List a space</a></li>
-                <li><a class="nav-link scrollto" href="../find-a-space.html">Find a space</a></li>
-                <li class="dropdown"><a class="nav-link scrollto" href="#"><span>FAQs</span> <i class="bi bi-chevron-down"></i></a>
+            <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto" href="../faqs/faq-section.html" style="font-weight: bold;">All</a></li>
-                    <li><a class="nav-link scrollto" href="../faqs/faqs-general.html">General</a></li>
-                    <li class="dropdown"><a href="#"><span>For Landowners</span> <i class="bi bi-chevron-right"></i></a>
-                      <ul>
-                        <li><a class="nav-link scrollto" href="../faqs/faqs-for-landowners.html#sec-1">General</a></li>
-                        <li><a class="nav-link scrollto" href="../faqs/faqs-for-landowners.html#sec-2">How does it work</a></li>
-                        <li><a class="nav-link scrollto" href="../faqs/faqs-for-landowners.html#sec-3">Legal Questions</a></li>
-                        <li><a class="nav-link scrollto" href="../faqs/faqs-for-landowners.html#sec-4">Payments</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>For Brands and Businesses</span> <i class="bi bi-chevron-right"></i></a>
-                      <ul>
-                        <li><a class="nav-link scrollto" href="../faqs/faqs-for-brands.html#sec-5">How it works</a></li>
-                        <li><a class="nav-link scrollto" href="../faqs/faqs-for-brands.html#sec-6">Booking a Space</a></li>
-                        <li><a class="nav-link scrollto" href="../faqs/faqs-for-brands.html#sec-7">Legal Questions</a></li>
-                        <li><a class="nav-link scrollto" href="../faqs/faqs-for-brands.html#sec-8">Payments and Pricing</a></li>
-                      </ul>
-                    </li>
-                    <li><a class="nav-link scrollto" href="../faqs/faqs-litestore.html#lsservices">LiteStore Services</a></li>
-                    <li><a class="nav-link scrollto" href="../faqs/faqs-litestore.html#covid">Covid-19 Questions</a></li>
-                    <li><a class="nav-link scrollto" href="../faqs/faqs-litestore.html#designers">For Designers</a></li>
-                      <!-- <ul>
+                    <li><a class="nav-link scrollto" href="../community.html" style="font-weight: bold; ">Community</a></li>
+                    <li><a class="nav-link scrollto" href="../list-your-space.html">List a space</a></li>
+                    <li><a class="nav-link scrollto" href="../find-a-space.html">Find a space</a></li>
+                    <li class="dropdown"><a class="nav-link scrollto" href="#"><span>FAQs</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a class="nav-link scrollto" href="../faqs/faq-section.html" style="font-weight: bold;">All</a></li>
+                            <li><a class="nav-link scrollto" href="../faqs/faqs-general.html">General</a></li>
+                            <li class="dropdown"><a href="#"><span>For Landowners</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a class="nav-link scrollto" href="../faqs/faqs-for-landowners.html#sec-1">General</a></li>
+                                    <li><a class="nav-link scrollto" href="../faqs/faqs-for-landowners.html#sec-2">How does it work</a></li>
+                                    <li><a class="nav-link scrollto" href="../faqs/faqs-for-landowners.html#sec-3">Legal Questions</a></li>
+                                    <li><a class="nav-link scrollto" href="../faqs/faqs-for-landowners.html#sec-4">Payments</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#"><span>For Brands and Businesses</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a class="nav-link scrollto" href="../faqs/faqs-for-brands.html#sec-5">How it works</a></li>
+                                    <li><a class="nav-link scrollto" href="../faqs/faqs-for-brands.html#sec-6">Booking a Space</a></li>
+                                    <li><a class="nav-link scrollto" href="../faqs/faqs-for-brands.html#sec-7">Legal Questions</a></li>
+                                    <li><a class="nav-link scrollto" href="../faqs/faqs-for-brands.html#sec-8">Payments and Pricing</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="nav-link scrollto" href="../faqs/faqs-litestore.html#lsservices">LiteStore Services</a></li>
+                            <li><a class="nav-link scrollto" href="../faqs/faqs-litestore.html#covid">Covid-19 Questions</a></li>
+                            <li><a class="nav-link scrollto" href="../faqs/faqs-litestore.html#designers">For Designers</a></li>
+                            <!-- <ul>
                         <li><a class="nav-link scrollto" href="#">General</a></li>
                         <li><a class="nav-link scrollto" href="#">Payments</a></li>
                       </ul>
                     </li> -->
+                        </ul>
+                        <li class="dropdown"><a class="nav-link scrollto" href="#"><span>Account</span> <i class="bi bi-chevron-down"></i></a>
+                            <ul>
+                                <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#loginmod" href="blank.html">Sign In</a></li>
+                                <li><a class="nav-link scrollto" href="../signup.html">Sign Up</a></li>
+                            </ul>
+                            <li><a class="nav-link scrollto phone-sty" href="tel:+91-6363294498"><i class="fas fa-phone-alt fa-4x" style="padding: 10px 10px 10px 0px;"></i>6363294498</a></li>
                 </ul>
-                <li class="dropdown"><a class="nav-link scrollto" href="#"><span>Account</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                    <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#loginmod" href="blank.html">Sign In</a></li>
-                    <li><a class="nav-link scrollto" href="../signup.html">Sign Up</a></li>
-                </ul>
-                <li><a class="nav-link scrollto phone-sty" href="tel:+91-6363294498"><i class="fas fa-phone-alt fa-4x" style="padding: 10px 10px 10px 0px;"></i>6363294498</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
 
-      </div>
-    </header><!-- End Header -->
+        </div>
+    </header>
+    <!-- End Header -->
 
     <!-- Log in Modal -->
     <div class="modal fade" id="loginmod" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -136,39 +135,39 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <div id=""style="margin: 0% 20%">
-                            <div class="container">
-                              <h1 style="padding-bottom: 5px;">Log In</h1>
-                            </div>
-                            <form>
+                    <div id="" style="margin: 0% 20%">
+                        <div class="container">
+                            <h1 style="padding-bottom: 5px;">Log In</h1>
+                        </div>
+                        <form>
                             <div class="row mb-3" style="padding: 5% 0%;">
                                 <!-- <label for="inputEmail3" class="col-3 col-form-label" style="text-align: left;">Username</label> -->
                                 <div class="col">
-                                  <input type="email" class="form-control" placeholder="Username" id="inputEmail">
+                                    <input type="email" class="form-control" placeholder="Username" id="inputEmail">
                                 </div>
                             </div>
                             <div class="row mb-3">
                                 <!-- <label for="inputPassword3" class="col-3 col-form-label" style="text-align: left;">Password</label> -->
                                 <div class="col">
-                                  <input type="password" class="form-control" placeholder="Password" id="inputPassword">
+                                    <input type="password" class="form-control" placeholder="Password" id="inputPassword">
                                 </div>
                             </div>
                             <button type="submit" id="loginButton" class="btn" style="background-color: #7e7ca6; color: #fff;">Log in</button>
                             <button type="submit" id="logoutButton" class="btn" style="background-color: #7e7ca6; color: #fff;">Log out</button>
-                    </form>
+                        </form>
                     </div>
 
-                    </div>
+                </div>
                 <div class="row" style="padding-bottom: 10px;">
-                        <div class="col-6">
-                            <p style="padding-top: 5px;">Don't have an Account?</p>
-                        </div>
-                        <div class="col-6">
-                            <a class="btn" style="background-color: #7e7ca6; color: #fff;" href="signup.html" data-toggle="modal" data-target="#modal">Sign Up</a>
-                            <button type="button" style="background-color: #7e7ca6; color: #fff;" class="btn" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    
-                    
+                    <div class="col-6">
+                        <p style="padding-top: 5px;">Don't have an Account?</p>
+                    </div>
+                    <div class="col-6">
+                        <a class="btn" style="background-color: #7e7ca6; color: #fff;" href="signup.html" data-toggle="modal" data-target="#modal">Sign Up</a>
+                        <button type="button" style="background-color: #7e7ca6; color: #fff;" class="btn" data-bs-dismiss="modal">Close</button>
+                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -176,94 +175,115 @@
 
     <main id="main">
 
-    <!-- ======= Intro Single ======= -->
-    <section class="intro-single" style="padding: 100px 0px 20px;">
-      <div class="container">
-          <div class="title-single-box">
-            <h1 class="title-single" style="text-align: center; font-family: 'Source Serif Pro';">The Future of Retail: More Than Just Space - I</h1>
-            <!-- <span class="color-text-a">News Single.</span> -->
-          </div>
-      </div>
-    </section><!-- End Intro Single-->
+        <!-- ======= Intro Single ======= -->
+        <section class="intro-single" style="padding: 100px 0px 20px;">
+            <div class="container">
+                <div class="title-single-box">
+                    <h1 class="title-single" style="text-align: center; font-family: 'Source Serif Pro';">The Future of Retail: More Than Just Space - I</h1>
+                    <!-- <span class="color-text-a">News Single.</span> -->
+                </div>
+            </div>
+        </section>
+        <!-- End Intro Single-->
 
-    <!-- ======= Blog Single ======= -->
-    <section class="news-single nav-arrow-b">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-          </div>
-          <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-              <!-- <div class="post-information">
+        <!-- ======= Blog Single ======= -->
+        <section class="news-single nav-arrow-b">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                    </div>
+                    <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                        <!-- <div class="post-information">
                 <ul class="list-inline text-center color-a">
                   <li class="list-inline-item">
                   </li>
                 </ul>
               </div> -->
-              
-            <strong>Date: </strong>
-            <span class="color-text-a">19 May 2021</span>
-            <div class="post-content color-text-a">
-              <p style="font-style: italic; text-align: center; font-size: 30px; padding-top: 20px; font-family: 'Source Serif Pro', serif;">‘Physical Retail Isn’t dead. Boring Retail Is’ </p>
-              <p class="post-intro" style="padding-top: 10px;">
-                Why would anyone enter a retail store in 2021? The digital revolution and the subsequent rise of e-commerce giants has ensured that customers can now shop from the comfort of their homes. The disruption in the digital space has had tectonic effects on how brands view retail strategy, customer acquisition & digital marketing. The economic catastrophe caused by the 2008 recession and the recent Covid-19 Pandemic has led to severe liquidity crunch adversely affecting the sustainability of several retailers.
-              </p>
-              <p style="padding-top: 10px;">
-                Long term leases, very high monthly rents and security deposits during such economic downturn might lead us to believe that we might be witnessing a ‘Retail Apocalypse’. It just requires one to take a casual stroll through any of the prominent shopping districts in the metropolitan cities in India, to understand that the severity of the situation is not an exaggeration. The number of vacant retail spaces far surpasses the number of retail spaces occupied by retailers, with the gap between the two only increasing day after day.
-              </p>
-              <p style="padding-top: 10px;">
-                This isn’t to suggest that the Landowners aren’t bleeding as well. Nor does it suggest that we won’t see as many retail spaces after the pandemic. However, one thing’s for sure – the future of physical retail spaces isn’t going to be the same anymore and it is necessary that the retail and the real estate industry accounts for these disruptive changes in their business strategies. 
-              </p>
-              <p style="padding-top: 10px;">
-                What are these disruptive changes? In this blog, we will attempt to cull out a few trends that the physical retail spaces have been witnessing. 
-              </p>
-              <p style="font-weight: 600;">
-                I. More than just sales 
-              </p>
-              <p>
-                In a popular <a href="https://floorplate.com/radio/doug-stephens/" target="_blank">podcast</a> covering the trends in the retail industry, an interesting idea was put forward. One of the speakers quipped  ‘Retail is the New Media and Online is the New Store’. It effectively conveys the idea that over the last few decades, there has been a complete role reversal between the medium of marketing and the medium of sales. With digital shopping being ubiquitous and a large chunk of sales taking place online, stores have to transition into the new medium for brands to market their product. 
-              </p>
-              <p style="padding-top: 10px;">
-                It is difficult to believe that many Fortune 500 brands today have opened multiple stores in different cities with no sales taking place in any of these stores. Yet this seems to be the new trend. What is it then that drives them to open these stores? The closest parallel that can be drawn to understand this, is to understand the economics going behind erecting billboard ads or even creating sensational advertisements on social media. No one is thinking in real terms of how much the brand earned directly in sales when the <a href="https://www.thebetterindia.com/71904/amul-girl-golden-jubilee/" target="_blank">Amul Girl</a> makes a witty remark on a billboard ad or when Rahul Dravid displays his anger issues in the <a href="https://www.youtube.com/watch?v=Im8-ymK-T_Y" target="_blank">Cred ad</a>. The idea of the ads far surpasses the metric of sales and ventures into more qualitative economic metrics which is: to inform, persuade and remind customers of the brand and its product along with creating a strong recall value. 
-              </p>
-              <p style="padding-top: 10px;">
-                The key to the future of retail also lies in adopting a strategy which focuses on experience, reach and innovation. Let us consider a stark example of this trend in the <a href="https://floorplate.com/radio/doug-stephens/" target="_blank">Cheetos campaign</a> in 2017. They ran a contest in which participants had to submit the wackiest Cheetos shapes they found in their bag of chips. The top prize winner took home a whopping $ 50,000. To display more than 100,000 entries, they opened a pop-up store in New York. Remember, no sales took place in the store. However, Cheetos recorded its strongest sales week ever, when the campaign led to <a href="https://www.prweek.com/article/1438231/instagram-trend-sparks-idea-cheetos-museum" target="_blank">4,831 media placements</a>.
-              </p>
-              <div class="news-img-box" style="text-align: center; padding-bottom: 20px;">
-                <img src="../assets/img/blog/cheetos.webp" style="width: 50%; padding-bottom: 20px;" alt="image" class="img-fluid"> <br>
-                <a style="color: #000;" href="https://www.image.com/50000-for-a-uniquely-shaped-cheeto-yup-the-cheetos-museum-is-ready-to-pay-up/">
+
+                        <strong>Date: </strong>
+                        <span class="color-text-a">19 May 2021</span>
+                        <div class="post-content color-text-a">
+                            <p style="font-style: italic; text-align: center; font-size: 30px; padding-top: 20px; font-family: 'Source Serif Pro', serif;">‘Physical Retail Isn’t dead. Boring Retail Is’ </p>
+                            <p class="post-intro" style="padding-top: 10px;">
+                                Why would anyone enter a retail store in 2021? The digital revolution and the subsequent rise of e-commerce giants has ensured that customers can now shop from the comfort of their homes. The disruption in the digital space has had tectonic effects on
+                                how brands view retail strategy, customer acquisition & digital marketing. The economic catastrophe caused by the 2008 recession and the recent Covid-19 Pandemic has led to severe liquidity crunch adversely affecting the
+                                sustainability of several retailers.
+                            </p>
+                            <p style="padding-top: 10px;">
+                                Long term leases, very high monthly rents and security deposits during such economic downturn might lead us to believe that we might be witnessing a ‘Retail Apocalypse’. It just requires one to take a casual stroll through any of the prominent shopping
+                                districts in the metropolitan cities in India, to understand that the severity of the situation is not an exaggeration. The number of vacant retail spaces far surpasses the number of retail spaces occupied by retailers,
+                                with the gap between the two only increasing day after day.
+                            </p>
+                            <p style="padding-top: 10px;">
+                                This isn’t to suggest that the Landowners aren’t bleeding as well. Nor does it suggest that we won’t see as many retail spaces after the pandemic. However, one thing’s for sure – the future of physical retail spaces isn’t going to be the same anymore
+                                and it is necessary that the retail and the real estate industry accounts for these disruptive changes in their business strategies.
+                            </p>
+                            <p style="padding-top: 10px;">
+                                What are these disruptive changes? In this blog, we will attempt to cull out a few trends that the physical retail spaces have been witnessing.
+                            </p>
+                            <p style="font-weight: 600;">
+                                I. More than just sales
+                            </p>
+                            <p>
+                                In a popular <a href="https://floorplate.com/radio/doug-stephens/" target="_blank">podcast</a> covering the trends in the retail industry, an interesting idea was put forward. One of the speakers quipped ‘Retail is the
+                                New Media and Online is the New Store’. It effectively conveys the idea that over the last few decades, there has been a complete role reversal between the medium of marketing and the medium of sales. With digital shopping
+                                being ubiquitous and a large chunk of sales taking place online, stores have to transition into the new medium for brands to market their product.
+                            </p>
+                            <p style="padding-top: 10px;">
+                                It is difficult to believe that many Fortune 500 brands today have opened multiple stores in different cities with no sales taking place in any of these stores. Yet this seems to be the new trend. What is it then that drives them to open these stores?
+                                The closest parallel that can be drawn to understand this, is to understand the economics going behind erecting billboard ads or even creating sensational advertisements on social media. No one is thinking in real terms
+                                of how much the brand earned directly in sales when the <a href="https://www.thebetterindia.com/71904/amul-girl-golden-jubilee/" target="_blank">Amul Girl</a> makes a witty remark on a billboard
+                                ad or when Rahul Dravid displays his anger issues in the <a href="https://www.youtube.com/watch?v=Im8-ymK-T_Y" target="_blank">Cred ad</a>. The idea of the ads far surpasses the metric of sales and ventures into more qualitative
+                                economic metrics which is: to inform, persuade and remind customers of the brand and its product along with creating a strong recall value.
+                            </p>
+                            <p style="padding-top: 10px;">
+                                The key to the future of retail also lies in adopting a strategy which focuses on experience, reach and innovation. Let us consider a stark example of this trend in the <a href="https://floorplate.com/radio/doug-stephens/"
+                                    target="_blank">Cheetos campaign</a> in 2017. They ran a contest in which participants had to submit the wackiest Cheetos shapes they found in their bag of chips. The top prize winner took home a whopping $ 50,000. To display
+                                more than 100,000 entries, they opened a pop-up store in New York. Remember, no sales took place in the store. However, Cheetos recorded its strongest sales week ever, when the campaign led to <a href="https://www.prweek.com/article/1438231/instagram-trend-sparks-idea-cheetos-museum"
+                                    target="_blank">4,831 media placements</a>.
+                            </p>
+                            <div class="news-img-box" style="text-align: center; padding-bottom: 20px;">
+                                <img src="../assets/img/blog/cheetos.webp" style="width: 50%; padding-bottom: 20px;" alt="image" class="img-fluid"> <br>
+                                <a style="color: #000;" href="https://www.image.com/50000-for-a-uniquely-shaped-cheeto-yup-the-cheetos-museum-is-ready-to-pay-up/">
                   Picture Credits:<span  style="color: #7e7ca6;"> Hungry Forever</span></a>
-              </div>
-              <!-- <blockquote class="blockquote">
+                            </div>
+                            <!-- <blockquote class="blockquote">
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                 <footer class="blockquote-footer">
                   <strong>Albert Vargas</strong>
                   <cite title="Source Title">Author</cite>
                 </footer>
               </blockquote> -->
-              <p>
-                Let us look at another brand adopting a similar strategy but this time the store is situated in the busy street of Harajuku in Tokyo. Dohtonbori is a famous organic health food chain in Japan and in the year 2016, they opened up a temporary storefront at Harajuku which was <a href="https://floorplate.com/radio/doug-stephens/" target="_blank">quite bizarre!</a> The pop-up store had a neon red cross glowed behind the counter while two women in white lab coats showed customers scientific-charts and the pop-up had jars of pills stored everywhere. Look at the image below and you’d understand why it could easily pass off as a store conducting scientific experiments. However, a walk into the store revealed an entirely different concept. A closer look at the panel explained the concept succinctly: 
-              </p>
-              <p style="padding-top: 10px; font-style: italic; text-align: center; font-weight: 500;">
-                “The customer hands over a fast-food restaurant receipt and, in return, receives a bottle of food supplements customized to replace the nutrients missing from that meal … for free" 
-              </p>
-              <p style="padding-top: 10px;">
-                There we are! Dohtonbori with a very smart marketing strategy was promoting their new restaurant opening in an adjacent area with a tag-line: “The healthy ingredients in Dohtonbori’s healthy okonomiyaki have all the nutrients you need". Similar to the Cheetos concept, nothing was sold at the pop-up store but the traffic at Dohtonbori increased by <a href="https://www.socialtables.com/blog/event-planning/pop-up-examples/" target="_blank">125 percent</a>. 
-              </p>
-              <div class="news-img-box" style="text-align: center; padding-bottom: 20px;">
-                <img src="../assets/img/blog/plus.webp" style="width: 50%; padding-bottom: 20px;" alt="image" class="img-fluid"> <br>
-                <a style="color: #000;" href="https://www.stylus.com/jvddnq">Picture Credits:<span style="color: #7e7ca6;"> Stylus</span></a>
-              </div>
-              <p>
-                The aim of this post is to inspire a slightly different way of looking at retail spaces and stores. At LiteStore, we are passionate about pioneering the future of retail in India. With customisable, themed, pop-up stores, our aim is to allow brands to create rich experiences, innovative marketing strategies, while boosting retail sales. 
-                In the following posts, we shall write more about the trends that the physical retail industry has been witnessing. Please do leave a comment below on what you think! 
-              </p>
+                            <p>
+                                Let us look at another brand adopting a similar strategy but this time the store is situated in the busy street of Harajuku in Tokyo. Dohtonbori is a famous organic health food chain in Japan and in the year 2016, they opened up a temporary storefront
+                                at Harajuku which was <a href="https://floorplate.com/radio/doug-stephens/" target="_blank">quite bizarre!</a> The pop-up store had a neon red cross glowed behind the counter while two women
+                                in white lab coats showed customers scientific-charts and the pop-up had jars of pills stored everywhere. Look at the image below and you’d understand why it could easily pass off as a store conducting scientific experiments.
+                                However, a walk into the store revealed an entirely different concept. A closer look at the panel explained the concept succinctly:
+                            </p>
+                            <p style="padding-top: 10px; font-style: italic; text-align: center; font-weight: 500;">
+                                “The customer hands over a fast-food restaurant receipt and, in return, receives a bottle of food supplements customized to replace the nutrients missing from that meal … for free"
+                            </p>
+                            <p style="padding-top: 10px;">
+                                There we are! Dohtonbori with a very smart marketing strategy was promoting their new restaurant opening in an adjacent area with a tag-line: “The healthy ingredients in Dohtonbori’s healthy okonomiyaki have all the nutrients you need". Similar to the
+                                Cheetos concept, nothing was sold at the pop-up store but the traffic at Dohtonbori increased by <a href="https://www.socialtables.com/blog/event-planning/pop-up-examples/" target="_blank">125 percent</a>.
+                            </p>
+                            <div class="news-img-box" style="text-align: center; padding-bottom: 20px;">
+                                <img src="../assets/img/blog/plus.webp" style="width: 50%; padding-bottom: 20px;" alt="image" class="img-fluid"> <br>
+                                <a style="color: #000;" href="https://www.stylus.com/jvddnq">Picture Credits:<span style="color: #7e7ca6;"> Stylus</span></a>
+                            </div>
+                            <p>
+                                The aim of this post is to inspire a slightly different way of looking at retail spaces and stores. At LiteStore, we are passionate about pioneering the future of retail in India. With customisable, themed, pop-up stores, our aim is to allow brands to
+                                create rich experiences, innovative marketing strategies, while boosting retail sales. In the following posts, we shall write more about the trends that the physical retail industry has been witnessing. Please do leave
+                                a comment below on what you think!
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Blog Single-->
+        </section>
+        <!-- End Blog Single-->
 
-    <!-- <div id="disqus_thread" style="margin: 0% 23%; padding-bottom: 30px;"></div>
+        <!-- <div id="disqus_thread" style="margin: 0% 23%; padding-bottom: 30px;"></div>
     <script>
         (function() { // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
@@ -274,80 +294,93 @@
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> -->
 
-    <!--  Footer  -->
-    <footer id="footer">
+        <!--  Footer  -->
+        <footer id="footer">
 
-      <div class="footer-top">
-          <div class="container">
-              <div class="row">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
 
-                  <div class="col-lg-3 col-md-6 footer-contact ">
-                      
-                      <p>
-                          <span style="font-size: 30px;">LiteStore</span>
-                          <br>#58, Domlur Layout,
-                          <br>Bangalore-71<br>
-                          
-                            <strong>Phone: <br> </strong> +91 9483465923<br>
-                            <span>+91 6363294498</span> <br>
-                          <strong>Email:</strong> support@litestore.in<br>
-                      </p>
-                  </div>
+                        <div class="col-lg-3 col-md-6 footer-contact ">
 
-                  <div class="col-lg-2 col-md-6 footer-links">
-                      <h4>How it works</h4>
-                      <ul>                            
-                          <li></i> <a href="../list-your-space.html">List a Space</a></li>
-                          <li></i> <a href="../find-a-space.html">Find a Space</a></li>
-                          <li></i> <a href="../services.html">LiteStore Services</a></li>
-                      </ul>
-                  </div>
+                            <p>
+                                <span style="font-size: 30px;">LiteStore</span>
+                                <br>#58, Domlur Layout,
+                                <br>Bangalore-71<br>
 
-                  <div class="col-lg-2 col-md-6 footer-links">
-                      <h4>About</h4>
-                      <ul>
-                          <li></i> <a href="../careers.html">Careers</a></li>
-                          <li></i> <a href="../company.html">Company</a></li>
-                          <li></i> <a href="../faqs/faq-section.html">FAQs</a></li>
-                      </ul>
-                  </div>
+                                <strong>Phone: <br> </strong> +91 9483465923<br>
+                                <span>+91 6363294498</span> <br>
+                                <strong>Email:</strong> support@litestore.in<br>
+                            </p>
+                        </div>
 
-                  <div class="col-lg-2 col-md-6 footer-links">
-                      <h4>Discover</h4>
-                      <ul>
-                          <li></i> <a href="../blogs/list.html">Blog</a></li>
-                          <li></i> <a href="../community.html">Community</a></li>
-                          <li></i> <a href="../design.html">DesignHub</a></li>
-                      </ul>
-                  </div>
+                        <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>How it works</h4>
+                            <ul>
+                                <li>
+                                    </i> <a href="../list-your-space.html">List a Space</a></li>
+                                <li>
+                                    </i> <a href="../find-a-space.html">Find a Space</a></li>
+                                <li>
+                                    </i> <a href="../services.html">LiteStore Services</a></li>
+                            </ul>
+                        </div>
 
-                  <div class="col-lg-2 col-md-6 footer-links">
-                      <h4>Legal</h4>
-                      <ul>
-                          <li></i> <a href="../">Privacy Policy</a></li>
-                          <li></i> <a href="../">Terms of use</a></li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
-      </div>
+                        <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>About</h4>
+                            <ul>
+                                <li>
+                                    </i> <a href="../careers.html">Careers</a></li>
+                                <li>
+                                    </i> <a href="../company.html">Company</a></li>
+                                <li>
+                                    </i> <a href="../faqs/faq-section.html">FAQs</a></li>
+                            </ul>
+                        </div>
 
-      <div class="container d-md-flex py-4" style="background-color: #fff;">
+                        <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>Discover</h4>
+                            <ul>
+                                <li>
+                                    </i> <a href="../blogs/list.html">Blog</a></li>
+                                <li>
+                                    </i> <a href="../community.html">Community</a></li>
+                                <li>
+                                    </i> <a href="../design.html">DesignHub</a></li>
+                            </ul>
+                        </div>
 
-          <div class="me-md-auto text-center text-md-start">
-              <div class="copyright">
-                  &copy; Copyright 2021 <strong><span>LiteStore</span></strong>. All Rights Reserved
-              </div>
-          </div>
-          <div class="social-links text-center text-md-right pt-3 pt-md-0">
-              
-              <a href="blank.html" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="https://www.linkedin.com/company/litestore/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          </div>
-      </div>
-  </footer><!-- End Footer -->
-      
-    </main><!-- End #main -->
+                        <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>Legal</h4>
+                            <ul>
+                                <li>
+                                    </i> <a href="../">Privacy Policy</a></li>
+                                <li>
+                                    </i> <a href="../">Terms of use</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container d-md-flex py-4" style="background-color: #fff;">
+
+                <div class="me-md-auto text-center text-md-start">
+                    <div class="copyright">
+                        &copy; Copyright 2021 <strong><span>LiteStore</span></strong>. All Rights Reserved
+                    </div>
+                </div>
+                <div class="social-links text-center text-md-right pt-3 pt-md-0">
+
+                    <a href="blank.html" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/litestore/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+    </main>
+    <!-- End #main -->
 
     <div id="preloader"></div>
 
@@ -363,5 +396,6 @@
 
     <!-- Disqus Comments -->
     <script id="dsq-count-scr" src="//litestore.disqus.com/count.js" async></script>
-  </body>
+</body>
+
 </html>
