@@ -754,7 +754,7 @@ th {
 
 #head:before {
     content: "";
-    background: rgba(0, 0, 0, 0.123);
+    background: rgba(37, 14, 0, 0.062);
     position: absolute;
     bottom: 0;
     top: 0;
