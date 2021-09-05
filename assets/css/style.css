@@ -711,7 +711,7 @@ th {
     }
 }
 
-#head-d {
+#head-o {
     width: 100%;
     height: calc(100vh - 0px);
     text-align: center;
@@ -720,7 +720,7 @@ th {
     background-size: cover;
 }
 
-#head-d:before {
+#head-o:before {
     content: "";
     background: rgba(0, 0, 0, 0.747);
     position: absolute;
