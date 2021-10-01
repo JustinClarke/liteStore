@@ -663,8 +663,11 @@ th {
 #head-c {
     width: 100%;
     height: calc(100vh - 0px);
+    /* height: 1080px; */
     text-align: center;
     position: relative;
+    background-color: #000;
+    background: url("../img/stock/stands.webp") top center;
     background-size: cover;
 }
 
@@ -684,7 +687,7 @@ th {
         height: calc(100vh - 0px);
         text-align: center;
         position: relative;
-        background: url("../img/stock/com-m.webp") top center;
+        background: url("../img/stock/stands-m.webp") top center;
         background-size: cover;
     }
 }
@@ -716,7 +719,7 @@ th {
     height: calc(100vh - 0px);
     text-align: center;
     position: relative;
-    background: url("../img/orion.jpg") top center;
+    background: url("../img/places/landscape/orion.jpg") top center;
     background-size: cover;
 }
 
@@ -752,7 +755,7 @@ th {
     text-align: center;
     position: relative;
     background-color: #000;
-    background: url("../img/stock/stands.webp") top center;
+    /* background: url("../img/stock/stands.webp") top center; */
     background-size: cover;
 }
 
