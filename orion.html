@@ -26,6 +26,19 @@
     <!-- font-awesome -->
     <script src="https://kit.fontawesome.com/3547ccc8ab.js" crossorigin="anonymous"></script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209054329-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-209054329-1');
+    </script>
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -83,9 +96,18 @@
                     </div>
                     <div class="modal-body">
                         <div id="" style="margin: 0% 20%">
-                            <div class="container"><h1 style="padding-bottom: 5px;">Log In</h1>
+                            <div class="container">
+                                <h1 style="padding-bottom: 5px;">Log In</h1>
                             </div>
-                            <form><div class="row mb-3" style="padding: 5% 0%;"><!-- <label for="inputEmail3" class="col-3 col-form-label" style="text-align: left;">Username</label> --><div class="col">    <input type="email" class="form-control" placeholder="Username" id="inputEmail"></div></div><div class="row mb-3"><!-- <label for="inputPassword3" class="col-3 col-form-label" style="text-align: left;">Password</label> --><div class="col">    <input type="password" class="form-control" placeholder="Password" id="inputPassword"></div></div><button type="submit" id="loginButton" class="btn" style="background-color: #7e7ca6; color: #fff;">Log in</button>
+                            <form>
+                                <div class="row mb-3" style="padding: 5% 0%;">
+                                    <!-- <label for="inputEmail3" class="col-3 col-form-label" style="text-align: left;">Username</label> -->
+                                    <div class="col"> <input type="email" class="form-control" placeholder="Username" id="inputEmail"></div>
+                                </div>
+                                <div class="row mb-3">
+                                    <!-- <label for="inputPassword3" class="col-3 col-form-label" style="text-align: left;">Password</label> -->
+                                    <div class="col"> <input type="password" class="form-control" placeholder="Password" id="inputPassword"></div>
+                                </div><button type="submit" id="loginButton" class="btn" style="background-color: #7e7ca6; color: #fff;">Log in</button>
                             </form>
                         </div>
 
@@ -128,7 +150,9 @@
                             </ul>
                         </li> -->
                         <li class="dropdown"><a class="nav-link scrollto" href="#"><span>Account</span> <i class="bi bi-chevron-down"></i></a>
-                            <ul><li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#loginmod" href="blank.html">Sign In</a></li><li><a class="nav-link scrollto" href="signup.html">Sign Up</a></li>
+                            <ul>
+                                <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#loginmod" href="blank.html">Sign In</a></li>
+                                <li><a class="nav-link scrollto" href="signup.html">Sign Up</a></li>
                             </ul>
                             <li><a class="nav-link scrollto phone-sty" href="tel:+91-6363294498"><i class="fas fa-phone-alt fa-4x" style="padding: 10px 10px 10px 0px;"></i>6363294498</a></li>
                     </ul>
