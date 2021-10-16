@@ -2305,7 +2305,7 @@
         }
 
         div = null;
-        return subString + '... <a href="blank.html" class="desc-more">' + wordBoundary + '</a>';
+        return subString + '... <a href="#" class="desc-more">' + wordBoundary + '</a>';
       }
     }, {
       key: "descriptionEvents",
