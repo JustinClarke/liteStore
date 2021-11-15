@@ -1099,10 +1099,6 @@ section {
     text-align: center;
 }
 
-.clients h2 {
-    text-align: center;
-}
-
 .clients img {
     transition: all 0.4s ease-in-out;
     display: inline-block;
@@ -1115,36 +1111,39 @@ section {
 }
 
 .brigade-reap{
-    width: 25%; 
-    padding-right: 50px;
+    width: 25%;
 }
 
 .startup-india{
     width: 30%;
 }
 
-/* @media (max-width: 768px) {
-    .clients img {
-        max-width: 30%;
-        padding: 3px 10px;
-    }
-} */
+.media-img{
+    width: 18%;
+}
 
 @media (max-width: 450px) {
     .clients .container {
         padding: 5px 4px;
     }
-    /* .clients img {
-        width: 20%;
-        padding: 0px;
-    } */
+
     .brigade-reap{
-        width: 40%; 
+        width: 35%; 
         padding-right: 50px;
     }
-    
+
     .startup-india{
         width: 40%;
+    }
+
+    .clients img {
+        transition: all 0.4s ease-in-out;
+        display: inline-block;
+        padding: 3% 1%;
+    }
+
+    .media-img{
+        width: 60%;
     }
 }
 
