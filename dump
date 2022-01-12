@@ -163,3 +163,41 @@
         </div>
       </section><!-- End Testimonials Section -->
   
+        <!-- ======= Intro Single ======= -->
+        <section class="head-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 col-lg-8">
+                <div class="title-single-box">
+                  <h1 class="title-single">Our Amazing Properties</h1>
+                  <span class="color-text-a">Grid Properties</span>
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-4">
+                <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                      <a href="#">Home</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                      Properties Grid
+                    </li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+          <!-- Sevices Section -->
+          <section id="services_fass" style="background-color: #000; color: #fff; padding-top: 100px;">
+              <div class="container">
+                  <div class="section-title" style="text-align: center;">
+                      <!-- <img src="assets/img/stock/colorrr.webp" style="width: 300px;"> -->
+                      <h2 style="color: #fff; text-transform: capitalize; font-weight: 200;"><span style="font-weight: 600; color: #7e7ca6;">LiteStore™</span> Services</h2>
+                      <h3>Use our premium in-store services to create a unique store <br> and a great customer experience.</h3>
+                      <a href="services.html" class="btn-get-started scrollto">Know More</a>
+                  </div>
+              </div>
+          </section>
+  
