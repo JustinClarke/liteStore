@@ -1511,6 +1511,10 @@ section {
 # Services
 --------------------------------------------------------------*/
 
+.symbol{
+    font-size: 200%;
+}
+
 .services h5 {
     padding-left: 5px;
     padding-top: 14%;
@@ -1518,8 +1522,11 @@ section {
 
 @media (max-width: 450px) {
     .services h5 {
-        
         padding-top: 4%;
+    }
+
+    .symbol{
+        font-size: 50%;
     }
 }
 
