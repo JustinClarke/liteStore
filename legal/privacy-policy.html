@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
@@ -53,10 +54,10 @@
     <!-- Vendor CSS Files -->
     <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
+
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    
+
     <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
@@ -80,398 +81,150 @@
             });
         }
     </script>
-  </head>
+</head>
 
-  <body>
+<body>
+
     <!--  Header  -->
     <header id="header" class="fixed-top">
-      <div class="container d-flex align-items-center justify-content-between">
-        <!-- <h1 class="logo"><a href="index.html" style="font-weight: 500;">LiteStore™</a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="../index.html" class="logo"
-          ><img src="../assets/img/logo.webp" alt="" class="img-fluid"
-        /></a>
+        <div class="container d-flex align-items-center justify-content-between">
+            <!-- <h1 class="logo"><a href="index.html" style="font-weight: 500;">LiteStore™</a></h1> -->
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <a href="../index.html" class="logo"><img src="../assets/img/logo.webp" alt="" class="img-fluid" /></a>
 
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li>
-              <a
-                class="nav-link scrollto"
-                href="../community.html"
-                style="font-weight: bold"
-                >Community</a
-              >
-            </li>
-            <li>
-              <a class="nav-link scrollto" href="../list-your-space.html"
-                >List a space</a
-              >
-            </li>
-            <li>
-              <a class="nav-link scrollto" href="../find-a-space.html"
-                >Find a space</a
-              >
-            </li>
-            <li class="dropdown">
-              <a class="nav-link scrollto" href="#"
-                ><span>FAQs</span> <i class="bi bi-chevron-down"></i
-              ></a>
-              <ul>
-                <li>
-                  <a
-                    class="nav-link scrollto"
-                    href="../faqs/faq-section.html"
-                    style="font-weight: bold"
-                    >All</a
-                  >
-                </li>
-                <li>
-                  <a class="nav-link scrollto" href="../faqs/faqs-general.html"
-                    >General</a
-                  >
-                </li>
-                <li class="dropdown">
-                  <a href="#"
-                    ><span>For Landowners</span>
-                    <i class="bi bi-chevron-right"></i
-                  ></a>
-                  <ul>
-                    <li>
-                      <a
-                        class="nav-link scrollto"
-                        href="../faqs/faqs-for-landowners.html#sec-1"
-                        >General</a
-                      >
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li> <a class="nav-link scrollto" href="../community.html" style="font-weight: bold">Community</a></li>
+                    <li> <a class="nav-link scrollto" href="../find-a-space.html">Find a space</a>
+                        <li><a class="nav-link scrollto" href="../company.html">Company</a></li>
+                    </li>
+                    <li class="dropdown"> <a class="nav-link scrollto" href="#"><span>Account</span> <i class="fas fa-chevron-down"></i></a>
+                        <ul>
+                            <li> <a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#loginmod" href="#">Sign In</a>
+                            </li>
+                            <li><a class="nav-link scrollto" href="../signup.html">Sign Up</a> </li>
+                        </ul>
                     </li>
                     <li>
-                      <a
-                        class="nav-link scrollto"
-                        href="../faqs/faqs-for-landowners.html#sec-2"
-                        >How does it work</a
-                      >
+                        <a class="nav-link scrollto phone-sty" href="tel:+91-6363294498"><i class="fas fa-phone-alt fa-4x" style="padding: 10px 10px 10px 0px"></i>6363294498</a>
                     </li>
-                    <li>
-                      <a
-                        class="nav-link scrollto"
-                        href="../faqs/faqs-for-landowners.html#sec-3"
-                        >Legal Questions</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="nav-link scrollto"
-                        href="../faqs/faqs-for-landowners.html#sec-4"
-                        >Payments</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#"
-                    ><span>For Brands and Businesses</span>
-                    <i class="bi bi-chevron-right"></i
-                  ></a>
-                  <ul>
-                    <li>
-                      <a
-                        class="nav-link scrollto"
-                        href="../faqs/faqs-for-brands.html#sec-5"
-                        >How it works</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="nav-link scrollto"
-                        href="../faqs/faqs-for-brands.html#sec-6"
-                        >Booking a Space</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="nav-link scrollto"
-                        href="../faqs/faqs-for-brands.html#sec-7"
-                        >Legal Questions</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="nav-link scrollto"
-                        href="../faqs/faqs-for-brands.html#sec-8"
-                        >Payments and Pricing</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a
-                    class="nav-link scrollto"
-                    href="../faqs/faqs-litestore.html#lsservices"
-                    >LiteStore™ Services</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="nav-link scrollto"
-                    href="../faqs/faqs-litestore.html#covid"
-                    >Covid-19 Questions</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="nav-link scrollto"
-                    href="../faqs/faqs-litestore.html#designers"
-                    >For Designers</a
-                  >
-                </li>
-                <!-- <ul>
-                        <li><a class="nav-link scrollto" href="#">General</a></li>
-                        <li><a class="nav-link scrollto" href="#">Payments</a></li>
-                      </ul>
-                    </li> -->
-              </ul>
-            </li>
-
-            <li class="dropdown">
-              <a class="nav-link scrollto" href="#"
-                ><span>Account</span> <i class="bi bi-chevron-down"></i
-              ></a>
-              <ul>
-                <li>
-                  <a
-                    class="nav-link scrollto"
-                    data-bs-toggle="modal"
-                    data-bs-target="#loginmod"
-                    href="#"
-                    >Sign In</a
-                  >
-                </li>
-                <li>
-                  <a class="nav-link scrollto" href="../signup.html">Sign Up</a>
-                </li>
-              </ul>
-            </li>
-
-            <li>
-              <a class="nav-link scrollto phone-sty" href="tel:+91-6363294498"
-                ><i
-                  class="fas fa-phone-alt fa-4x"
-                  style="padding: 10px 10px 10px 0px"
-                ></i
-                >6363294498</a
-              >
-            </li>
-          </ul>
-          <i class="fas fa-bars mobile-nav-toggle"></i>
-        </nav>
-        <!-- .navbar -->
-      </div>
+                </ul>
+                <i class="fas fa-bars mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+        </div>
     </header>
     <!-- End Header -->
 
     <!-- Log in Modal -->
-    <div
-      class="modal fade"
-      id="loginmod"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content" style="text-align: center">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">LiteStore™</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div id="" style="margin: 0% 20%">
-              <div class="container">
-                <h1 style="padding-bottom: 5px">Log In</h1>
-              </div>
-              <form>
-                <div class="row mb-3" style="padding: 5% 0%">
-                  <!-- <label for="inputEmail3" class="col-3 col-form-label" style="text-align: left;">Username</label> -->
-                  <div class="col">
-                    <input
-                      type="email"
-                      class="form-control"
-                      placeholder="Username"
-                      id="inputEmail"
-                    />
-                  </div>
+    <div class="modal fade" id="loginmod" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="text-align: center">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">LiteStore™</h5> <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="row mb-3">
-                  <!-- <label for="inputPassword3" class="col-3 col-form-label" style="text-align: left;">Password</label> -->
-                  <div class="col">
-                    <input
-                      type="password"
-                      class="form-control"
-                      placeholder="Password"
-                      id="inputPassword"
-                    />
-                  </div>
+                <div class="modal-body">
+                    <div id="" style="margin: 0% 20%">
+                        <div class="container">
+                            <h1 style="padding-bottom: 5px">Log In</h1>
+                        </div>
+                        <form>
+                            <div class="row mb-3" style="padding: 5% 0%">
+                                <!-- <label for="inputEmail3" class="col-3 col-form-label" style="text-align: left;">Username</label> -->
+                                <div class="col"> <input type="email" class="form-control" placeholder="Username" id="inputEmail" /> </div>
+                            </div>
+                            <div class="row mb-3">
+                                <!-- <label for="inputPassword3" class="col-3 col-form-label" style="text-align: left;">Password</label> -->
+                                <div class="col"> <input type="password" class="form-control" placeholder="Password" id="inputPassword" /> </div>
+                            </div> <button type="submit" id="loginButton" class="btn" style="background-color: #7e7ca6; color: #fff">Log in
+                </button> <button type="submit" id="logoutButton" class="btn" style="background-color: #7e7ca6; color: #fff">Log out
+                </button> </form>
+                    </div>
                 </div>
-                <button
-                  type="submit"
-                  id="loginButton"
-                  class="btn"
-                  style="background-color: #7e7ca6; color: #fff"
-                >
-                  Log in
-                </button>
-                <button
-                  type="submit"
-                  id="logoutButton"
-                  class="btn"
-                  style="background-color: #7e7ca6; color: #fff"
-                >
-                  Log out
-                </button>
-              </form>
-            </div>
-          </div>
-          <div class="row" style="padding-bottom: 10px">
-            <div class="col-6">
-              <p style="padding-top: 5px">Don't have an Account?</p>
-            </div>
-            <div class="col-6">
-              <a
-                class="btn"
-                style="background-color: #7e7ca6; color: #fff"
-                href="signup.html"
-                data-toggle="modal"
-                data-target="#modal"
-                >Sign Up</a
-              >
-              <button
-                type="button"
-                style="background-color: #7e7ca6; color: #fff"
-                class="btn"
-                data-bs-dismiss="modal"
-              >
+                <div class="row" style="padding-bottom: 10px">
+                    <div class="col-6">
+                        <p style="padding-top: 5px">Don't have an Account?</p>
+                    </div>
+                    <div class="col-6"> <a class="btn" style="background-color: #7e7ca6; color: #fff" href="signup.html" data-toggle="modal" data-target="#modal">Sign Up</a> <button type="button" style="background-color: #7e7ca6; color: #fff" class="btn" data-bs-dismiss="modal">
                 Close
-              </button>
+              </button> </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
 
     <main id="main">
-      <!-- ======= Intro Single ======= -->
-      <section class="intro-single" style="padding: 100px 0px 20px">
-        <div class="container">
-          <div class="title-single-box">
-            <h1
-              class="title-single"
-              style="text-align: center; font-family: 'Source Serif Pro'"
-            >
-            LITESTORE PRIVACY POLICY
-            </h1>
-            <!-- <span class="color-text-a">News Single.</span> -->
-          </div>
-        </div>
-      </section>
-      <!-- End Intro Single-->
-
-      <!-- ======= Blog Single ======= -->
-      <section class="news-single nav-arrow-b">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12"></div>
-                <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-                    <p class="post-intro" style="padding-top: 10px">
-                        When you use the LiteStore™ website or any of its features or 
-                        sub-domains <span style="font-weight: bold;">(Site)</span>, we may collect some personal information 
-                        from you. We are committed to protecting the security of your 
-                        personal information and safeguarding your privacy while you 
-                        use our Site and this privacy policy sets out the way we collect 
-                        personal information from you and use the personal information 
-                        that we have collected or received about you. The Site is owned 
-                        and operated by Popspace Technologies Private Limited, a company
-                        having its registered office at #58, Domlur Layout, Bangalore-560071,
-                        India. The terms <span style="font-weight: bold;">"user", "you", "your"</span> hereunder refer to the 
-                        person accessing and or using the Site. The terms <span style="font-weight: bold;">"we", "us", 
-                        "our"</span> refer to Popspace Technologies Private Limited.
-                    </p>
-                    <p style="padding-top: 10px">
-                        By visiting and using the Site and selecting the ‘Accept T&C and Privacy Policy' option while providing your email address and mobile number, you signify your acceptance of this Privacy Policy (as amended from time to time and agree to be bound by them for as long as you are using or accessing the Site. If you do not click the ‘Accept T&C and Privacy Policy' option, you will not be permitted to access or use the Site. This Privacy Policy details our collection, processing, storage, use, disclosure, transfer and otherwise handling of your personal and sensitive personal data. 
-                    </p>
-                    <p style="padding-top: 10px">
-                        We may revise the Privacy Policy from time to time. While we may not be able to separately notify you of the revisions each time that we make them, we will notify you and obtain your consent for any changes that we make to this policy when required under law. 
-                    </p>
-                    <p style="padding-top: 10px">
-                        We encourage you to check this page periodically for modifications or revisions to the Privacy Policy to understand how it affects the use of your information. We will not be responsible for your failure to remain informed about such changes.
-                    </p>
-                    <div style="padding: 30px">
-                        <p>The Privacy Policy will inform you about:</p>
-                        <p style="padding: 0px 30px;">
-                            •	What personal information we collect and why we collect it <br>
-                            •	How we use that personal information including how we share the personal information with third parties <br>
-                            •	Your rights and options 
-                        </p>
-                    </div>
-
-                    <p style="font-weight: bolder;">The Information That We Collect</p>
-                    <p>The following personal information may be collected from you in any of the following ways: 
-                    </p>
-                    <p style="font-weight: 600">I. Accessing the Site:</p>
-                    <p>
-                        We may collect your email address and mobile number as a necessary condition to access the Site;
-                    </p>
-                    <p style="font-weight: 600">II. Account creation:</p>
-                    <p>
-                        Users provide information such as an email address and password  at the time of creating an account,[including by way of logging in to an existing social networking service such as Google, Facebook or via other email service providers
-                    </p>
-                    <p style="font-weight: 600">III. Purchases:</p>
-                    <p>To enable our third party payment services vendors to collect any payments when you make a purchase from a seller on the Site, we will need to collect the financial information you provide for this purpose including your credit card number, your debit card number, your bank account number, bank IFSC code, your UPI handle, payment wallet information or net-banking details. The information we collect would depend on the payment method that you use. We may pass this information on to our third-party payment services vendors, or these entities may also directly collect this information from you.</p>
-                    <p style="font-weight: 600">Uses of Information:</p>
-                    <p>
-                        The personal information that we collect from you may be used for the following purposes: <br>
-                            1. To inform you of any new offerings or upcoming launches. <br>
-                            2. To administer accounts and keep track of billing and payments. We may use your account related data and other data available to us to process payments, bookings, cancellations and other transactions made on the Site. 
-                    </p>
-                    <p style="font-weight: 600">Your Rights</p>
-                    <p>
-                        You have the right to request access to all personal information about you that we have collected, and have the right to ask for any inaccurate or deficient information be corrected or amended. You may exercise this right by writing to us at <a href="mailto:support@litestore.in" style="color: #7e7ca6;">support@litestore.in</a>
-                    </p>
-                    <p style="font-weight: 600">Security and Confidentiality</p>
-                    <p>
-                        We have adopted standard security features on the Site to protect the confidentiality and security of your information as required by applicable laws.
-                    </p>
-                    <p style="font-weight: 600">Disclosures and Transfer</p>
-                    <p>
-                        We will not publish or disclose your personal information without your prior consent, unless it is mandated by law, or if you have previously provided your consent. We may disclose personal information with its employees, officers, agents, consultants, business associates, contractors, attorneys, etc., on a need-to-know basis for the purposes specified by us. 
-                        <p style="padding-top: 10px">
-                            We will also disclose any sensitive personal data and information if there is a legal requirement or if it is ordered to do so by a court of competent jurisdiction or to any government agency if required by law for the purposes of verification of identity, or for prevention, detection, or investigation of crime (including cyber incidents), or for prosecution or punishment of offences.
-                        </p>
-                        <p style="padding-top: 10px">
-                            We may transfer personal information including sensitive personal information pertaining to you to the following entities for specified purposes:
-                        </p>
-
-                    </p>
-                    <p style="font-weight: 600">Retention</p>
-                    <p>
-                        We will not retain any sensitive personal data or information for longer than is required for the purpose for which such data or information was collected, or may lawfully be used, or is otherwise required under any other law for the time being in force. We may retain anonymized data for as long as is required.
-                    </p>
-                    <p style="font-weight: 600">Grievance Officer</p>
-                    <p>
-                        If you have any concerns or questions in relation to this Privacy Policy, you may address them to our grievance officer whose name and email address are as follows:
-                    </p>
-                    <p>Grievance Officer: Punnet Dinesh <br>
-                    Email: <span style="color: #7e7ca6;">puneet@litestore.in</span></p>
+        <!-- ======= Intro Single ======= -->
+        <section class="intro-single" style="padding: 100px 0px 20px">
+            <div class="container">
+                <div class="title-single-box">
+                    <h1 class="title-single" style="text-align: center; font-family: 'Source Serif Pro'"> LITESTORE PRIVACY POLICY </h1>
+                    <!-- <span class="color-text-a">News Single.</span> -->
                 </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Blog Single-->
+        </section>
+        <!-- End Intro Single-->
 
-      <!-- <div id="disqus_thread" style="margin: 0% 23%; padding-bottom: 30px;"></div>
+        <!-- ======= Blog Single ======= -->
+        <section class="news-single nav-arrow-b">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12"></div>
+                    <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                        <p class="post-intro" style="padding-top: 10px"> When you use the LiteStore™ website or any of its features or sub-domains <span style="font-weight: bold;">(Site)</span>, we may collect some personal information from you. We are committed to protecting the security of your personal
+                            information and safeguarding your privacy while you use our Site and this privacy policy sets out the way we collect personal information from you and use the personal information that we have collected or received about you.
+                            The Site is owned and operated by Popspace Technologies Private Limited, a company having its registered office at #58, Domlur Layout, Bangalore-560071, India. The terms <span style="font-weight: bold;">"user", "you", "your"</span>                            hereunder refer to the person accessing and or using the Site. The terms <span style="font-weight: bold;">"we", "us",       "our"</span> refer to Popspace Technologies Private Limited. </p>
+                        <p style="padding-top: 10px"> By visiting and using the Site and selecting the ‘Accept T&C and Privacy Policy' option while providing your email address and mobile number, you signify your acceptance of this Privacy Policy (as amended from time to time and
+                            agree to be bound by them for as long as you are using or accessing the Site. If you do not click the ‘Accept T&C and Privacy Policy' option, you will not be permitted to access or use the Site. This Privacy Policy details
+                            our collection, processing, storage, use, disclosure, transfer and otherwise handling of your personal and sensitive personal data. </p>
+                        <p style="padding-top: 10px"> We may revise the Privacy Policy from time to time. While we may not be able to separately notify you of the revisions each time that we make them, we will notify you and obtain your consent for any changes that we make to this
+                            policy when required under law. </p>
+                        <p style="padding-top: 10px"> We encourage you to check this page periodically for modifications or revisions to the Privacy Policy to understand how it affects the use of your information. We will not be responsible for your failure to remain informed about
+                            such changes. </p>
+                        <div style="padding: 30px">
+                            <p>The Privacy Policy will inform you about:</p>
+                            <p style="padding: 0px 30px;"> • What personal information we collect and why we collect it <br> • How we use that personal information including how we share the personal information with third parties <br> • Your rights and options </p>
+                        </div>
+                        <p style="font-weight: bolder;">The Information That We Collect</p>
+                        <p>The following personal information may be collected from you in any of the following ways: </p>
+                        <p style="font-weight: 600">I. Accessing the Site:</p>
+                        <p> We may collect your email address and mobile number as a necessary condition to access the Site; </p>
+                        <p style="font-weight: 600">II. Account creation:</p>
+                        <p> Users provide information such as an email address and password at the time of creating an account,[including by way of logging in to an existing social networking service such as Google, Facebook or via other email service providers
+                        </p>
+                        <p style="font-weight: 600">III. Purchases:</p>
+                        <p>To enable our third party payment services vendors to collect any payments when you make a purchase from a seller on the Site, we will need to collect the financial information you provide for this purpose including your credit
+                            card number, your debit card number, your bank account number, bank IFSC code, your UPI handle, payment wallet information or net-banking details. The information we collect would depend on the payment method that you use.
+                            We may pass this information on to our third-party payment services vendors, or these entities may also directly collect this information from you.</p>
+                        <p style="font-weight: 600">Uses of Information:</p>
+                        <p> The personal information that we collect from you may be used for the following purposes: <br> 1. To inform you of any new offerings or upcoming launches. <br> 2. To administer accounts and keep track of billing and payments. We
+                            may use your account related data and other data available to us to process payments, bookings, cancellations and other transactions made on the Site. </p>
+                        <p style="font-weight: 600">Your Rights</p>
+                        <p> You have the right to request access to all personal information about you that we have collected, and have the right to ask for any inaccurate or deficient information be corrected or amended. You may exercise this right by writing
+                            to us at <a href="mailto:support@litestore.in" style="color: #7e7ca6;">support@litestore.in</a> </p>
+                        <p style="font-weight: 600">Security and Confidentiality</p>
+                        <p> We have adopted standard security features on the Site to protect the confidentiality and security of your information as required by applicable laws. </p>
+                        <p style="font-weight: 600">Disclosures and Transfer</p>
+                        <p> We will not publish or disclose your personal information without your prior consent, unless it is mandated by law, or if you have previously provided your consent. We may disclose personal information with its employees, officers,
+                            agents, consultants, business associates, contractors, attorneys, etc., on a need-to-know basis for the purposes specified by us.
+                            <p style="padding-top: 10px"> We will also disclose any sensitive personal data and information if there is a legal requirement or if it is ordered to do so by a court of competent jurisdiction or to any government agency if required by law for the purposes
+                                of verification of identity, or for prevention, detection, or investigation of crime (including cyber incidents), or for prosecution or punishment of offences. </p>
+                            <p style="padding-top: 10px"> We may transfer personal information including sensitive personal information pertaining to you to the following entities for specified purposes: </p>
+                        </p>
+                        <p style="font-weight: 600">Retention</p>
+                        <p> We will not retain any sensitive personal data or information for longer than is required for the purpose for which such data or information was collected, or may lawfully be used, or is otherwise required under any other law for
+                            the time being in force. We may retain anonymized data for as long as is required. </p>
+                        <p style="font-weight: 600">Grievance Officer</p>
+                        <p> If you have any concerns or questions in relation to this Privacy Policy, you may address them to our grievance officer whose name and email address are as follows: </p>
+                        <p>Grievance Officer: Punnet Dinesh <br> Email: <span style="color: #7e7ca6;">puneet@litestore.in</span></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- End Blog Single-->
+
+        <!-- <div id="disqus_thread" style="margin: 0% 23%; padding-bottom: 30px;"></div>
     <script>
         (function() { // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
@@ -482,94 +235,65 @@
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> -->
 
-      <!--  Footer  -->
-      <footer id="footer">
-        <div class="footer-top">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-3 col-md-6 footer-contact">
-                <p>
-                  <span style="font-size: 30px">LiteStore™</span>
-                  <br />#58, Domlur Layout, <br />Bangalore-71<br />
-
-                  <strong>Phone: <br /> </strong> +91 9483465923<br />
-                  <span>+91 6363294498</span> <br />
-                  <strong>Email:</strong> <a href="mailto:support@litestore.in">support@litestore.in</a>
-                </p>
-              </div>
-
-              <div class="col-lg-2 col-md-6 footer-links">
-                <h4>How it works</h4>
-                <ul>
-                  <li><a href="../list-your-space.html">List a Space</a></li>
-                  <li><a href="../find-a-space.html">Find a Space</a></li>
-                  
-                </ul>
-              </div>
-
-              <div class="col-lg-2 col-md-6 footer-links">
-                <h4>About</h4>
-                <ul>
-                  <li><a href="../careers.html">Careers</a></li>
-                  <li><a href="../company.html">Company</a></li>
-                  <li><a href="../faqs/faq-section.html">FAQs</a></li>
-                </ul>
-              </div>
-
-              <div class="col-lg-2 col-md-6 footer-links">
-                <h4>Discover</h4>
-                <ul>
-                  <li><a href="../blogs/list.html">Blog</a></li>
-                  <li><a href="../community.html">Community</a></li>
-                  
-                </ul>
-              </div>
-
-              <div class="col-lg-2 col-md-6 footer-links">
-                <h4>Legal</h4>
-                <ul>
-                  <li>
-                    <a href="../legal/privacy-policy.html">Privacy Policy</a>
-                  </li>
-                  <li>
-                    <a href="../legal/terms-of-use.html">Terms of use</a>
-                  </li>
-                </ul>
-              </div>
+        <!--  Footer  -->
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 footer-contact">
+                            <p> <span style="font-size: 30px">LiteStore™</span> <br />#58, Domlur Layout, <br />Bangalore-71<br />
+                                <strong>Phone: <br /> </strong> +91 9483465923<br /> <span>+91 6363294498</span> <br /> <strong>Email:</strong> <a href="mailto:support@litestore.in">support@litestore.in</a> </p>
+                        </div>
+                        <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>How it works</h4>
+                            <ul>
+                                <li><a href="../list-your-space.html">List a Space</a></li>
+                                <li><a href="../find-a-space.html">Find a Space</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>About</h4>
+                            <ul>
+                                <li><a href="../careers.html">Careers</a></li>
+                                <li><a href="../company.html">Company</a></li>
+                                <li><a href="../faqs/faq-section.html">FAQs</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>Discover</h4>
+                            <ul>
+                                <li><a href="../blogs/list.html">Blog</a></li>
+                                <li><a href="../community.html">Community</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>Legal</h4>
+                            <ul>
+                                <li> <a href="../legal/privacy-policy.html">Privacy Policy</a> </li>
+                                <li> <a href="../legal/terms-of-use.html">Terms of use</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <div class="container d-md-flex py-4" style="background-color: #fff">
-          <div class="me-md-auto text-center text-md-start">
-            <div class="copyright">
-              &copy; Copyright 2022
-              <strong><span>Popspace Technologies Pvt. Ltd. </span></strong>All
-              Rights Reserved
+            <div class="container d-md-flex py-4" style="background-color: #fff">
+                <div class="me-md-auto text-center text-md-start">
+                    <div class="copyright"> &copy; Copyright 2022 <strong><span>Popspace Technologies Pvt. Ltd. </span></strong>All Rights Reserved </div>
+                </div>
+                <div class="social-links text-center text-md-right pt-3 pt-md-0"> <a href="https://www.instagram.com/litestore.in/" class="instagram"><i class="fab fa-instagram"></i
+            ></a> <a href="https://www.linkedin.com/company/litestore/" class="linkedin"><i class="fab fa-linkedin"></i
+            ></a>
+                </div>
             </div>
-          </div>
-          <div class="social-links text-center text-md-right pt-3 pt-md-0">
-            <a href="https://www.instagram.com/litestore.in/" class="instagram"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/company/litestore/"
-              class="linkedin"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-          </div>
-        </div>
-      </footer>
-      <!-- End Footer -->
+        </footer>
+        <!-- End Footer -->
     </main>
     <!-- End #main -->
 
-    <!-- <div id="preloader"></div> -->
+    <div id="preloader"></div>
 
-    <a
-      href="#main"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
+    <a href="#main" class="back-to-top d-flex align-items-center justify-content-center"><i class="fas fa-chevron-up"></i
     ></a>
 
     <!-- Vendor JS Files -->
@@ -581,10 +305,7 @@
     <script src="../assets/js/main.js"></script>
 
     <!-- Disqus Comments -->
-    <script
-      id="dsq-count-scr"
-      src="//litestore.disqus.com/count.js"
-      async
-    ></script>
-  </body>
+    <script id="dsq-count-scr" src="//litestore.disqus.com/count.js" async></script>
+</body>
+
 </html>
