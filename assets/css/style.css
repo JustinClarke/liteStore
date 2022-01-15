@@ -752,7 +752,7 @@ th {
     font-size: 30px;
 }
 
-#head .btn-get-started {
+.btn-get-started {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -766,7 +766,7 @@ th {
     background: #7e7ca6;
 }
 
-#head .btn-get-started:hover {
+.btn-get-started:hover {
     background: #fff;
     color: #000;
 }
@@ -1056,6 +1056,10 @@ section {
     padding: 0;
 }
 
+.clients h1{
+    font-weight: 800;
+}
+
 .clients img {
     transition: all 0.4s ease-in-out;
     display: inline-block;
@@ -1087,8 +1091,12 @@ section {
     .clients .container {
         padding: 5px 4px;
     }
+    .clients h1 {
+        font-size: 40px;
+    }
     .clients h2{
         font-size: 20px;
+        padding: 0%;
     }
     .brigade-reap {
         width: 40%;

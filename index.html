@@ -297,8 +297,26 @@
             <div class="container" data-aos="fade-up">
                 <div class="card-group">
                     <div class="card">
-                        <img src="https://lipsum.app/random/640x480" loading="lazy" />
-                        <div class="card-body">
+                        <!-- <img src="https://lipsum.app/random/640x480" class="d-block w-100" loading="lazy" /> -->
+                        <div id="first-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="https://lipsum.app/id/4/1600x900" class="d-block w-100" loading="lazy" />
+                              </div>
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <img src="https://lipsum.app/id/2/1600x900" class="d-block w-100" loading="lazy" />
+                              </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#first-carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#first-carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            </div>
+                        </div>
+                        <div class="card-body" style="background-image: url('assets/img/logos/articles/bg.webp');">
                             <h4 class="card-title">WOW Skin Science Flexi Store - 1 month</h4>
                             <p class="card-text"><small class="text-muted">Orion Mall, Brigade Gateway, Bangalore</small></p>
                             <div class="row">
@@ -325,7 +343,25 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div id="second-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="https://lipsum.app/id/3/1600x900" class="d-block w-100" loading="lazy" />
+                              </div>
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <img src="https://lipsum.app/random/1600x900" class="d-block w-100" loading="lazy" />
+                              </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#second-carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#second-carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            </div>
+                        </div>
+                        <div class="card-body" style="background-image: url('assets/img/logos/articles/bg.webp');">
                             <h5 class="card-title">SleepyCat Flexi Store - 3 months</h5>
                             <!-- <p class="card-text"><small class="text-muted"></small></p> -->
                             <p class="card-text">
@@ -337,7 +373,6 @@
                             <p class="card-text" style="padding-top: 10px;">
                                 With a pillow bar to rest your head and a sleep station to try out the different materials in each product, customers find it hard to leave the store!</p>
                         </div>
-                        <img src="https://lipsum.app/random/640x480" loading="lazy" />
                     </div>
                 </div>
             </div>
@@ -479,9 +514,9 @@
     <h1 style="text-align: center;">• • •</h1>
 
     <!--  Clients Section  -->
-    <section id="clients" class="clients" style="padding: 20px;">
+    <section id="clients" class="clients" style="padding: 20px; background-image: url('assets/img/logos/articles/news.webp');">
         <div class="container" data-aos="fade-up">
-            <h1 style="padding-bottom: 20px; font-weight: 600;">MEDIA</h1>
+            <h1>MEDIA</h1>
 
             <a target="_blank" href="https://thisweekindia.news/litestore-powers-indias-first-flexi-retail-store-at-orion-mall-at-brigade-gateway/">
                 <img class="media-img" src="assets/img/logos/articles/twi.webp" alt="" loading="lazy">
