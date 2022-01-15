@@ -205,3 +205,13 @@
               </div>
           </section>
   
+
+    <!--  Clients Section  -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="fade-up">
+          <h5>Trusted By</h5>
+          <img class="brigade-reap" src="assets/img/logos/trusted-by/wow-science.webp" alt="wow-science" loading="lazy">
+          <img class="startup-india img-fluid" src="assets/img/logos/trusted-by/sleepy-cat.webp" alt="sleepy-cat" loading="lazy">
+      </div>
+  </section>
+  <!-- End Clients Section -->

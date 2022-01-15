@@ -1,46 +1,3 @@
-/* #banner {
-  background-image: linear-gradient(120deg, #91C4FF 0%, #F0F7FF 87%);
-  position: relative;
-  width: 100%;
-  height: 950px;
-}
-#cloud-scroll {
-  background: url(http://9a2e1a2047765d2a004e-e6d2db425d8d4f2619e5cee56a48bcef.r55.cf2.rackcdn.com/clouds.webp) repeat-x;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  position: absolute;
-  -webkit-animation: 900000s backgroundScroll infinite linear;
-  -moz-animation: 900000s backgroundScroll infinite linear;
-  -o-animation: 900000s backgroundScroll infinite linear;
-  -ms-animation: 900000s backgroundScroll infinite linear;
-  animation: 900000s backgroundScroll infinite linear;
-}
-
-@-webkit-keyframes backgroundScroll {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -99999999px 0;
-  }
-}
-
-@keyframes backgroundScroll {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -99999999px 0;
-  }
-}
-
-<div id="banner">
-  <div id="cloud-scroll"></div>
-</div> */
-
 .news-single {
     padding-top: 0%;
     margin: 0% 0%;
@@ -236,7 +193,6 @@ th {
     color: #313141;
 }
 
-
 /* property single */
 
 .prop-desc {
@@ -264,7 +220,7 @@ th {
         display: none;
     }
     .feature-box {
-        padding: 2% 20%;
+        padding: 2% 30%;
     }
     .icon {
         font-size: 45px;
@@ -1097,6 +1053,7 @@ section {
 
 .clients {
     text-align: center;
+    padding: 0;
 }
 
 .clients img {
@@ -1111,11 +1068,11 @@ section {
 }
 
 .brigade-reap {
-    width: 15%;
+    width: 20%;
 }
 
 .startup-india {
-    width: 20%;
+    width: 30%;
 }
 
 .media-img {
@@ -1130,12 +1087,15 @@ section {
     .clients .container {
         padding: 5px 4px;
     }
+    .clients h2{
+        font-size: 20px;
+    }
     .brigade-reap {
-        width: 35%;
+        width: 40%;
         padding-right: 50px;
     }
     .startup-india {
-        width: 30%;
+        width: 50%;
     }
     .clients img {
         transition: all 0.4s ease-in-out;
@@ -1527,8 +1487,14 @@ section {
 --------------------------------------------------------------*/
 
 .symbol {
-    padding-bottom: 8%;
-    font-size: 200%;
+    padding-bottom: 11%;
+    padding-right: 3px;
+    font-size: 300%;
+}
+
+.services h1 {
+    font-family: montserrat;
+    font-size: 400%;
 }
 
 .services h5 {
@@ -1584,7 +1550,6 @@ section {
 .services .icon-box h4 {
     font-weight: 600;
     margin: 10px 0 15px 0;
-    font-size: 22px;
 }
 
 .services .icon-box h4 a {
@@ -1593,96 +1558,35 @@ section {
 }
 
 .services .icon-box p {
-    font-size: 14px;
     margin-bottom: 0;
-}
-
-.services .icon-box:hover {
-    border-color: rgba(157, 201, 255, 0.671);
-}
-
-.services .iconbox-blue i {
-    color: #7e7ca6;
-}
-
-.services .iconbox-blue:hover .icon i {
-    color: #fff9f1;
-}
-
-.services .iconbox-blue:hover .icon path {
-    fill: #7e7ca6;
-}
-
-.services .iconbox-orange i {
-    color: #7e7ca6;
-}
-
-.services .iconbox-orange:hover .icon i {
-    color: #fff9f1;
-}
-
-.services .iconbox-orange:hover .icon path {
-    fill: #7e7ca6;
-}
-
-.services .iconbox-pink i {
-    color: #7e7ca6;
-}
-
-.services .iconbox-pink:hover .icon i {
-    color: #fff9f1;
-}
-
-.services .iconbox-pink:hover .icon path {
-    fill: #7e7ca6;
-}
-
-.services .iconbox-yellow i {
-    color: #7e7ca6;
-}
-
-.services .iconbox-yellow:hover .icon i {
-    color: #fff9f1;
-}
-
-.services .iconbox-yellow:hover .icon path {
-    fill: #7e7ca6;
-}
-
-.services .iconbox-red i {
-    color: #7e7ca6;
-}
-
-.services .iconbox-red:hover .icon i {
-    color: #fff9f1;
-}
-
-.services .iconbox-red:hover .icon path {
-    fill: #7e7ca6;
-}
-
-.services .iconbox-teal i {
-    color: #7e7ca6;
-}
-
-.services .iconbox-teal:hover .icon i {
-    color: #fff9f1;
-}
-
-.services .iconbox-teal:hover .icon path {
-    fill: #7e7ca6;
-}
-
-#services .serve {
-    padding-left: 7%;
 }
 
 @media (max-width: 450px) {
     #services .serve {
         padding-left: 14%;
     }
+    .services h1 {
+        font-family: montserrat;
+        font-size: 30px;
+    }
+    .services h4 {
+        font-size: 14px;
+    }
+    .services h5 {
+        font-size: 10px;
+    }
 }
 
+#market h2 {
+    font-family: montserrat;
+    color: #7e7ca6;
+}
+
+#market h4 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #19171ab0;
+}
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
