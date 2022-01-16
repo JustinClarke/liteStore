@@ -1,45 +1,12 @@
-/* #banner {
-  background-image: linear-gradient(120deg, #91C4FF 0%, #F0F7FF 87%);
-  position: relative;
-  width: 100%;
-  height: 950px;
-}
-#cloud-scroll {
-  background: url(http://9a2e1a2047765d2a004e-e6d2db425d8d4f2619e5cee56a48bcef.r55.cf2.rackcdn.com/clouds.webp) repeat-x;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  position: absolute;
-  -webkit-animation: 900000s backgroundScroll infinite linear;
-  -moz-animation: 900000s backgroundScroll infinite linear;
-  -o-animation: 900000s backgroundScroll infinite linear;
-  -ms-animation: 900000s backgroundScroll infinite linear;
-  animation: 900000s backgroundScroll infinite linear;
-}
 
-@-webkit-keyframes backgroundScroll {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -99999999px 0;
-  }
+/*--------------------------------------------------------------
+# WordPlay
+--------------------------------------------------------------*/
+.trademark{
+    font-size: 1.5rem;
+    vertical-align: top;
+    vertical-align: 5em;
 }
-
-@keyframes backgroundScroll {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -99999999px 0;
-  }
-}
-
-<div id="banner">
-  <div id="cloud-scroll"></div>
-</div> */
 
 .news-single {
     padding-top: 0%;
@@ -69,6 +36,9 @@
 @media (max-width: 450px) {
     #blog-list {
         margin: 5% 5%;
+    }
+    .trademark{
+        font-size: 0.5rem;
     }
 }
 
@@ -236,7 +206,6 @@ th {
     color: #313141;
 }
 
-
 /* property single */
 
 .prop-desc {
@@ -264,7 +233,7 @@ th {
         display: none;
     }
     .feature-box {
-        padding: 2% 20%;
+        padding: 2% 30%;
     }
     .icon {
         font-size: 45px;
@@ -796,7 +765,7 @@ th {
     font-size: 30px;
 }
 
-#head .btn-get-started {
+.btn-get-started {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -810,7 +779,7 @@ th {
     background: #7e7ca6;
 }
 
-#head .btn-get-started:hover {
+.btn-get-started:hover {
     background: #fff;
     color: #000;
 }
@@ -1097,6 +1066,11 @@ section {
 
 .clients {
     text-align: center;
+    padding: 20px;
+}
+
+.clients h1{
+    font-weight: 800;
 }
 
 .clients img {
@@ -1110,19 +1084,19 @@ section {
     transform: scale(1.15);
 }
 
-.brigade-reap{
-    width: 25%;
+.brigade-reap {
+    width: 20%;
 }
 
-.startup-india{
+.startup-india {
     width: 30%;
 }
 
-.media-img{
+.media-img {
     width: 18%;
 }
 
-.india-retail{
+.india-retail {
     width: 6%;
 }
 
@@ -1130,30 +1104,157 @@ section {
     .clients .container {
         padding: 5px 4px;
     }
-
-    .brigade-reap{
-        width: 35%; 
+    .clients h1 {
+        font-size: 40px;
+    }
+    .clients h2{
+        font-size: 20px;
+        padding: 0%;
+    }
+    .brigade-reap {
+        width: 40%;
         padding-right: 50px;
     }
-
-    .startup-india{
-        width: 40%;
+    .startup-india {
+        width: 50%;
     }
-
     .clients img {
         transition: all 0.4s ease-in-out;
         display: inline-block;
         padding: 3% 1%;
     }
-
-    .india-retail{
+    .india-retail {
         width: 40%;
     }
-
-    .media-img{
+    .media-img {
         width: 60%;
     }
 }
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+
+.testimonials .testimonials-carousel,
+.testimonials .testimonials-slider {
+    overflow: hidden;
+}
+
+.testimonials .testimonial-item {
+    box-sizing: content-box;
+    text-align: center;
+    min-height: 320px;
+}
+
+.testimonials .testimonial-item .testimonial-img {
+    width: 90px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.testimonials .testimonial-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #111;
+}
+
+.testimonials .testimonial-item h4 {
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+}
+
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
+    color: #c9e3f5;
+    font-size: 26px;
+}
+
+.testimonials .testimonial-item .quote-icon-left {
+    display: inline-block;
+    left: -5px;
+    position: relative;
+}
+
+.testimonials .testimonial-item .quote-icon-right {
+    display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 10px;
+}
+
+.testimonials .testimonial-item p {
+    font-style: italic;
+    margin: 0 15px 15px 15px;
+    padding: 20px;
+    background: #f3f9fd;
+    position: relative;
+    margin-bottom: 35px;
+    border-radius: 6px;
+}
+
+.testimonials .testimonial-item p::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 20px solid #f3f9fd;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 20px);
+}
+
+.testimonials .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #2487ce;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #2487ce;
+}
+
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+
+.counts {
+    padding: 60px 0;
+}
+
+.counts .count-box {
+    width: 100%;
+    text-align: center;
+}
+
+.counts .count-box span {
+    font-size: 48px;
+    line-height: 48px;
+    display: block;
+    font-weight: 700;
+    color: #124265;
+    margin-left: 80px;
+    margin: auto;
+}
+
+.counts .count-box p {
+    padding: 8px 0 0 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #1e6ca6;
+}
+
 
 /*--------------------------------------------------------------
 # Carousel
@@ -1405,6 +1506,31 @@ section {
 # Services
 --------------------------------------------------------------*/
 
+.symbol {
+    padding-bottom: 11%;
+    padding-right: 3px;
+    font-size: 300%;
+}
+
+.services h1 {
+    font-family: montserrat;
+    font-size: 400%;
+}
+
+.services h5 {
+    padding-left: 5px;
+    padding-top: 14%;
+}
+
+@media (max-width: 450px) {
+    .services h5 {
+        padding-top: 4%;
+    }
+    .symbol {
+        font-size: 50%;
+    }
+}
+
 .services .icon-box {
     text-align: center;
     padding: 30px 10px 40px 10px;
@@ -1444,7 +1570,6 @@ section {
 .services .icon-box h4 {
     font-weight: 600;
     margin: 10px 0 15px 0;
-    font-size: 22px;
 }
 
 .services .icon-box h4 a {
@@ -1453,96 +1578,35 @@ section {
 }
 
 .services .icon-box p {
-    font-size: 14px;
     margin-bottom: 0;
-}
-
-.services .icon-box:hover {
-    border-color: rgba(157, 201, 255, 0.671);
-}
-
-.services .iconbox-blue i {
-    color: #7e7ca6;
-}
-
-.services .iconbox-blue:hover .icon i {
-    color: #fff9f1;
-}
-
-.services .iconbox-blue:hover .icon path {
-    fill: #7e7ca6;
-}
-
-.services .iconbox-orange i {
-    color: #7e7ca6;
-}
-
-.services .iconbox-orange:hover .icon i {
-    color: #fff9f1;
-}
-
-.services .iconbox-orange:hover .icon path {
-    fill: #7e7ca6;
-}
-
-.services .iconbox-pink i {
-    color: #7e7ca6;
-}
-
-.services .iconbox-pink:hover .icon i {
-    color: #fff9f1;
-}
-
-.services .iconbox-pink:hover .icon path {
-    fill: #7e7ca6;
-}
-
-.services .iconbox-yellow i {
-    color: #7e7ca6;
-}
-
-.services .iconbox-yellow:hover .icon i {
-    color: #fff9f1;
-}
-
-.services .iconbox-yellow:hover .icon path {
-    fill: #7e7ca6;
-}
-
-.services .iconbox-red i {
-    color: #7e7ca6;
-}
-
-.services .iconbox-red:hover .icon i {
-    color: #fff9f1;
-}
-
-.services .iconbox-red:hover .icon path {
-    fill: #7e7ca6;
-}
-
-.services .iconbox-teal i {
-    color: #7e7ca6;
-}
-
-.services .iconbox-teal:hover .icon i {
-    color: #fff9f1;
-}
-
-.services .iconbox-teal:hover .icon path {
-    fill: #7e7ca6;
-}
-
-#services .serve {
-    padding-left: 7%;
 }
 
 @media (max-width: 450px) {
     #services .serve {
         padding-left: 14%;
     }
+    .services h1 {
+        font-family: montserrat;
+        font-size: 30px;
+    }
+    .services h4 {
+        font-size: 14px;
+    }
+    .services h5 {
+        font-size: 10px;
+    }
 }
 
+#market h2 {
+    font-family: montserrat;
+    color: #7e7ca6;
+}
+
+#market h4 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #19171ab0;
+}
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
@@ -1646,7 +1710,7 @@ bg-color p {
 --------------------------------------------------------------*/
 
 #contact {
-    background-color: rgb(247, 247, 247);
+    background-color: #f7f7f7;
 }
 
 .contact .info {
