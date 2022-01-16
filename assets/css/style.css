@@ -1,3 +1,13 @@
+
+/*--------------------------------------------------------------
+# WordPlay
+--------------------------------------------------------------*/
+.trademark{
+    font-size: 1.5rem;
+    vertical-align: top;
+    vertical-align: 5em;
+}
+
 .news-single {
     padding-top: 0%;
     margin: 0% 0%;
@@ -26,6 +36,9 @@
 @media (max-width: 450px) {
     #blog-list {
         margin: 5% 5%;
+    }
+    .trademark{
+        font-size: 0.5rem;
     }
 }
 
