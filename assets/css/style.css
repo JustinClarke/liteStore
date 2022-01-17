@@ -1870,8 +1870,10 @@ bg-color p {
 
 @media (max-width: 450px) {
     #contact h3 {
-        padding: 0% 20%;
-        margin: 0px;
+        padding: 0% 0% 3% 0%;
+    }
+    #contact{
+        padding: 10% 3%;
     }
 }
 
