@@ -608,10 +608,8 @@ th {
 #head-c {
   width: 100%;
   height: calc(100vh - 0px);
-  /* height: 1080px; */
   text-align: center;
   position: relative;
-  background-color: #000;
   background: url("../img/stock/stands.webp") top center;
   background-size: cover;
 }
