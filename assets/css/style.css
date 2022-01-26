@@ -1473,6 +1473,9 @@ section {
   .services h5 {
     font-size: 10px;
   }
+  #launched h4 {
+    font-size: 18px;
+  }
 }
 
 #launched h2 {
@@ -1482,7 +1485,6 @@ section {
 
 #launched h4 {
   font-weight: 500;
-  font-size: 20px;
   color: #19171ab0;
 }
 
