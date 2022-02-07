@@ -1069,7 +1069,14 @@ section {
   width: 6%;
 }
 
+.vitro-m{
+  display: none;
+}
+
 @media (max-width: 450px) {
+  .clients{
+    padding: 5px 4px 5px 30px; 
+  }
   .clients .container {
     padding: 5px 4px;
   }
@@ -1082,7 +1089,7 @@ section {
   }
   .brigade-reap {
     width: 40%;
-    padding-right: 50px;
+    padding: 50px;
   }
   .startup-india {
     width: 50%;
@@ -1090,10 +1097,17 @@ section {
   .clients img {
     transition: all 0.4s ease-in-out;
     display: inline-block;
-    padding: 3% 1%;
+    padding: 3% 2%;
   }
   .india-retail {
     width: 40%;
+  }
+  .vitro-d{
+    display: none;
+  }
+  .vitro-m{
+    text-align: center;
+    display: contents;
   }
   .media-img {
     width: 60%;
