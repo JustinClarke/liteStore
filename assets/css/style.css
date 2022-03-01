@@ -1069,16 +1069,14 @@ section {
   width: 6%;
 }
 
-.vitro-m{
+.mobile-images img{
+  width: 40%;
   display: none;
 }
 
 @media (max-width: 450px) {
   .clients{
-    padding: 5px 4px 5px 30px; 
-  }
-  .clients .container {
-    padding: 5px 4px;
+    padding: 5px 4px 5px 20px; 
   }
   .clients h1 {
     font-size: 40px;
@@ -1102,10 +1100,10 @@ section {
   .india-retail {
     width: 40%;
   }
-  .vitro-d{
+  .desktop-images{
     display: none;
   }
-  .vitro-m{
+  .mobile-images{
     text-align: center;
     display: contents;
   }
