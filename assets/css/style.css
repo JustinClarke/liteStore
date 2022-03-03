@@ -844,7 +844,7 @@ th {
 --------------------------------------------------------------*/
 
 section {
-  padding: 50px 0px 50px;
+  padding: 30px 0px;
   overflow: hidden;
 }
 
@@ -1069,14 +1069,13 @@ section {
   width: 6%;
 }
 
-.mobile-images img{
-  width: 40%;
+.mobile-images{
   display: none;
 }
 
 @media (max-width: 450px) {
   .clients{
-    padding: 5px 4px 5px 20px; 
+    padding: 5px 4px 5px; 
   }
   .clients h1 {
     font-size: 40px;
