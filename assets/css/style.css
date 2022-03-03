@@ -45,6 +45,10 @@
   border-radius: 4px;
 }
 
+li {
+  list-style: none;
+}
+
 @media (max-width: 450px) {
   #blog-list {
     margin: 5% 5%;
