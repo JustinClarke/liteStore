@@ -1049,8 +1049,15 @@ section {
 }
 
 .clients img:hover {
-  filter: none;
   transform: scale(1.15);
+}
+
+.media{ 
+  filter: grayscale(100);
+}
+
+.media:hover {
+  filter: none;
 }
 
 .brigade-reap {
