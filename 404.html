@@ -5,16 +5,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <title>Oops</title>
 </head>
 
 <body style="text-align: center">
-    <h1 style="padding: 25% 0% 2%; color: #7e7ca6">
+    <a href="https://litestore.in">
+        <img src="/assets/img/logo.webp" width="30%" style="padding: 15% 10% 0 10%;"/>
+    </a>
+    <h1 style="">
         you seem lost
     </h1>
     <style>
         *{
-            font-family: "Ubuntu", sans-serif;
+            font-family: "Raleway", sans-serif;
+        }
+        h1 {
+            padding: 5% 0% 2%;
+            color: #7e7ca6; font-size: 1.5rem;
+            font-weight: 100;
         }
         .cta {
             position: relative;
@@ -32,7 +41,7 @@
             left: 0;
             display: block;
             border-radius: 50px;
-            background: #b1dae7;
+            background: #c2bfff82;
             width: 45px;
             height: 45px;
             transition: all 0.3s ease;
@@ -61,7 +70,7 @@
 
         .cta:hover:before {
             width: 100%;
-            background: #b1dae7;
+            background: #c2bfff82;
         }
 
         .cta:hover svg {
@@ -72,16 +81,19 @@
             transform: scale(0.95);
         }
     </style>
-    <button class="cta">
-        <a href="https://litestore.in/" style="text-decoration: none;">
-            <span>click here to get back to safety</span>
-        </a>
-        
-        <svg width="15px" height="10px" viewBox="0 0 13 10">
-          <path d="M1,5 L11,5"></path>
-          <polyline points="8 1 12 5 8 9"></polyline>
-        </svg>
-      </button>
+    
+    <div  style="cursor: pointer;" onclick="location.href='./index.html';">
+        <button class="cta">
+            <a href="https://litestore.in/" style="text-decoration: none;">
+                <span>click here to get back to safety</span>
+
+                <svg width="15px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+            </a>
+        </button>
+    </div>
 </body>
 
 </html>
