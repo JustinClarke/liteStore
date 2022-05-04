@@ -200,9 +200,9 @@ th {
   color: #7e7ca6;
 }
 
-.icon:hover {
+/* .icon:hover {
   color: #313141;
-}
+} */
 
 /* property single */
 
@@ -1056,12 +1056,8 @@ section {
   transform: scale(1.15);
 }
 
-.media{ 
-  filter: grayscale(100);
-}
-
-.media:hover {
-  filter: none;
+.media{
+  padding: 20px;
 }
 
 .brigade-reap {
@@ -1635,7 +1631,7 @@ bg-color p {
 
 #contact {
   background-color: #f7f7f7;
-  padding: 1% 20%;
+  padding: 10% 20%;
 }
 
 .contact .info {
@@ -2102,7 +2098,6 @@ bg-color p {
 }
 
 .card-box-a .img-a,
-.card-box-a .img-b,
 .card-box-b .img-a,
 .card-box-b .img-b {
   transition: 0.8s all ease-in-out;
@@ -2168,7 +2163,7 @@ bg-color p {
 //--//-->   PROPERTY - CARD-A
 ===*/
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .card-box-a:hover .card-overlay-a-content {
     bottom: 60px;
   }
@@ -2190,7 +2185,7 @@ bg-color p {
   .card-box-a:hover .card-body-a {
     padding-bottom: 1rem;
   }
-}
+} */
 
 @media (max-width: 767px) {
   .card-box-a .card-overlay-a-content {
@@ -2202,7 +2197,7 @@ bg-color p {
 }
 
 .card-overlay-a-content {
-  transition: all 0.5s ease-in;
+  /* transition: all 0.5s ease-in; */
   position: absolute;
   width: 100%;
   bottom: 0px;
