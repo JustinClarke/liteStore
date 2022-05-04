@@ -748,3 +748,166 @@
                 </div>
             </div>
         </div>
+
+
+        <!-- Listed Spaces -->
+        
+        <!-- Next Property Grid  -->
+        <section class="property-grid grid" style="padding-top: 10px">
+          <div class="container" data-aos="fade-up">
+            <div class="row">
+              <div
+                class="col-md-4"
+                style="cursor: pointer"
+                onclick="location.href='stores/orion.html';"
+              >
+                <div class="card-box-a card-shadow">
+                  <div class="img-box-a">
+                    <img
+                      src="assets/img/places/orion mobile.jpg"
+                      alt=""
+                      class="img-a img-fluid"
+                    />
+                  </div>
+                  <div class="card-overlay">
+                    <div class="card-overlay-a-content">
+                      <div class="card-header-a">
+                        <h2 class="card-title-a">
+                          <a href="#">Orion Mall,<br />Bangalore</a>
+                        </h2>
+                      </div>
+                      <div class="card-body-a">
+                        <div class="price-box d-flex">
+                          <!-- <span class="price-a">rent | $ 12.000</span> -->
+                        </div>
+                        <a
+                          href="stores/orion.html"
+                          class="link-a"
+                          style="color: #fff"
+                          >Click here to view
+                          <span class="fas fa-chevron-right"></span>
+                        </a>
+                      </div>
+                      <!-- <div class="card-footer-a">        <ul class="card-info d-flex justify-content-around">            <li>                <h4 class="card-info-title" style="text-align: center;">Area</h4>                <span>1200sqft</span>            </li>            <li>                <h4 class="card-info-title">Beds</h4>                <span>2</span>            </li>            <li>                <h4 class="card-info-title">Baths</h4>                <span>4</span>            </li>            <li>                <h4 class="card-info-title">Garages</h4>                <span>1</span>            </li>        </ul>    </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card-box-a card-shadow">
+                  <div class="img-box-a">
+                    <img
+                      src="assets/img/places/garuda-mall.webp"
+                      alt=""
+                      class="img img-fluid"
+                    />
+                  </div>
+                  <div class="card-overlay">
+                    <div class="card-overlay-a-content">
+                      <div class="card-header-a">
+                        <h2 class="card-title-a">
+                          <a href="#">Garuda Mall, <br />Bangalore</a>
+                        </h2>
+                      </div>
+                      <div class="card-body-a">
+                        <div class="price-box d-flex">
+                          <!-- <span class="price-a">rent | $ 12.000</span> -->
+                        </div>
+                        <!-- <a href="#" class="link-a" style="color: #fff;">Click here to view
+                                                    <span class="fas fa-chevron-right"></span>
+                                                </a> -->
+                      </div>
+                      <!-- <div class="card-footer-a"><ul class="card-info d-flex justify-content-around"><li> 
+                                            <h4 class="card-info-title" style="text-align: center;">Area</h4>
+                                            <span>1200sqft</span></li>
+                                            <li><h4 class="card-info-title">Beds</h4><span>2</span>            </li>            <li>                <h4 class="card-info-title">Baths</h4>                <span>4</span>            </li>            <li>                <h4 class="card-info-title">Garages</h4>                <span>1</span>            </li>        </ul>    </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- End Property Grid Single-->
+        <section class="head-section" id="prop-name" style="padding-top: 0">
+          <div class="container" data-aos="fade-up">
+            <div class="row">
+              <!-- <div class="col-4">
+                            <h1>Flagship Spaces</h1>
+                            <h2 style="font-weight:100;">Operated by LiteStore™</h2>
+                        </div> -->
+              <div class="col-8">
+                <h1>Listed Spaces</h1>
+                <h2 style="font-weight: 100">On High Street</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Next Property Name-->
+        <!-- Next Property Grid  -->
+        <section class="property-grid grid" style="padding-top: 10px">
+          <div class="container" data-aos="fade-up">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-box-a card-shadow">
+                  <div class="img-box-a">
+                    <img
+                      src="assets/img/places/brigade-road.jpg"
+                      alt=""
+                      class="img img-fluid"
+                    />
+                  </div>
+                  <div class="card-overlay">
+                    <div class="card-overlay-a-content">
+                      <div class="card-header-a">
+                        <h2 class="card-title-a">
+                          <a href="#">Brigade Road, <br />Bangalore</a>
+                        </h2>
+                      </div>
+                      <div class="card-body-a">
+                        <div class="price-box d-flex">
+                          <!-- <span class="price-a">rent | $ 12.000</span> -->
+                        </div>
+                        <!-- <a href="orion.html" class="link-a" style="color: #fff;">Click here to view            <span class="fas fa-chevron-right"></span>        </a> -->
+                      </div>
+                      <!-- <div class="card-footer-a">        <ul class="card-info d-flex justify-content-around">            <li>                <h4 class="card-info-title" style="text-align: center;">Area</h4>                <span>1200sqft</span>            </li>            <li>                <h4 class="card-info-title">Beds</h4>                <span>2</span>            </li>            <li>                <h4 class="card-info-title">Baths</h4>                <span>4</span>            </li>            <li>                <h4 class="card-info-title">Garages</h4>                <span>1</span>            </li>        </ul>    </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card-box-a card-shadow">
+                  <div class="img-box-a">
+                    <img
+                      src="assets/img/places/indiranagar.jpg"
+                      alt=""
+                      class="img img-fluid"
+                    />
+                  </div>
+                  <div class="card-overlay">
+                    <div class="card-overlay-a-content">
+                      <div class="card-header-a">
+                        <h2 class="card-title-a">
+                          <a href="#"
+                            >Indiranagar <br />
+                            100ft Road, <br />Bangalore</a
+                          >
+                        </h2>
+                      </div>
+                      <div class="card-body-a">
+                        <div class="price-box d-flex">
+                          <!-- <span class="price-a">rent | $ 12.000</span> -->
+                        </div>
+                        <!-- <a href="orion.html" class="link-a" style="color: #fff;">Click here to view            <span class="fas fa-chevron-right"></span>        </a> -->
+                      </div>
+                      <!-- <div class="card-footer-a">        <ul class="card-info d-flex justify-content-around">            <li>                <h4 class="card-info-title" style="text-align: center;">Area</h4>                <span>1200sqft</span>            </li>            <li>                <h4 class="card-info-title">Beds</h4>                <span>2</span>            </li>            <li>                <h4 class="card-info-title">Baths</h4>                <span>4</span>            </li>            <li>                <h4 class="card-info-title">Garages</h4>                <span>1</span>            </li>        </ul>    </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Property Grid Single-->
