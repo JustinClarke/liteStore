@@ -96,7 +96,8 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <!-- End of Carousel Section -->  <!--  Clients Section  -->
+  <!-- End of Carousel Section -->
+  <!--  Clients Section  -->
   <section id="clients" class="clients" style="background-color: #fff">
     <div class="container" data-aos="fade-up">
       <h2>Trusted by</h2>
@@ -118,7 +119,8 @@
       />
     </div>
   </section>
-  <!-- End Clients Section -->  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <!-- End Clients Section -->
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 
   <!--  About Video Section  -->
@@ -134,7 +136,8 @@
       ></a>
     </div>
   </section>
-  <!-- End About Video Section -->  <!-- ======= Testimonials Section ======= -->
+  <!-- End About Video Section -->
+  <!-- ======= Testimonials Section ======= -->
   <section id="testimonials" class="testimonials">
     <div class="container" data-aos="fade-up">
       <div class="section-title">
@@ -167,7 +170,8 @@
               <h4>Ceo &amp; Founder</h4>
             </div>
           </div>
-          <!-- End testimonial item -->          <div class="swiper-slide">
+          <!-- End testimonial item -->
+          <div class="swiper-slide">
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -185,7 +189,8 @@
               <h4>Designer</h4>
             </div>
           </div>
-          <!-- End testimonial item -->          <div class="swiper-slide">
+          <!-- End testimonial item -->
+          <div class="swiper-slide">
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -203,7 +208,8 @@
               <h4>Store Owner</h4>
             </div>
           </div>
-          <!-- End testimonial item -->          <div class="swiper-slide">
+          <!-- End testimonial item -->
+          <div class="swiper-slide">
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -222,7 +228,8 @@
               <h4>Freelancer</h4>
             </div>
           </div>
-          <!-- End testimonial item -->          <div class="swiper-slide">
+          <!-- End testimonial item -->
+          <div class="swiper-slide">
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -247,7 +254,8 @@
       </div>
     </div>
   </section>
-  <!-- End Testimonials Section -->  <!-- ======= Intro Single ======= -->
+  <!-- End Testimonials Section -->
+  <!-- ======= Intro Single ======= -->
   <section class="head-section">
     <div class="container">
       <div class="row">
@@ -315,7 +323,8 @@
       />
     </div>
   </section>
-  <!-- End Clients Section -->  >
+  <!-- End Clients Section -->
+  >
 
   <!--  Marketing Section  -->
   <section id="launched" style="background-color: #19171a">
@@ -529,7 +538,8 @@
       </div>
     </div>
   </section>
-  <!-- End Marketing Section -->  <!-- ======= Lightbox Section ======= -->
+  <!-- End Marketing Section -->
+  <!-- ======= Lightbox Section ======= -->
   <section id="portfolio" class="portfolio" style="background-color: #000">
     <div class="container" data-aos="fade-up">
       <div class="section-title">
@@ -699,215 +709,432 @@
   <!-- End Lightbox Section -->
 </div>
 
-
 <!-- Header Login Button -->
-<li class="dropdown"><a class="nav-link scrollto" href="#"><span>Account</span> <i class="fas fa-chevron-down"></i></a>
+<li class="dropdown">
+  <a class="nav-link scrollto" href="#"
+    ><span>Account</span> <i class="fas fa-chevron-down"></i
+  ></a>
   <ul>
-      <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#loginmod" href="#">Sign In</a></li>
-      <li><a class="nav-link scrollto" href="signup.html">Sign Up</a></li>
+    <li>
+      <a
+        class="nav-link scrollto"
+        data-bs-toggle="modal"
+        data-bs-target="#loginmod"
+        href="#"
+        >Sign In</a
+      >
+    </li>
+    <li><a class="nav-link scrollto" href="signup.html">Sign Up</a></li>
   </ul>
 
-<!-- Log in Modal -->
-        <div class="modal fade" id="loginmod" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content" style="text-align: center;">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">LiteStore™</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div id="" style="margin: 0% 20%">
-                            <div class="container">
-                                <h1 style="padding-bottom: 5px;">Log In</h1>
-                            </div>
-                            <form>
-                                <div class="row mb-3" style="padding: 5% 0%;">
-                                    <!-- <label for="inputEmail3" class="col-3 col-form-label" style="text-align: left;">Username</label> -->
-                                    <div class="col"> <input type="email" class="form-control" placeholder="Username" id="inputEmail"></div>
-                                </div>
-                                <div class="row mb-3">
-                                    <!-- <label for="inputPassword3" class="col-3 col-form-label" style="text-align: left;">Password</label> -->
-                                    <div class="col"> <input type="password" class="form-control" placeholder="Password" id="inputPassword"></div>
-                                </div><button type="submit" id="loginButton" class="btn" style="background-color: #7e7ca6; color: #fff;">Log in</button>
-                            </form>
-                        </div>
-
-                    </div>
-                    <hr>
-                    <!-- <div class="modal-footer"> -->
-                    <div class="row" style="padding-bottom: 10px;">
-                        <div class="col-6">
-                            <p style="padding-top: 5px;">Don't have an Account?</p>
-                        </div>
-                        <div class="col-6">
-                            <a class="btn" style="background-color: #7e7ca6; color: #fff;" href="signup.html" data-toggle="modal" data-target="#modal">Sign Up</a>
-                            <button type="button" style="background-color: #7e7ca6; color: #fff;" class="btn" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                    <!-- </div> -->
-                </div>
-            </div>
+  <!-- Log in Modal -->
+  <div
+    class="modal fade"
+    id="loginmod"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content" style="text-align: center">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">LiteStore™</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
         </div>
-
-
-        <!-- Listed Spaces -->
-        
-        <!-- Next Property Grid  -->
-        <section class="property-grid grid" style="padding-top: 10px">
-          <div class="container" data-aos="fade-up">
-            <div class="row">
-              <div
-                class="col-md-4"
-                style="cursor: pointer"
-                onclick="location.href='stores/orion.html';"
-              >
-                <div class="card-box-a card-shadow">
-                  <div class="img-box-a">
-                    <img
-                      src="assets/img/places/orion mobile.jpg"
-                      alt=""
-                      class="img-a img-fluid"
-                    />
-                  </div>
-                  <div class="card-overlay">
-                    <div class="card-overlay-a-content">
-                      <div class="card-header-a">
-                        <h2 class="card-title-a">
-                          <a href="#">Orion Mall,<br />Bangalore</a>
-                        </h2>
-                      </div>
-                      <div class="card-body-a">
-                        <div class="price-box d-flex">
-                          <!-- <span class="price-a">rent | $ 12.000</span> -->
-                        </div>
-                        <a
-                          href="stores/orion.html"
-                          class="link-a"
-                          style="color: #fff"
-                          >Click here to view
-                          <span class="fas fa-chevron-right"></span>
-                        </a>
-                      </div>
-                      <!-- <div class="card-footer-a">        <ul class="card-info d-flex justify-content-around">            <li>                <h4 class="card-info-title" style="text-align: center;">Area</h4>                <span>1200sqft</span>            </li>            <li>                <h4 class="card-info-title">Beds</h4>                <span>2</span>            </li>            <li>                <h4 class="card-info-title">Baths</h4>                <span>4</span>            </li>            <li>                <h4 class="card-info-title">Garages</h4>                <span>1</span>            </li>        </ul>    </div> -->
-                    </div>
-                  </div>
+        <div class="modal-body">
+          <div id="" style="margin: 0% 20%">
+            <div class="container">
+              <h1 style="padding-bottom: 5px">Log In</h1>
+            </div>
+            <form>
+              <div class="row mb-3" style="padding: 5% 0%">
+                <!-- <label for="inputEmail3" class="col-3 col-form-label" style="text-align: left;">Username</label> -->
+                <div class="col">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Username"
+                    id="inputEmail"
+                  />
                 </div>
               </div>
+              <div class="row mb-3">
+                <!-- <label for="inputPassword3" class="col-3 col-form-label" style="text-align: left;">Password</label> -->
+                <div class="col">
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="Password"
+                    id="inputPassword"
+                  />
+                </div>
+              </div>
+              <button
+                type="submit"
+                id="loginButton"
+                class="btn"
+                style="background-color: #7e7ca6; color: #fff"
+              >
+                Log in
+              </button>
+            </form>
+          </div>
+        </div>
+        <hr />
+        <!-- <div class="modal-footer"> -->
+        <div class="row" style="padding-bottom: 10px">
+          <div class="col-6">
+            <p style="padding-top: 5px">Don't have an Account?</p>
+          </div>
+          <div class="col-6">
+            <a
+              class="btn"
+              style="background-color: #7e7ca6; color: #fff"
+              href="signup.html"
+              data-toggle="modal"
+              data-target="#modal"
+              >Sign Up</a
+            >
+            <button
+              type="button"
+              style="background-color: #7e7ca6; color: #fff"
+              class="btn"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+    </div>
+  </div>
 
-              <div class="col-md-4">
-                <div class="card-box-a card-shadow">
-                  <div class="img-box-a">
-                    <img
-                      src="assets/img/places/garuda-mall.webp"
-                      alt=""
-                      class="img img-fluid"
-                    />
+  <!-- Listed Spaces -->
+
+  <!-- Next Property Grid  -->
+  <section class="property-grid grid" style="padding-top: 10px">
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <div
+          class="col-md-4"
+          style="cursor: pointer"
+          onclick="location.href='stores/orion.html';"
+        >
+          <div class="card-box-a card-shadow">
+            <div class="img-box-a">
+              <img
+                src="assets/img/places/orion mobile.jpg"
+                alt=""
+                class="img-a img-fluid"
+              />
+            </div>
+            <div class="card-overlay">
+              <div class="card-overlay-a-content">
+                <div class="card-header-a">
+                  <h2 class="card-title-a">
+                    <a href="#">Orion Mall,<br />Bangalore</a>
+                  </h2>
+                </div>
+                <div class="card-body-a">
+                  <div class="price-box d-flex">
+                    <!-- <span class="price-a">rent | $ 12.000</span> -->
                   </div>
-                  <div class="card-overlay">
-                    <div class="card-overlay-a-content">
-                      <div class="card-header-a">
-                        <h2 class="card-title-a">
-                          <a href="#">Garuda Mall, <br />Bangalore</a>
-                        </h2>
-                      </div>
-                      <div class="card-body-a">
-                        <div class="price-box d-flex">
-                          <!-- <span class="price-a">rent | $ 12.000</span> -->
-                        </div>
-                        <!-- <a href="#" class="link-a" style="color: #fff;">Click here to view
+                  <a href="stores/orion.html" class="link-a" style="color: #fff"
+                    >Click here to view
+                    <span class="fas fa-chevron-right"></span>
+                  </a>
+                </div>
+                <!-- <div class="card-footer-a">        <ul class="card-info d-flex justify-content-around">            <li>                <h4 class="card-info-title" style="text-align: center;">Area</h4>                <span>1200sqft</span>            </li>            <li>                <h4 class="card-info-title">Beds</h4>                <span>2</span>            </li>            <li>                <h4 class="card-info-title">Baths</h4>                <span>4</span>            </li>            <li>                <h4 class="card-info-title">Garages</h4>                <span>1</span>            </li>        </ul>    </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card-box-a card-shadow">
+            <div class="img-box-a">
+              <img
+                src="assets/img/places/garuda-mall.webp"
+                alt=""
+                class="img img-fluid"
+              />
+            </div>
+            <div class="card-overlay">
+              <div class="card-overlay-a-content">
+                <div class="card-header-a">
+                  <h2 class="card-title-a">
+                    <a href="#">Garuda Mall, <br />Bangalore</a>
+                  </h2>
+                </div>
+                <div class="card-body-a">
+                  <div class="price-box d-flex">
+                    <!-- <span class="price-a">rent | $ 12.000</span> -->
+                  </div>
+                  <!-- <a href="#" class="link-a" style="color: #fff;">Click here to view
                                                     <span class="fas fa-chevron-right"></span>
                                                 </a> -->
-                      </div>
-                      <!-- <div class="card-footer-a"><ul class="card-info d-flex justify-content-around"><li> 
+                </div>
+                <!-- <div class="card-footer-a"><ul class="card-info d-flex justify-content-around"><li> 
                                             <h4 class="card-info-title" style="text-align: center;">Area</h4>
                                             <span>1200sqft</span></li>
                                             <li><h4 class="card-info-title">Beds</h4><span>2</span>            </li>            <li>                <h4 class="card-info-title">Baths</h4>                <span>4</span>            </li>            <li>                <h4 class="card-info-title">Garages</h4>                <span>1</span>            </li>        </ul>    </div> -->
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- End Property Grid Single-->
-        <section class="head-section" id="prop-name" style="padding-top: 0">
-          <div class="container" data-aos="fade-up">
-            <div class="row">
-              <!-- <div class="col-4">
+  <!-- End Property Grid Single-->
+  <section class="head-section" id="prop-name" style="padding-top: 0">
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <!-- <div class="col-4">
                             <h1>Flagship Spaces</h1>
                             <h2 style="font-weight:100;">Operated by LiteStore™</h2>
                         </div> -->
-              <div class="col-8">
-                <h1>Listed Spaces</h1>
-                <h2 style="font-weight: 100">On High Street</h2>
+        <div class="col-8">
+          <h1>Listed Spaces</h1>
+          <h2 style="font-weight: 100">On High Street</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Next Property Name-->
+  <!-- Next Property Grid  -->
+  <section class="property-grid grid" style="padding-top: 10px">
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card-box-a card-shadow">
+            <div class="img-box-a">
+              <img
+                src="assets/img/places/brigade-road.jpg"
+                alt=""
+                class="img img-fluid"
+              />
+            </div>
+            <div class="card-overlay">
+              <div class="card-overlay-a-content">
+                <div class="card-header-a">
+                  <h2 class="card-title-a">
+                    <a href="#">Brigade Road, <br />Bangalore</a>
+                  </h2>
+                </div>
+                <div class="card-body-a">
+                  <div class="price-box d-flex">
+                    <!-- <span class="price-a">rent | $ 12.000</span> -->
+                  </div>
+                  <!-- <a href="orion.html" class="link-a" style="color: #fff;">Click here to view            <span class="fas fa-chevron-right"></span>        </a> -->
+                </div>
+                <!-- <div class="card-footer-a">        <ul class="card-info d-flex justify-content-around">            <li>                <h4 class="card-info-title" style="text-align: center;">Area</h4>                <span>1200sqft</span>            </li>            <li>                <h4 class="card-info-title">Beds</h4>                <span>2</span>            </li>            <li>                <h4 class="card-info-title">Baths</h4>                <span>4</span>            </li>            <li>                <h4 class="card-info-title">Garages</h4>                <span>1</span>            </li>        </ul>    </div> -->
               </div>
             </div>
           </div>
-        </section>
-        <!-- End Next Property Name-->
-        <!-- Next Property Grid  -->
-        <section class="property-grid grid" style="padding-top: 10px">
-          <div class="container" data-aos="fade-up">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card-box-a card-shadow">
-                  <div class="img-box-a">
-                    <img
-                      src="assets/img/places/brigade-road.jpg"
-                      alt=""
-                      class="img img-fluid"
-                    />
-                  </div>
-                  <div class="card-overlay">
-                    <div class="card-overlay-a-content">
-                      <div class="card-header-a">
-                        <h2 class="card-title-a">
-                          <a href="#">Brigade Road, <br />Bangalore</a>
-                        </h2>
-                      </div>
-                      <div class="card-body-a">
-                        <div class="price-box d-flex">
-                          <!-- <span class="price-a">rent | $ 12.000</span> -->
-                        </div>
-                        <!-- <a href="orion.html" class="link-a" style="color: #fff;">Click here to view            <span class="fas fa-chevron-right"></span>        </a> -->
-                      </div>
-                      <!-- <div class="card-footer-a">        <ul class="card-info d-flex justify-content-around">            <li>                <h4 class="card-info-title" style="text-align: center;">Area</h4>                <span>1200sqft</span>            </li>            <li>                <h4 class="card-info-title">Beds</h4>                <span>2</span>            </li>            <li>                <h4 class="card-info-title">Baths</h4>                <span>4</span>            </li>            <li>                <h4 class="card-info-title">Garages</h4>                <span>1</span>            </li>        </ul>    </div> -->
-                    </div>
-                  </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-box-a card-shadow">
+            <div class="img-box-a">
+              <img
+                src="assets/img/places/indiranagar.jpg"
+                alt=""
+                class="img img-fluid"
+              />
+            </div>
+            <div class="card-overlay">
+              <div class="card-overlay-a-content">
+                <div class="card-header-a">
+                  <h2 class="card-title-a">
+                    <a href="#"
+                      >Indiranagar <br />
+                      100ft Road, <br />Bangalore</a
+                    >
+                  </h2>
                 </div>
+                <div class="card-body-a">
+                  <div class="price-box d-flex">
+                    <!-- <span class="price-a">rent | $ 12.000</span> -->
+                  </div>
+                  <!-- <a href="orion.html" class="link-a" style="color: #fff;">Click here to view            <span class="fas fa-chevron-right"></span>        </a> -->
+                </div>
+                <!-- <div class="card-footer-a">        <ul class="card-info d-flex justify-content-around">            <li>                <h4 class="card-info-title" style="text-align: center;">Area</h4>                <span>1200sqft</span>            </li>            <li>                <h4 class="card-info-title">Beds</h4>                <span>2</span>            </li>            <li>                <h4 class="card-info-title">Baths</h4>                <span>4</span>            </li>            <li>                <h4 class="card-info-title">Garages</h4>                <span>1</span>            </li>        </ul>    </div> -->
               </div>
-              <div class="col-md-4">
-                <div class="card-box-a card-shadow">
-                  <div class="img-box-a">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Property Grid Single-->
+
+  <div class="tab-content" style="margin: 5% 10% 3%">
+    <div class="tab-pane" id="tab-1">
+      <!--  Marketing Section  -->
+      <section id="launched" style="background-color: #19171a">
+        <div class="container" data-aos="fade-up">
+          <div class="row" style="padding-top: 20px">
+            <div class="col-9">
+              <div
+                id="first-carousel"
+                class="carousel carousel-dark slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="2000">
                     <img
-                      src="assets/img/places/indiranagar.jpg"
-                      alt=""
-                      class="img img-fluid"
+                      src="../../assets/img/launched/mensxp/mensxp.jpg"
+                      class="d-block w-100"
+                      loading="lazy"
                     />
                   </div>
-                  <div class="card-overlay">
-                    <div class="card-overlay-a-content">
-                      <div class="card-header-a">
-                        <h2 class="card-title-a">
-                          <a href="#"
-                            >Indiranagar <br />
-                            100ft Road, <br />Bangalore</a
-                          >
-                        </h2>
-                      </div>
-                      <div class="card-body-a">
-                        <div class="price-box d-flex">
-                          <!-- <span class="price-a">rent | $ 12.000</span> -->
-                        </div>
-                        <!-- <a href="orion.html" class="link-a" style="color: #fff;">Click here to view            <span class="fas fa-chevron-right"></span>        </a> -->
-                      </div>
-                      <!-- <div class="card-footer-a">        <ul class="card-info d-flex justify-content-around">            <li>                <h4 class="card-info-title" style="text-align: center;">Area</h4>                <span>1200sqft</span>            </li>            <li>                <h4 class="card-info-title">Beds</h4>                <span>2</span>            </li>            <li>                <h4 class="card-info-title">Baths</h4>                <span>4</span>            </li>            <li>                <h4 class="card-info-title">Garages</h4>                <span>1</span>            </li>        </ul>    </div> -->
-                    </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img
+                      src="../../assets/img/launched/mensxp/mensxp1.jpg"
+                      class="d-block w-100"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img
+                      src="../../assets/img/launched/mensxp/mensxp2.jpg"
+                      class="d-block w-100"
+                      loading="lazy"
+                    />
                   </div>
                 </div>
               </div>
             </div>
+            <div class="col-3">
+              <div class="card" style="margin: 0%">
+                <div class="card-body">
+                  <h4 class="card-title" style="color: #ff5e03">
+                    MensXP<span style="color: #19171ab0"> Flexi Store</span>
+                  </h4>
+                  <p class="card-text">
+                    <small class="text-muted">Garuda Mall, Bangalore</small>
+                  </p>
+                  <p>March '22 - June '22</p>
+                  <p class="card-text">
+                    After successfully capturing the internet shopping space,
+                    MensXP has opened its first store at Bangalore's Garuda Mall
+                  </p>
+                  <p class="card-text" style="padding-top: 10px">
+                    At MensXP Shop's store, you will be able to shop from
+                    exclusive labels like MensXP Basics (apparel), Collective
+                    (Bar Accessories), Indiyug (Ethnic Wear), Mojama (Casual
+                    Wear), MUD (for skincare), and Fraternity.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-        </section>
-        <!-- End Property Grid Single-->
+        </div>
+      </section>
+      <!-- End Marketing Section -->
+    </div>
+    <div class="tab-pane" id="tab-2">
+      <div class="row" style="padding-top: 20px">
+        <div class="col-7">
+          <div
+            id="first-carousel"
+            class="carousel carousel-dark slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img
+                  src="../../assets/img/launched/vitro/vitro.jpeg"
+                  class="d-block w-100"
+                  loading="lazy"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="../../assets/img/launched/vitro/vitro1.jpeg"
+                  class="d-block w-100"
+                  loading="lazy"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="../../assets/img/launched/vitro/vitro2.jpeg"
+                  class="d-block w-100"
+                  loading="lazy"
+                />
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#first-carousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#first-carousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="card" style="margin: 0%">
+            <div class="card-body">
+              <h4 class="card-title" style="color: #2c4b35">
+                Vitro Naturals<span style="color: #19171ab0"> Flexi Store</span>
+              </h4>
+              <p class="card-text">
+                <small class="text-muted">Garuda Mall, Bangalore</small>
+              </p>
+              <p>February '22</p>
+              <div class="row">
+                <div class="col-4">
+                  <h2>40%</h2>
+                  <h4>Repeat Purchases</h4>
+                </div>
+                <div class="col-4">
+                  <h2>700+</h2>
+                  <h4>Samples given out in-store</h4>
+                </div>
+                <div class="col-4">
+                  <h2>3x</h2>
+                  <h4>Increased Social Media Following</h4>
+                </div>
+              </div>
+              <p class="card-text">
+                <span style="color: #2c4b35">Vitro Naturals</span>, a
+                nutraceutical company based out of Jaipur, Rajasthan made its
+                first foray offline at Garuda Mall, Bangalore.
+              </p>
+              <p class="card-text" style="padding-top: 10px">
+                Targeting a niche but a highly growing nutraceutical market -
+                the Flexi-Store offered them a chance to test the offline market
+                and interact with customers and educate them about some of their
+                best selling products.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>

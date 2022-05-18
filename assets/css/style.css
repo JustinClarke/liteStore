@@ -644,13 +644,13 @@ th {
   height: calc(100vh - 0px);
   text-align: center;
   position: relative;
-  background: url("../img/stock/stands.webp") top center;
+  /* background: url("../img/stock/stands.webp") top center; */
   background-size: cover;
 }
 
 #head-garuda:before {
   content: "";
-  background: rgba(0, 0, 0, 0.158);
+  background: rgba(0, 0, 0, 0.534);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -667,6 +667,15 @@ th {
     background: url("../img/stock/stands-m.webp") top center;
     background-size: cover;
   }
+}
+
+.overlay {
+  position:absolute;
+  z-index:12;
+  top:50%;
+  left:0;
+  width:100%;
+  text-align:center;
 }
 
 #head-c h1 {
