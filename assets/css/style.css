@@ -670,10 +670,11 @@ th {
 }
 
 .overlay {
+  background: rgba(0, 0, 0, 0.711);
   position:absolute;
   z-index:12;
-  top:50%;
   left:0;
+  top: 50%;
   width:100%;
   text-align:center;
 }
