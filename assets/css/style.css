@@ -639,6 +639,36 @@ th {
   }
 }
 
+#head-garuda {
+  width: 100%;
+  height: calc(100vh - 0px);
+  text-align: center;
+  position: relative;
+  background: url("../img/stock/stands.webp") top center;
+  background-size: cover;
+}
+
+#head-garuda:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.158);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 450px) {
+  #head-garuda {
+    width: 100%;
+    height: calc(100vh - 0px);
+    text-align: center;
+    position: relative;
+    background: url("../img/stock/stands-m.webp") top center;
+    background-size: cover;
+  }
+}
+
 #head-c h1 {
   color: #fff;
   font-size: 100px;
