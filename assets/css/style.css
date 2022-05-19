@@ -2647,3 +2647,11 @@ bg-color p {
     opacity: 0;
   }
 }
+
+#mall-info{
+  background-color: #0c0c0c;
+}
+
+.render{
+  padding: 10%;
+}
