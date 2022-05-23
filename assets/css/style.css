@@ -664,19 +664,17 @@ th {
     height: calc(100vh - 0px);
     text-align: center;
     position: relative;
-    background: url("../img/stock/stands-m.webp") top center;
-    background-size: cover;
   }
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.711);
-  position:absolute;
-  z-index:12;
-  left:0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.267);
+  position: absolute;
+  z-index: 12;
+  left: 0;
   top: 50%;
-  width:100%;
-  text-align:center;
+  width: 100%;
 }
 
 #head-c h1 {
@@ -1096,7 +1094,7 @@ section {
   transform: scale(1.15);
 }
 
-.media{
+.media {
   padding: 20px;
 }
 
@@ -1128,13 +1126,13 @@ section {
   width: 6%;
 }
 
-.mobile-images{
+.mobile-images {
   display: none;
 }
 
 @media (max-width: 450px) {
-  .clients{
-    padding: 5px 4px 5px; 
+  .clients {
+    padding: 5px 4px 5px;
   }
   .clients h1 {
     font-size: 40px;
@@ -1169,10 +1167,10 @@ section {
   .india-retail {
     width: 40%;
   }
-  .desktop-images{
+  .desktop-images {
     display: none;
   }
-  .mobile-images{
+  .mobile-images {
     text-align: center;
     display: contents;
   }
@@ -2648,10 +2646,8 @@ bg-color p {
   }
 }
 
-#mall-info{
+#mall-info {
   background-color: #0c0c0c;
+  padding-top: 5%;
 }
 
-.render{
-  padding: 10%;
-}

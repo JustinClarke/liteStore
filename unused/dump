@@ -327,7 +327,7 @@
   >
 
   <!--  Marketing Section  -->
-  <section id="launched" style="background-color: #19171a">
+  <section id="places/launched" style="background-color: #19171a">
     <div class="container" data-aos="fade-up">
       <h1 style="color: #fff">Launched FlexiStores</h1>
       <div class="card-group">
@@ -340,21 +340,21 @@
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="2000">
                 <img
-                  src="assets/img/launched/wow1.webp"
+                  src="assets/img/places/launched/wow1.webp"
                   class="d-block w-100"
                   loading="lazy"
                 />
               </div>
               <div class="carousel-item" data-bs-interval="2000">
                 <img
-                  src="assets/img/launched/wow2.webp"
+                  src="assets/img/places/launched/wow2.webp"
                   class="d-block w-100"
                   loading="lazy"
                 />
               </div>
               <div class="carousel-item" data-bs-interval="2000">
                 <img
-                  src="assets/img/launched/wow3.webp"
+                  src="assets/img/places/launched/wow3.webp"
                   class="d-block w-100"
                   loading="lazy"
                 />
@@ -436,28 +436,28 @@
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="2000">
                 <img
-                  src="assets/img/launched/sleepycat1.webp"
+                  src="assets/img/places/launched/sleepycat1.webp"
                   class="d-block w-100"
                   loading="lazy"
                 />
               </div>
               <div class="carousel-item" data-bs-interval="2000">
                 <img
-                  src="assets/img/launched/sleepycat2.webp"
+                  src="assets/img/places/launched/sleepycat2.webp"
                   class="d-block w-100"
                   loading="lazy"
                 />
               </div>
               <div class="carousel-item" data-bs-interval="2000">
                 <img
-                  src="assets/img/launched/sleepycat3.webp"
+                  src="assets/img/places/launched/sleepycat3.webp"
                   class="d-block w-100"
                   loading="lazy"
                 />
               </div>
               <div class="carousel-item" data-bs-interval="2000">
                 <img
-                  src="assets/img/launched/sleepycat4.webp"
+                  src="assets/img/places/launched/sleepycat4.webp"
                   class="d-block w-100"
                   loading="lazy"
                 />
@@ -977,7 +977,7 @@
   <div class="tab-content" style="margin: 5% 10% 3%">
     <div class="tab-pane" id="tab-1">
       <!--  Marketing Section  -->
-      <section id="launched" style="background-color: #19171a">
+      <section id="places/launched" style="background-color: #19171a">
         <div class="container" data-aos="fade-up">
           <div class="row" style="padding-top: 20px">
             <div class="col-9">
@@ -989,21 +989,21 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="2000">
                     <img
-                      src="../../assets/img/launched/mensxp/mensxp.jpg"
+                      src="../../assets/img/places/launched/mensxp/mensxp.jpg"
                       class="d-block w-100"
                       loading="lazy"
                     />
                   </div>
                   <div class="carousel-item" data-bs-interval="2000">
                     <img
-                      src="../../assets/img/launched/mensxp/mensxp1.jpg"
+                      src="../../assets/img/places/launched/mensxp/mensxp1.jpg"
                       class="d-block w-100"
                       loading="lazy"
                     />
                   </div>
                   <div class="carousel-item" data-bs-interval="2000">
                     <img
-                      src="../../assets/img/launched/mensxp/mensxp2.jpg"
+                      src="../../assets/img/places/launched/mensxp/mensxp2.jpg"
                       class="d-block w-100"
                       loading="lazy"
                     />
@@ -1050,21 +1050,21 @@
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="2000">
                 <img
-                  src="../../assets/img/launched/vitro/vitro.jpeg"
+                  src="../../assets/img/places/launched/vitro/vitro.jpeg"
                   class="d-block w-100"
                   loading="lazy"
                 />
               </div>
               <div class="carousel-item" data-bs-interval="2000">
                 <img
-                  src="../../assets/img/launched/vitro/vitro1.jpeg"
+                  src="../../assets/img/places/launched/vitro/vitro1.jpeg"
                   class="d-block w-100"
                   loading="lazy"
                 />
               </div>
               <div class="carousel-item" data-bs-interval="2000">
                 <img
-                  src="../../assets/img/launched/vitro/vitro2.jpeg"
+                  src="../../assets/img/places/launched/vitro/vitro2.jpeg"
                   class="d-block w-100"
                   loading="lazy"
                 />
