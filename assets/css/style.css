@@ -644,13 +644,13 @@ th {
   height: calc(100vh - 0px);
   text-align: center;
   position: relative;
-  /* background: url("../img/stock/stands.webp") top center; */
+  background: url("../img/places/garuda-mall.webp") top center;
   background-size: cover;
 }
 
 #head-garuda:before {
   content: "";
-  background: rgba(0, 0, 0, 0.534);
+  background: rgba(0, 0, 0, 0.302);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -675,6 +675,11 @@ th {
   left: 0;
   top: 50%;
   width: 100%;
+}
+
+.overlay h1 {
+  font-weight: 800;
+  font-size: 3.5rem;
 }
 
 #head-c h1 {
@@ -1167,7 +1172,7 @@ section {
   .india-retail {
     width: 40%;
   }
-  .desktop-images {
+  .invisible-on-desktop {
     display: none;
   }
   .mobile-images {
