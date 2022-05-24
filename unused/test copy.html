@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>LiteStore™ | Garuda Mall</title>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="https://litestore.in/" />
+    <meta name="twitter:creator" content="" />
+    <meta name="twitter:title" content="LiteStore™ | Home" />
+    <meta name="twitter:description" content="your description." />
+    <meta
+      name="twitter:image"
+      content="https://litestore.in/assets/img/og-image.jpg"
+    />
+    <meta property="og:url" content="https://litestore.in/" />
+    <meta property="og:title" content="LiteStore™ | Home" />
+    <meta
+      property="og:description"
+      content="Booking retail space can't get any easier LiteStore™ is an online platform for listing and booking commercial retail spaces which can be rented on an ultra short term basis."
+    />
+    <meta
+      property="og:image"
+      content="https://litestore.in/assets/img/og-image.jpg"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="../assets/img/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../assets/img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="../assets/img/favicon/safari-pinned-tab.svg"
+      color="#000000"
+    />
+    <meta name="msapplication-TileColor" content="#e6e6e5" />
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/3547ccc8ab.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-209054329-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-209054329-1");
+    </script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="../assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> -->
+    <!-- <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+    <!-- Main CSS File -->
+    <link href="../assets/css/style.css" rel="stylesheet" />
+
+    <!-- API for Spreadsheets -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function SubForm() {
+        $.ajax({
+          url: "https://api.apispreadsheets.com/data/12085/",
+          type: "post",
+          data: $("#myForm").serializeArray(),
+          success: function () {
+            alert("Form Data Submitted :)");
+          },
+          error: function () {
+            alert("There was an error :(");
+          },
+        });
+      }
+    </script>
+  </head>
+
+  <body>
+      
+    <style>
+        #carousel {
+        position: relative;
+        width: 50%;
+        height: 30vw;
+        margin: 80px auto;
+        perspective: 1400px;
+        transform-style: preserve-3d;
+        }
+
+        input[type=radio] {
+        position: relative;
+        top: 108%;
+        left: 50%;
+        width: 18px;
+        height: 18px;
+        margin: 0 15px 0 0;
+        opacity: 0.4;
+        transform: translateX(-83px);
+        cursor: pointer;
+        }
+
+
+        input[type=radio]:nth-child(5) {
+        margin-right: 0px;
+        }
+
+        input[type=radio]:checked {
+        opacity: 1;
+        }
+
+        #carousel label {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        color: white;
+        font-size: 70px;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 400ms ease;
+        }
+
+        #slide1 {
+        background: tomato;
+        }
+
+        #slide2 {
+        background: yellowgreen;
+        }
+
+        #slide3 {
+        background: dodgerblue;
+        }
+
+        #slide4 {
+        background: slateblue;
+        }
+
+        #slide5 {
+        background: violet;
+        }
+
+
+        /* carousel Functionality */
+
+        /* Active Slide */
+        #s1:checked ~ #slide1, #s2:checked ~ #slide2, #s3:checked ~ #slide3, #s4:checked ~ #slide4, #s5:checked ~ #slide5 {
+        box-shadow: 0 13px 26px rgba(0,0,0, 0.3), 0 12px 6px rgba(0,0,0, 0.2);
+        transform: translate3d(0%, 0, 0px);
+        }
+
+        /* Next Slide */
+        #s1:checked ~ #slide2, #s2:checked ~ #slide3, #s3:checked ~ #slide4, #s4:checked ~ #slide5, #s5:checked ~ #slide1 {
+        box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
+        transform: translate3d(15%, 0, -100px);
+        }
+
+
+        /* Next to Next Slide */
+        #s1:checked ~ #slide3, #s2:checked ~ #slide4, #s3:checked ~ #slide5, #s4:checked ~ #slide1, #s5:checked ~ #slide2 {
+        box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
+        transform: translate3d(30%, 0, -250px);
+        }
+
+        /* Previous to Previous Slide */
+        #s1:checked ~ #slide4, #s2:checked ~ #slide5, #s3:checked ~ #slide1, #s4:checked ~ #slide2, #s5:checked ~ #slide3 {
+        box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
+        transform: translate3d(-30%, 0, -250px);
+        }
+
+        /* Previous Slide */
+        #s1:checked ~ #slide5, #s2:checked ~ #slide1, #s3:checked ~ #slide2, #s4:checked ~ #slide3, #s5:checked ~ #slide4 {
+        box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
+        transform: translate3d(-15%, 0, -100px);
+        }
+    </style>
+
+
+    <section id="carousel">
+        <input type="radio" name="carousel" id="s1" checked>
+        <input type="radio" name="carousel" id="s2">
+        <input type="radio" name="carousel" id="s3">
+        <input type="radio" name="carousel" id="s4">
+        <input type="radio" name="carousel" id="s5">
+      
+        <label for="s1" id="slide1">1</label>
+        <label for="s2" id="slide2">2</label>
+        <label for="s3" id="slide3">3</label>
+        <label for="s4" id="slide4">4</label>
+        <label for="s5" id="slide5">5</label>
+    </section>
+
+
+    <!-- Vendor JS Files -->
+    <script src="../assets/vendor/purecounter/purecounter.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/php-email-form/validate.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!--  Main JS Files -->
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/favicon.js"></script>
+  </body>
+</html>
