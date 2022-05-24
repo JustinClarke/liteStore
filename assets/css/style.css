@@ -49,12 +49,25 @@ li {
   list-style: none;
 }
 
+#mall-info {
+  background-color: #0c0c0c;
+  color: #fff;
+  padding-top: 5%;
+}
+
+.about-row{
+  color: #0c0c0c;
+}
+
 @media (max-width: 450px) {
   #blog-list {
     margin: 5% 5%;
   }
   .trademark {
     font-size: 0.5rem;
+  }
+  .about-row{
+    padding-top: 4%;
   }
 }
 
@@ -96,6 +109,7 @@ body {
   font-family: "Raleway", sans-serif;
   color: #444444;
   align-items: center;
+  user-select: none;
 }
 
 a {
@@ -660,6 +674,34 @@ th {
 
 @media (max-width: 450px) {
   #head-garuda {
+    width: 100%;
+    height: calc(100vh - 0px);
+    text-align: center;
+    position: relative;
+  }
+}
+
+#head-orion {
+  width: 100%;
+  height: calc(100vh - 0px);
+  text-align: center;
+  position: relative;
+  background: url("../img/places/orion\ mobile.jpg") top center;
+  background-size: cover;
+}
+
+#head-orion:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.302);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 450px) {
+  #head-orion {
     width: 100%;
     height: calc(100vh - 0px);
     text-align: center;
@@ -2650,9 +2692,3 @@ bg-color p {
     opacity: 0;
   }
 }
-
-#mall-info {
-  background-color: #0c0c0c;
-  padding-top: 5%;
-}
-

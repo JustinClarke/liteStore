@@ -334,7 +334,7 @@
         <div class="card">
           <div
             id="first-carousel"
-            class="carousel carousel-dark slide"
+            class="carousel carousel-dark slide carousel-fade"
             data-bs-ride="carousel"
           >
             <div class="carousel-inner">
@@ -430,7 +430,7 @@
         <div class="card">
           <div
             id="second-carousel"
-            class="carousel carousel-dark slide"
+            class="carousel carousel-dark slide carousel-fade"
             data-bs-ride="carousel"
           >
             <div class="carousel-inner">
@@ -983,7 +983,7 @@
             <div class="col-9">
               <div
                 id="first-carousel"
-                class="carousel carousel-dark slide"
+                class="carousel carousel-dark slide carousel-fade"
                 data-bs-ride="carousel"
               >
                 <div class="carousel-inner">
@@ -1044,7 +1044,7 @@
         <div class="col-7">
           <div
             id="first-carousel"
-            class="carousel carousel-dark slide"
+            class="carousel carousel-dark slide carousel-fade"
             data-bs-ride="carousel"
           >
             <div class="carousel-inner">
