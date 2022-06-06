@@ -4,7 +4,7 @@
 .trademark {
   font-size: 1.5rem;
   vertical-align: top;
-  vertical-align: 5em;
+  vertical-align: 3.75em;
 }
 
 .justify-text {
@@ -64,7 +64,7 @@ li {
     margin: 5% 5%;
   }
   .trademark {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
   }
   .about-row{
     padding-top: 4%;
@@ -797,7 +797,7 @@ th {
     height: calc(100vh - 0px);
     text-align: center;
     position: relative;
-    background: url("../img/stock/stands-m.webp") top center;
+    /* background: url("../img/stock/stands-m.webp") top center; */
     background-size: cover;
   }
 }

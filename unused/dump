@@ -3,7 +3,7 @@
   <div class="container" data-aos="fade-up">
     <div class="section-title" style="text-align: center">
       <h2 style="color: #000; text-transform: capitalize">
-        <span style="font-weight: bold; color: #7e7ca6">LiteStore™</span>
+        <span style="font-weight: bold; color: #7e7ca6">LiteStore<sup style="font-size: 1rem;">®</sup></span>
         Community
       </h2>
       <h3 style="color: #000">
@@ -293,7 +293,7 @@
       <div class="section-title" style="text-align: center">
         <!-- <img src="assets/img/stock/colorrr.webp" style="width: 300px;"> -->
         <h2 style="color: #fff; text-transform: capitalize; font-weight: 200">
-          <span style="font-weight: 600; color: #7e7ca6">LiteStore™</span>
+          <span style="font-weight: 600; color: #7e7ca6">LiteStore<sup style="font-size: 1rem;">®</sup></span>
           Services
         </h2>
         <h3>
