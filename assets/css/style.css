@@ -1141,6 +1141,10 @@ section {
   transform: scale(1.15);
 }
 
+.grey {
+  filter: grayscale(100);
+}
+
 .media {
   padding: 20px;
 }
