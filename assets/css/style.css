@@ -1135,15 +1135,14 @@ section {
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 0% 1%;
+  filter: grayscale(100);
 }
 
 .clients img:hover {
   transform: scale(1.15);
+  filter: none;
 }
 
-.grey {
-  filter: grayscale(100);
-}
 
 .media {
   padding: 20px;
