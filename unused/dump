@@ -829,7 +829,7 @@
           <div class="card-box-a card-shadow">
             <div class="img-box-a">
               <img
-                src="assets/img/places/orion mobile.jpg"
+                src="assets/img/places/orion/orion mobile.jpg"
                 alt=""
                 class="img-a img-fluid"
               />
@@ -860,7 +860,7 @@
           <div class="card-box-a card-shadow">
             <div class="img-box-a">
               <img
-                src="assets/img/places/garuda-mall.webp"
+                src="assets/img/places/garuda/garuda-mall.webp"
                 alt=""
                 class="img img-fluid"
               />

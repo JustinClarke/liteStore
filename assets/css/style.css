@@ -7,14 +7,14 @@
   vertical-align: 3.75em;
 }
 
+.justify-text a {
+  font-weight: 600;
+}
+
 .justify-text {
   padding-top: 0%;
   margin: 0% 0%;
   text-align: justify;
-}
-
-.justify-text a {
-  font-weight: 600;
 }
 
 .justify-text::after {
@@ -658,7 +658,7 @@ th {
   height: calc(100vh - 0px);
   text-align: center;
   position: relative;
-  background: url("../img/places/garuda-mall.webp") top center;
+  background: url("../img/places/garuda/garuda-mall.webp") top center;
   background-size: cover;
 }
 
@@ -686,7 +686,7 @@ th {
   height: calc(100vh - 0px);
   text-align: center;
   position: relative;
-  background: url("../img/places/orion\ mobile.jpg") top center;
+  background: url("../img/places/orion/orion\ mobile.jpg") top center;
   background-size: cover;
 }
 
