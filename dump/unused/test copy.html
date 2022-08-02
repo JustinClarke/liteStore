@@ -6,15 +6,15 @@
 
     <title>LiteStore™ | Garuda Mall</title>
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="https://litestore.in/" />
+    <meta name="twitter:site" content="https://litestore.in" />
     <meta name="twitter:creator" content="" />
     <meta name="twitter:title" content="LiteStore™ | Home" />
     <meta name="twitter:description" content="your description." />
     <meta
       name="twitter:image"
-      content="https://litestore.in/assets/img/og-image.jpg"
+      content="https://litestore-faqs.vercel.app/assets/img/logo.webp"
     />
-    <meta property="og:url" content="https://litestore.in/" />
+    <meta property="og:url" content="https://litestore.in" />
     <meta property="og:title" content="LiteStore™ | Home" />
     <meta
       property="og:description"
@@ -22,7 +22,7 @@
     />
     <meta
       property="og:image"
-      content="https://litestore.in/assets/img/og-image.jpg"
+      content="https://litestore-faqs.vercel.app/assets/img/logo.webp"
     />
 
     <link
@@ -133,18 +133,17 @@
   </head>
 
   <body>
-      
     <style>
-        #carousel {
+      #carousel {
         position: relative;
         width: 50%;
         height: 30vw;
         margin: 80px auto;
         perspective: 1400px;
         transform-style: preserve-3d;
-        }
+      }
 
-        input[type=radio] {
+      input[type="radio"] {
         position: relative;
         top: 108%;
         left: 50%;
@@ -154,18 +153,17 @@
         opacity: 0.4;
         transform: translateX(-83px);
         cursor: pointer;
-        }
+      }
 
-
-        input[type=radio]:nth-child(5) {
+      input[type="radio"]:nth-child(5) {
         margin-right: 0px;
-        }
+      }
 
-        input[type=radio]:checked {
+      input[type="radio"]:checked {
         opacity: 1;
-        }
+      }
 
-        #carousel label {
+      #carousel label {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -180,78 +178,95 @@
         align-items: center;
         justify-content: center;
         transition: transform 400ms ease;
-        }
+      }
 
-        #slide1 {
+      #slide1 {
         background: tomato;
-        }
+      }
 
-        #slide2 {
+      #slide2 {
         background: yellowgreen;
-        }
+      }
 
-        #slide3 {
+      #slide3 {
         background: dodgerblue;
-        }
+      }
 
-        #slide4 {
+      #slide4 {
         background: slateblue;
-        }
+      }
 
-        #slide5 {
+      #slide5 {
         background: violet;
-        }
+      }
 
+      /* carousel Functionality */
 
-        /* carousel Functionality */
-
-        /* Active Slide */
-        #s1:checked ~ #slide1, #s2:checked ~ #slide2, #s3:checked ~ #slide3, #s4:checked ~ #slide4, #s5:checked ~ #slide5 {
-        box-shadow: 0 13px 26px rgba(0,0,0, 0.3), 0 12px 6px rgba(0,0,0, 0.2);
+      /* Active Slide */
+      #s1:checked ~ #slide1,
+      #s2:checked ~ #slide2,
+      #s3:checked ~ #slide3,
+      #s4:checked ~ #slide4,
+      #s5:checked ~ #slide5 {
+        box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3),
+          0 12px 6px rgba(0, 0, 0, 0.2);
         transform: translate3d(0%, 0, 0px);
-        }
+      }
 
-        /* Next Slide */
-        #s1:checked ~ #slide2, #s2:checked ~ #slide3, #s3:checked ~ #slide4, #s4:checked ~ #slide5, #s5:checked ~ #slide1 {
-        box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
+      /* Next Slide */
+      #s1:checked ~ #slide2,
+      #s2:checked ~ #slide3,
+      #s3:checked ~ #slide4,
+      #s4:checked ~ #slide5,
+      #s5:checked ~ #slide1 {
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
         transform: translate3d(15%, 0, -100px);
-        }
+      }
 
-
-        /* Next to Next Slide */
-        #s1:checked ~ #slide3, #s2:checked ~ #slide4, #s3:checked ~ #slide5, #s4:checked ~ #slide1, #s5:checked ~ #slide2 {
-        box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
+      /* Next to Next Slide */
+      #s1:checked ~ #slide3,
+      #s2:checked ~ #slide4,
+      #s3:checked ~ #slide5,
+      #s4:checked ~ #slide1,
+      #s5:checked ~ #slide2 {
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
         transform: translate3d(30%, 0, -250px);
-        }
+      }
 
-        /* Previous to Previous Slide */
-        #s1:checked ~ #slide4, #s2:checked ~ #slide5, #s3:checked ~ #slide1, #s4:checked ~ #slide2, #s5:checked ~ #slide3 {
-        box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
+      /* Previous to Previous Slide */
+      #s1:checked ~ #slide4,
+      #s2:checked ~ #slide5,
+      #s3:checked ~ #slide1,
+      #s4:checked ~ #slide2,
+      #s5:checked ~ #slide3 {
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
         transform: translate3d(-30%, 0, -250px);
-        }
+      }
 
-        /* Previous Slide */
-        #s1:checked ~ #slide5, #s2:checked ~ #slide1, #s3:checked ~ #slide2, #s4:checked ~ #slide3, #s5:checked ~ #slide4 {
-        box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
+      /* Previous Slide */
+      #s1:checked ~ #slide5,
+      #s2:checked ~ #slide1,
+      #s3:checked ~ #slide2,
+      #s4:checked ~ #slide3,
+      #s5:checked ~ #slide4 {
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
         transform: translate3d(-15%, 0, -100px);
-        }
+      }
     </style>
 
-
     <section id="carousel">
-        <input type="radio" name="carousel" id="s1" checked>
-        <input type="radio" name="carousel" id="s2">
-        <input type="radio" name="carousel" id="s3">
-        <input type="radio" name="carousel" id="s4">
-        <input type="radio" name="carousel" id="s5">
-      
-        <label for="s1" id="slide1">1</label>
-        <label for="s2" id="slide2">2</label>
-        <label for="s3" id="slide3">3</label>
-        <label for="s4" id="slide4">4</label>
-        <label for="s5" id="slide5">5</label>
-    </section>
+      <input type="radio" name="carousel" id="s1" checked />
+      <input type="radio" name="carousel" id="s2" />
+      <input type="radio" name="carousel" id="s3" />
+      <input type="radio" name="carousel" id="s4" />
+      <input type="radio" name="carousel" id="s5" />
 
+      <label for="s1" id="slide1">1</label>
+      <label for="s2" id="slide2">2</label>
+      <label for="s3" id="slide3">3</label>
+      <label for="s4" id="slide4">4</label>
+      <label for="s5" id="slide5">5</label>
+    </section>
 
     <!-- Vendor JS Files -->
     <script src="../assets/vendor/purecounter/purecounter.js"></script>
