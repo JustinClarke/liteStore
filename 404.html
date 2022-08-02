@@ -1,97 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <meta http-equiv="refresh" content="5; URL=https://litestore.in" />
     <title>Oops</title>
-</head>
+  </head>
 
-<body style="text-align: center">
-    <a href="https://litestore.in">
-        <img src="assets/img/logo.webp" width="25%" style="padding: 15% 10% 0 10%;"/>
-    </a>
-    <h1>
-        you seem lost
-    </h1>
+  <body style="text-align: center">
     <style>
-        *{
-            font-family: "Raleway", sans-serif;
-        }
-        h1 {
-            padding: 1% 0% 2%;
-            color: #7e7ca6; font-size: 1.8rem;
-            font-weight: 100;
-        }
-        .cta {
-            position: relative;
-            margin: auto;
-            padding: 12px 18px;
-            transition: all 0.2s ease;
-            border: none;
-            background: none;
-        }
+      * {
+        font-family: "Raleway", sans-serif;
+      }
+      h1 {
+        padding: 1% 0% 2%;
+        color: #7e7ca6;
+        font-size: 1.8rem;
+        font-weight: 100;
+      }
 
-        .cta:before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            display: block;
-            border-radius: 50px;
-            background: #c2bfff82;
-            width: 45px;
-            height: 45px;
-            transition: all 0.3s ease;
-        }
+      .logo {
+        padding: 15% 10% 0 10%;
+        width: 50%;
+      }
+      .cta {
+        position: relative;
+        margin: auto;
+        padding: 12px 18px;
+        transition: all 0.2s ease;
+        border: none;
+        background: none;
+      }
 
+      .cta:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        border-radius: 50px;
+        background: #c2bfff82;
+        width: 45px;
+        height: 45px;
+        transition: all 0.3s ease;
+      }
+
+      .cta span {
+        position: relative;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        color: #234567;
+      }
+
+      .cta svg {
+        position: relative;
+        top: 0;
+        margin-left: 10px;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke: #234567;
+        stroke-width: 2;
+        transform: translateX(-5px);
+        transition: all 0.3s ease;
+      }
+
+      .cta:hover:before {
+        width: 100%;
+        background: #c2bfff82;
+      }
+
+      .cta:hover svg {
+        transform: translateX(0);
+      }
+
+      .cta:active {
+        transform: scale(0.95);
+      }
+
+      @media (max-width: 450px) {
         .cta span {
-            position: relative;
-            font-size: 18px;
-            font-weight: 700;
-            letter-spacing: 0.05em;
-            color: #234567;
+          font-size: 15px;
         }
-
-        .cta svg {
-            position: relative;
-            top: 0;
-            margin-left: 10px;
-            fill: none;
-            stroke-linecap: round;
-            stroke-linejoin: round;
-            stroke: #234567;
-            stroke-width: 2;
-            transform: translateX(-5px);
-            transition: all 0.3s ease;
+        .logo {
+          padding: 50% 10% 0 10%;
+          width: 80%;
         }
-
-        .cta:hover:before {
-            width: 100%;
-            background: #c2bfff82;
-        }
-
-        .cta:hover svg {
-            transform: translateX(0);
-        }
-
-        .cta:active {
-            transform: scale(0.95);
-        }
+      }
     </style>
 
-    <button class="cta" style="cursor: pointer;" onclick="location.href='./index.html';">
-        <a href="https://litestore.in/" style="text-decoration: none;">
-            <span>click here to get back to safety</span>
+    <a href="https://litestore.in">
+      <img
+        src="https://litestore-faqs.vercel.app/assets/img/logo.webp"
+        class="logo"
+      />
+    </a>
+    <h1>
+      you seem lost :(
+      <br />
+      taking you home in five
+    </h1>
 
-            <svg width="15px" height="10px" viewBox="0 0 13 10">
-                <path d="M1,5 L11,5"></path>
-                <polyline points="8 1 12 5 8 9"></polyline>
-            </svg>
-        </a>
+    <button class="cta">
+      <a href="https://litestore.in/" style="text-decoration: none">
+        <span>else click here to get back to safety</span>
+
+        <svg width="15px" height="10px" viewBox="0 0 13 10">
+          <path d="M1,5 L11,5"></path>
+          <polyline points="8 1 12 5 8 9"></polyline>
+        </svg>
+      </a>
     </button>
-</body>
-
+  </body>
 </html>

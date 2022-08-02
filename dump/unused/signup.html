@@ -4,23 +4,18 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>LiteStore™ | DesignHub</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+    <title>LiteStore™ | Home</title>
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="https://litestore.in/" />
     <meta name="twitter:creator" content="" />
-    <meta name="twitter:title" content="your title" />
-    <meta
-      name="twitter:description"
-      content="Booking retail space can't get any easier LiteStore™ is an online platform for listing and booking commercial retail spaces which can be rented on an ultra short term basis."
-    />
+    <meta name="twitter:title" content="LiteStore™ | Home" />
+    <meta name="twitter:description" content="your description." />
     <meta
       name="twitter:image"
       content="https://litestore.in/assets/img/og-image.jpg"
     />
     <meta property="og:url" content="https://litestore.in/" />
-    <meta property="og:title" content="" />
+    <meta property="og:title" content="LiteStore™ | Home" />
     <meta
       property="og:description"
       content="Booking retail space can't get any easier LiteStore™ is an online platform for listing and booking commercial retail spaces which can be rented on an ultra short term basis."
@@ -30,17 +25,38 @@
       content="https://litestore.in/assets/img/og-image.jpg"
     />
 
-    <!-- Favicons -->
     <link
-      rel="icon"
-      href="assets\img\favicon\light.webp"
-      id="light-scheme-icon"
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/favicon/apple-touch-icon.png"
     />
     <link
       rel="icon"
-      href="assets\img\favicon\dark.webp"
-      id="dark-scheme-icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon/favicon-32x32.png"
     />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/img/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/img/favicon/safari-pinned-tab.svg"
+      color="#000000"
+    />
+    <meta name="msapplication-TileColor" content="#e6e6e5" />
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+    <meta name="theme-color" content="#000000" />
 
     <!-- font-awesome -->
     <script
@@ -55,22 +71,20 @@
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-
       function gtag() {
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "UA-209054329-1");
     </script>
 
     <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
       rel="stylesheet"
     />
 
@@ -80,33 +94,17 @@
       href="assets/vendor/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+
     <link
       href="assets/vendor/glightbox/css/glightbox.min.css"
       rel="stylesheet"
     />
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <!-- Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
 
-    <!-- Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- uploadcare API -->
-    <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></script>
-
-    <!-- https://apispreadsheets.com/upload
-    This is a Spreadsheet API That is linked to Google Sheets - "List a Space Sheet" -->
+    <!-- API for Spreadsheets -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.js"
       integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -115,9 +113,9 @@
     <script>
       function SubForm() {
         $.ajax({
-          url: "https://api.apispreadsheets.com/data/12327/",
+          url: "https://api.apispreadsheets.com/data/12085/",
           type: "post",
-          data: $("#designUpload").serializeArray(),
+          data: $("#myForm").serializeArray(),
           success: function () {
             alert("Form Data Submitted :)");
           },
@@ -136,12 +134,13 @@
         <div
           class="container d-flex align-items-center justify-content-between"
         >
-          
           <!-- Uncomment below if you prefer to use an image logo -->
           <a href="index.html#header" class="logo"
-            ><img src="assets/img/logo.webp" alt="" class="img-fluid"
+            ><img
+              src="https://litestore-faqs.vercel.app/assets/img/logo.webp"
+              alt=""
+              class="img-fluid"
           /></a>
-
           <nav id="navbar" class="navbar">
             <ul>
               <li>
@@ -176,7 +175,6 @@
                   </li>
                 </ul>
               </li>
-
               <li>
                 <a class="nav-link scrollto phone-sty" href="tel:+91-6363294498"
                   ><i
@@ -251,7 +249,6 @@
                 </form>
               </div>
             </div>
-
             <hr />
             <div class="row" style="padding-bottom: 10px">
               <div class="col-6">
@@ -279,233 +276,101 @@
           </div>
         </div>
       </div>
-
-      <!--  Head Section  -->
-      <section id="head-d" class="d-flex align-items-center">
-        <div
-          class="container position-relative"
-          data-aos="fade-up"
-          data-aos-delay="100"
-        >
-          <div class="title-single-box" style="text-align: center">
-            <h1 class="title-single" style="color: #fff">
-              <span style="color: #7e7ca6">LiteStore<sup style="font-size: 1rem;">®</sup></span> DesignHub 2021
-            </h1>
-            <span class="color-text-a" style="color: rgb(224, 224, 224)"
-              >Showcase your best interior designs and store concepts and get an
-              opportunity to bring them to life</span
+      <div id="signup" style="margin: 5% 20%; padding-top: 100px">
+        <div class="container">
+          <h1 style="text-align: center; padding-bottom: 10px">Sign Up</h1>
+        </div>
+        <form class="row g-3" style="padding-top: 25px">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail4"
+              placeholder="abc@example.com"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Phone Number</label>
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail4"
+              placeholder="+1 2345 6789"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="inputPassword4"
+              placeholder="****"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label"
+              >Confirm Password</label
             >
+            <input
+              type="password"
+              class="form-control"
+              id="inputPassword4"
+              placeholder="****"
+            />
           </div>
-        </div>
-      </section>
-      <!-- End head -->
-      <!--  Features Section  -->
-      <section
-        id="features"
-        style="padding-bottom: 0px; background-color: #000; color: #fff"
-      >
-        <div class="container" data-aos="fade-up">
-          <p style="padding: 0% 16%">
-            Join us in creating immersive retail experiences that help brands
-            inspire, engage and connect with their customers in their temporary
-            storefronts. It could be a retail store, an art gallery, a book
-            store or a studio!
-          </p>
-          <h1 style="padding-top: 5%">How it Works</h1>
-
-          <div class="row">
-            <div class="feature-box col-sm">
-              <i class="icon fas fa-download fa-4x"></i>
-              <h3 class="feature-title"></h3>
-              <p>
-                Download one of the three<br />
-                empty store canvases
-              </p>
-            </div>
-
-            <div class="feature-box col-sm">
-              <i class="icon fas fa-paint-brush fa-4x"></i>
-              <h3 class="feature-title"></h3>
-              <p>Design your ideal store idea</p>
-            </div>
-
-            <div class="feature-box col-sm">
-              <i class="icon fas fa-magic fa-4x"></i>
-              <h3 class="feature-title"></h3>
-              <p>
-                Send us your design and theme <br />
-                the LiteStore™ website
-              </p>
-            </div>
-
-            <div class="feature-box col-sm">
-              <i class="icon fas fa-star fa-4x"></i>
-              <h3 class="feature-title"></h3>
-              <p>Connect with brands to design <br />and launch their stores</p>
-            </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label"
+              >Name of the Business</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="Eg. LiteStore™"
+            />
           </div>
-        </div>
-      </section>
-
-      <!-- ======= Lightbox Section ======= -->
-      <section id="portfolio" class="portfolio" style="background-color: #000">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2 style="padding-bottom: 40px; color: #fff">
-              What would you do with this empty space?
-            </h2>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label"
+              >Place of the Business -</label
+            >
+            <!-- <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"> -->
           </div>
-
-          <div
-            class="row portfolio-container"
-            data-aos="fade-up"
-            data-aos-delay="200"
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" />
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip" />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">URL</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="example.org"
+            />
+          </div>
+        </form>
+        <div class="form-check" style="text-align: center; padding-top: 5%">
+          <button
+            type="submit"
+            class="btn"
+            style="background-color: #7e7ca6; color: #fff"
           >
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/space-1.webp"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <div class="portfolio-links">
-                    <a
-                      href="assets/img/portfolio/space-1.webp"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="Space 1"
-                      >View</a
-                    >
-                    <br /><a
-                      href="https://github.com/JustinClarke/liteStore/raw/master/assets/img/portfolio/space- 1.pdf"
-                      title="Download Image"
-                      >Download</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/space - 2.webp"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <div class="portfolio-links">
-                    <a
-                      href="assets/img/portfolio/space - 2.webp"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="Space 2"
-                      >View</a
-                    >
-                    <br /><a
-                      href="https://github.com/JustinClarke/liteStore/raw/master/assets/img/portfolio/space- 2.pdf"
-                      title="Download Image"
-                      >Download</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/space-3.webp"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <div class="portfolio-links">
-                    <a
-                      href="assets/img/portfolio/space-3.webp"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="Space 3"
-                      >View</a
-                    >
-                    <br /><a
-                      href="https://github.com/JustinClarke/liteStore/raw/master/assets/img/portfolio/space- 3.pdf"
-                      title="Download Image"
-                      >Download</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+            Sign Up
+          </button>
         </div>
-      </section>
-      <!-- End Lightbox Section -->
-      <!--  Upload Section  -->
-      <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
-          <h1 style="text-align: center; padding-bottom: 3%">
-            Upload Your Design
-          </h1>
-
-          <!-- <form action="forms/contact.php" method="post" role="form" class="php1-email-form"> -->
-          <form
-            id="designUpload"
-            method="post"
-            role="form"
-            class="php-email-form"
-          >
-            <!-- <form data-netlify="true" method="POST" class="php-email-form" name="design"> -->
-            <div class="row" style="margin: 0% 10%">
-              <div class="col-md-6 form-group">
-                <input
-                  type="text"
-                  name="name"
-                  class="form-control"
-                  id="name"
-                  placeholder="Your Name"
-                  required
-                />
-              </div>
-              <div class="col-md-6 form-group">
-                <input
-                  type="email"
-                  class="form-control"
-                  name="email"
-                  id="email"
-                  placeholder="Your Email"
-                  required
-                />
-              </div>
-              <div class="form-group mt-3">
-                <textarea
-                  class="form-control"
-                  name="description"
-                  rows="5"
-                  placeholder="Describe the concept (upto 100 words)"
-                  required
-                ></textarea>
-              </div>
-              <div style="text-align: center; padding-top: 20px">
-                <input
-                  type="hidden"
-                  role="uploadcare-uploader"
-                  data-public-key="b98fef5d0782d537559c"
-                  name="my_file"
-                />
-              </div>
-              <div class="form-group mt-3">
-                <!-- <input class="form-control form-control-lg" id="formFileLg" name="picture" type="file" /> -->
-                <div class="text-center" style="padding: 10px 0px">
-                  <button type="submit" onclick="SubForm()">Submit</button>
-                </div>
-              </div>
-            </div>
-          </form>
-        </div>
-      </section>
-      <!-- End Upload Section -->
+      </div>
       <!--  Footer  -->
       <footer id="footer">
         <div class="footer-top">
@@ -513,23 +378,22 @@
             <div class="row">
               <div class="col-lg-3 col-md-6 footer-contact">
                 <p>
-                  <span style="font-size: 30px">LiteStore<sup style="font-size: 1rem;">®</sup></span>
+                  <span style="font-size: 30px"
+                    >LiteStore<sup style="font-size: 1rem">®</sup></span
+                  >
                   <br />#58, Domlur Layout, <br />Bangalore-71<br />
-
                   <strong>Phone: <br /> </strong> +91 9483465923<br />
                   <span>+91 6363294498</span> <br />
                   <strong>Email:</strong>
                   <a href="mailto:support@litestore.in">support@litestore.in</a>
                 </p>
               </div>
-
               <div class="col-lg-2 col-md-6 footer-links">
                 <h4>How it works</h4>
                 <ul>
                   <li><a href="find-a-space.html">Find a Space</a></li>
                 </ul>
               </div>
-
               <div class="col-lg-2 col-md-6 footer-links">
                 <h4>About</h4>
                 <ul>
@@ -538,15 +402,12 @@
                   <li><a href="faqs/faq-section.html">FAQs</a></li>
                 </ul>
               </div>
-
               <div class="col-lg-2 col-md-6 footer-links">
                 <h4>Discover</h4>
                 <ul>
                   <li><a href="blogs/list.html">Blog</a></li>
-                  
                 </ul>
               </div>
-
               <div class="col-lg-2 col-md-6 footer-links">
                 <h4>Legal</h4>
                 <ul>
@@ -559,7 +420,6 @@
             </div>
           </div>
         </div>
-
         <div class="container d-md-flex py-4" style="background-color: #fff">
           <div class="me-md-auto text-center text-md-start">
             <div class="copyright">
@@ -593,14 +453,13 @@
     ></a>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/aos/aos.js"></script>
+    <!-- <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/vendor/purecounter/purecounter.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script> -->
     <!--  Main JS Files -->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/app.js"></script>
