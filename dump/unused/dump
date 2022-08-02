@@ -127,7 +127,7 @@
   <section id="about-video" class="about-video">
     <div class="container" data-aos="fade-up">
       <h1>Introducing LiteStore™</h1>
-      <img src="assets/img/youtube.webp" class="img-fluid" alt="" />
+      <img src="assets/img/youtube.webp" class="img-fluid" alt="image" />
       <a
         href="https://www.youtube.com/watch?v=ADTRU2B4D-Q"
         class="glightbox play-btn mb-4"
@@ -159,12 +159,12 @@
                 eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
-              <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
+              <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="image"> -->
               <img
                 width=""
                 class="media-img"
                 src="assets/img/logos/articles/twi.webp"
-                alt=""
+                alt="image"
               />
               <h3>Saul Goodman</h3>
               <h4>Ceo &amp; Founder</h4>
@@ -183,7 +183,7 @@
               <img
                 src="assets/img/testimonials/testimonials-2.jpg"
                 class="testimonial-img"
-                alt=""
+                alt="image"
               />
               <h3>Sara Wilsson</h3>
               <h4>Designer</h4>
@@ -202,7 +202,7 @@
               <img
                 src="assets/img/testimonials/testimonials-3.jpg"
                 class="testimonial-img"
-                alt=""
+                alt="image"
               />
               <h3>Jena Karlis</h3>
               <h4>Store Owner</h4>
@@ -222,7 +222,7 @@
               <img
                 src="assets/img/testimonials/testimonials-4.jpg"
                 class="testimonial-img"
-                alt=""
+                alt="image"
               />
               <h3>Matt Brandon</h3>
               <h4>Freelancer</h4>
@@ -242,7 +242,7 @@
               <img
                 src="assets/img/testimonials/testimonials-5.jpg"
                 class="testimonial-img"
-                alt=""
+                alt="image"
               />
               <h3>John Larson</h3>
               <h4>Entrepreneur</h4>
@@ -554,7 +554,7 @@
               <img
                 src="assets/img/portfolio/space-3.webp"
                 class="img-fluid"
-                alt=""
+                alt="image"
               />
               <div class="portfolio-info">
                 <div class="portfolio-links">
@@ -579,7 +579,7 @@
               <img
                 src="assets/img/portfolio/space-3.webp"
                 class="img-fluid"
-                alt=""
+                alt="image"
               />
               <div class="portfolio-info">
                 <div class="portfolio-links">
@@ -604,7 +604,7 @@
               <img
                 src="assets/img/portfolio/space-3.webp"
                 class="img-fluid"
-                alt=""
+                alt="image"
               />
               <div class="portfolio-info">
                 <div class="portfolio-links">
@@ -632,7 +632,7 @@
               <img
                 src="assets/img/portfolio/space-3.webp"
                 class="img-fluid"
-                alt=""
+                alt="image"
               />
               <div class="portfolio-info">
                 <div class="portfolio-links">
@@ -657,7 +657,7 @@
               <img
                 src="assets/img/portfolio/space-3.webp"
                 class="img-fluid"
-                alt=""
+                alt="image"
               />
               <div class="portfolio-info">
                 <div class="portfolio-links">
@@ -682,7 +682,7 @@
               <img
                 src="assets/img/portfolio/space-3.webp"
                 class="img-fluid"
-                alt=""
+                alt="image"
               />
               <div class="portfolio-info">
                 <div class="portfolio-links">
@@ -830,7 +830,7 @@
             <div class="img-box-a">
               <img
                 src="assets/img/places/orion/orion mobile.jpg"
-                alt=""
+                alt="image"
                 class="img-a img-fluid"
               />
             </div>
@@ -861,7 +861,7 @@
             <div class="img-box-a">
               <img
                 src="assets/img/places/garuda/garuda-mall.webp"
-                alt=""
+                alt="image"
                 class="img img-fluid"
               />
             </div>
@@ -917,7 +917,7 @@
             <div class="img-box-a">
               <img
                 src="assets/img/places/brigade-road.jpg"
-                alt=""
+                alt="image"
                 class="img img-fluid"
               />
             </div>
@@ -944,7 +944,7 @@
             <div class="img-box-a">
               <img
                 src="assets/img/places/indiranagar.jpg"
-                alt=""
+                alt="image"
                 class="img img-fluid"
               />
             </div>
